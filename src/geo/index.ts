@@ -1,2 +1,2 @@
-export { createUserFeatures } from './geoUtils'
-export { createEmojiStyle } from './styles'
+export { createUserFeatures, createClusteredPlaceFeatures } from './geoUtils'
+export { createEmojiStyle, createClusterStyle } from './styles'

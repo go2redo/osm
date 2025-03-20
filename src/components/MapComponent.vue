@@ -2,11 +2,9 @@
 import { onMounted } from 'vue'
 import { Map, Layers, Sources } from 'vue3-openlayers'
 import 'vue3-openlayers/dist/vue3-openlayers.css'
-
-import { useMapStore } from '@/store/useMapStore'
-import { createUserFeatures } from '@/geo'
-
-const cartoDarkUrl = 'https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+import { useMapStore } from '@/store'
+import { createClusterStyle, createUserFeatures, createClusteredPlaceFeatures } from '@/geo'
+import placesData from '../data/places.json'
 
 const mapStore = useMapStore()
 
@@ -19,16 +17,16 @@ onMounted(async () => {
   <section>
     <Map.OlMap style="height: 100vh; width: 100vw">
       <Map.OlView :center="mapStore.currentCenter" :zoom="mapStore.zoomLevel" />
-
-      <!-- Dark Map -->
       <Layers.OlTileLayer>
-        <Sources.OlSourceXyz :url="cartoDarkUrl" />
+        <Sources.OlSourceXyz
+          :url="'https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'"
+        />
       </Layers.OlTileLayer>
-      <!-- Dark Map -->
-
-      <!-- Users -->
+      <Layers.OlVectorLayer
+        :source="createClusteredPlaceFeatures(placesData)"
+        :style="(feature) => createClusterStyle(feature)"
+      />
       <Layers.OlVectorLayer :source="createUserFeatures(mapStore.users)" />
-      <!-- Users -->
     </Map.OlMap>
   </section>
 </template>
