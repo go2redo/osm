@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { fromLonLat } from 'ol/proj'
 import { fetchUsers } from '@/services'
-import type { MapState } from '@/types'
+import type { MapState, Place, User } from '@/types'
 
 export const useMapStore = defineStore('map', {
   state: (): MapState => ({
@@ -16,6 +16,12 @@ export const useMapStore = defineStore('map', {
   actions: {
     async fetchUsers() {
       this.users = await fetchUsers()
+    },
+    setSelectedPlace(place: Place | null) {
+      this.selectedPlace = place
+    },
+    setNearestUsers(users: User[]) {
+      this.nearestUsers = users
     },
   },
 })

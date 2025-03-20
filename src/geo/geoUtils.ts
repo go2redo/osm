@@ -29,9 +29,10 @@ export function createClusteredPlaceFeatures(
   places: Place[],
   clusterDistance: number = 50,
 ): Cluster {
-  const features = places.map(({ name, type, coordinates }) => {
+  const features = places.map(({ id, name, type, coordinates }) => {
     const correctedCoordinates = [coordinates[1], coordinates[0]]
     const feature = new Feature({
+      id,
       geometry: new Point(fromLonLat(correctedCoordinates)),
       name,
       type,

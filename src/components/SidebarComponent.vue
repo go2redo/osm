@@ -14,9 +14,11 @@ import Form from './FormComponent.vue'
         <div>
           <Filter />
         </div>
+        <hr />
         <div>
           <Info />
         </div>
+        <hr />
         <div>
           <Form />
         </div>
