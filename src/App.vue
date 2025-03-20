@@ -5,10 +5,10 @@ import Map from './components/MapComponent.vue'
 
 <template>
   <main class="h-full flex flex-row flex-wrap bg-slate-900 text-gray-200">
-    <div class="h-full w-2/6">
+    <div class="h-full w-3/12">
       <Sidebar />
     </div>
-    <div class="h-full w-4/6">
+    <div class="h-full w-9/12">
       <Map />
     </div>
   </main>
