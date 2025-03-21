@@ -15,13 +15,42 @@ export function createEmojiStyle(): Style {
   })
 }
 
+const COLORS = {
+  base: 'transparent',
+  hover: '#10b981',
+  cluster: '#3b82f6',
+  text: '#ffffff',
+  stroke: '#ffffff',
+}
+
+const styleCache = new Map<string, Style>()
+
 export function createClusterStyle(feature: FeatureLike): Style {
-  const size = feature.get('features').length
-  return new Style({
+  const isHovered = feature.get('isHovered') === true
+  const features = feature.get('features') as FeatureLike[] | undefined
+  const size = features ? features.length : 1
+  const isCluster = size > 1
+
+  const baseColor = isCluster ? COLORS.cluster : COLORS.base
+  const color = isHovered ? COLORS.hover : baseColor
+  const radius = Math.min(10 + Math.log(size + 1) * 3, 30)
+
+  const styleKey = `${color}-${radius}-${size}`
+  if (styleCache.has(styleKey)) return styleCache.get(styleKey)!
+
+  const style = new Style({
     image: new CircleStyle({
-      radius: Math.min(10 + size * 2, 40),
-      fill: new Fill({ color: 'rgba(255, 165, 0, 0.8)' }),
-      stroke: new Stroke({ color: '#fff', width: 2 }),
+      radius,
+      fill: new Fill({ color }),
+      stroke: new Stroke({ color: COLORS.stroke, width: 2 }),
+    }),
+    text: new Text({
+      text: isCluster ? size.toString() : '',
+      font: '10px sans-serif',
+      fill: new Fill({ color: COLORS.text }),
     }),
   })
+
+  styleCache.set(styleKey, style)
+  return style
 }

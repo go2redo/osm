@@ -4,15 +4,50 @@ import 'vue3-openlayers/dist/vue3-openlayers.css'
 import { useMapStore } from '@/store'
 import { createClusterStyle, createUserFeatures, createClusteredPlaceFeatures } from '@/geo'
 import type { FeatureLike } from 'ol/Feature'
-import type { MapBrowserEvent, View } from 'ol'
+import { Feature, Map, type MapBrowserEvent, type View } from 'ol'
 import { getCenter } from 'ol/extent'
 import { usePlaces } from '@/composables'
+import VectorLayer from 'ol/layer/Vector'
+import VectorSource from 'ol/source/Vector'
 
 const MAX_ZOOM = 16
 
 const store = useMapStore()
 
 const { filteredPlaces, filteredAddedPlaces } = usePlaces()
+
+function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
+  const map: Map = event.map
+  const featuresToHover: FeatureLike[] = []
+
+  map.forEachFeatureAtPixel(event.pixel, (feature: FeatureLike) => {
+    if (feature instanceof Feature) {
+      featuresToHover.push(feature)
+      feature.set('isHovered', true)
+    }
+    return false
+  })
+
+  map
+    .getLayers()
+    .getArray()
+    .forEach((layer) => {
+      if (layer instanceof VectorLayer) {
+        const source = layer.getSource()
+        if (source instanceof VectorSource) {
+          source.getFeatures().forEach((feature: Feature) => {
+            if (!featuresToHover.includes(feature) && feature.get('isHovered')) {
+              feature.set('isHovered', false)
+            }
+          })
+        }
+      }
+    })
+
+  if (featuresToHover.length > 0) {
+    map.render()
+  }
+}
 
 function handleClick(event: MapBrowserEvent<MouseEvent>): void {
   const { map } = event
@@ -55,19 +90,22 @@ onMounted(async () => {
 
 <template>
   <section>
-    <ol-map style="height: 100vh; width: 100vw" @click="handleClick">
+    <ol-map
+      style="height: 100vh; width: 100vw"
+      @click="handleClick"
+      @pointermove="handlePointerMove"
+    >
       <ol-view :center="store.currentCenter" :zoom="store.zoomLevel" />
       <ol-tile-layer>
         <ol-source-xyz :url="'https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'" />
       </ol-tile-layer>
-      <ol-vector-layer
-        :source="createClusteredPlaceFeatures(filteredPlaces)"
-        :style="(feature: FeatureLike) => createClusterStyle(feature)"
-      />
-      <ol-vector-layer
-        :source="createClusteredPlaceFeatures(filteredAddedPlaces)"
-        :style="(feature: FeatureLike) => createClusterStyle(feature)"
-      />
+
+      <ol-vector-layer :source="createClusteredPlaceFeatures(filteredPlaces, 50, store.zoomLevel)">
+        <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
+      </ol-vector-layer>
+      <ol-vector-layer :source="createClusteredPlaceFeatures(filteredAddedPlaces)">
+        <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
+      </ol-vector-layer>
       <ol-vector-layer :source="createUserFeatures(store.users)" />
     </ol-map>
   </section>

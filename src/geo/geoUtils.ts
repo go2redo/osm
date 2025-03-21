@@ -28,6 +28,7 @@ export function createUserFeatures(users: User[]): VectorSource {
 export function createClusteredPlaceFeatures(
   places: Place[],
   clusterDistance: number = 50,
+  zoomLevel: number = 5,
 ): Cluster {
   const features = places.map(({ id, name, type, coordinates }) => {
     const correctedCoordinates = [coordinates[1], coordinates[0]]
@@ -41,11 +42,14 @@ export function createClusteredPlaceFeatures(
     return feature
   })
 
-  const vectorSource = new VectorSource()
-  vectorSource.addFeatures(features)
+  const adjustedDistance = Math.max(clusterDistance / zoomLevel, 10)
+
+  const vectorSource = new VectorSource({
+    features,
+  })
 
   return new Cluster({
-    distance: clusterDistance,
+    distance: adjustedDistance,
     source: vectorSource,
   })
 }
