@@ -12,7 +12,7 @@ const MAX_ZOOM = 16
 
 const store = useMapStore()
 
-const { filteredPlaces } = usePlaces()
+const { filteredPlaces, filteredAddedPlaces } = usePlaces()
 
 function handleClick(event: MapBrowserEvent<MouseEvent>): void {
   const { map } = event
@@ -62,6 +62,10 @@ onMounted(async () => {
       </ol-tile-layer>
       <ol-vector-layer
         :source="createClusteredPlaceFeatures(filteredPlaces)"
+        :style="(feature: FeatureLike) => createClusterStyle(feature)"
+      />
+      <ol-vector-layer
+        :source="createClusteredPlaceFeatures(filteredAddedPlaces)"
         :style="(feature: FeatureLike) => createClusterStyle(feature)"
       />
       <ol-vector-layer :source="createUserFeatures(store.users)" />

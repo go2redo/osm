@@ -15,11 +15,11 @@ const store = useMapStore()
         <h1 class="font-black">OSM VUE 3</h1>
       </div>
       <div class="flex flex-col gap-8">
-        <div>
-          <Filter />
-        </div>
+        <Filter />
         <hr />
+        <Form />
         <template v-if="store.selectedPlace">
+          <hr />
           <Info
             :id="store.selectedPlace.id"
             :name="store.selectedPlace.name"
@@ -27,11 +27,7 @@ const store = useMapStore()
             :coordinates="store.selectedPlace.coordinates"
             :nearestUsers="store.nearestUsers"
           />
-          <hr />
         </template>
-        <div>
-          <Form />
-        </div>
       </div>
     </div>
   </aside>

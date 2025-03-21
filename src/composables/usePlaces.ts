@@ -1,9 +1,8 @@
-import { computed, type ComputedRef } from 'vue'
+import { computed } from 'vue'
 import { useMapStore } from '@/store'
 import { fetchPlaces } from '@/services'
-import type { Place } from '@/types'
 
-export function usePlaces(): { filteredPlaces: ComputedRef<Place[]> } {
+export function usePlaces() {
   const store = useMapStore()
   const places = fetchPlaces()
 
@@ -17,5 +16,13 @@ export function usePlaces(): { filteredPlaces: ComputedRef<Place[]> } {
     return places.filter((place) => filterSet.has(place.type))
   })
 
-  return { filteredPlaces }
+  const filteredAddedPlaces = computed(() => {
+    const activeFilters = store.activeFilters
+    if (!activeFilters.length) return store.addedPlaces
+
+    const filterSet = new Set(activeFilters)
+    return store.addedPlaces.filter((place) => filterSet.has(place.type))
+  })
+
+  return { filteredPlaces, filteredAddedPlaces }
 }

@@ -12,7 +12,7 @@ defineProps<
   <section>
     <h2 class="font-bold mb-4">Info</h2>
     <div class="mb-4">
-      <ul>
+      <ul class="text-sm">
         <li>Name: {{ name }}</li>
         <li>Type: {{ type }}</li>
         <li>Coordinates: {{ coordinates }}</li>
@@ -20,7 +20,7 @@ defineProps<
     </div>
     <h2 class="font-bold mb-4">Nearest Users</h2>
     <div>
-      <ul>
+      <ul class="text-sm">
         <li v-for="user in nearestUsers" :key="user.user.id">
           {{ user.user.name }} - {{ user.distance.toFixed(2) }} km
         </li>

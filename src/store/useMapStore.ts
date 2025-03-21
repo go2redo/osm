@@ -12,6 +12,7 @@ export const useMapStore = defineStore('map', {
     selectedPlace: null,
     users: [],
     nearestUsers: [],
+    addedPlaces: [],
   }),
   actions: {
     async fetchUsers() {
@@ -34,6 +35,11 @@ export const useMapStore = defineStore('map', {
     findNearestUsers(placeCoords: [number, number]) {
       const nearest = findNearestUsers(placeCoords)
       this.nearestUsers = nearest
+    },
+    addNewPlace(newPlace: Place) {
+      if (this.activeFilters.includes(newPlace.type) || this.activeFilters.length === 0) {
+        this.addedPlaces.push(newPlace)
+      }
     },
   },
   getters: {
