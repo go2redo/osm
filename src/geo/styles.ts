@@ -4,26 +4,24 @@ import CircleStyle from 'ol/style/Circle'
 import Style from 'ol/style/Style'
 import Text from 'ol/style/Text'
 
-const DEFAULT_EMOJI = '🧟'
-
-export function createEmojiStyle(): Style {
-  return new Style({
-    text: new Text({
-      text: DEFAULT_EMOJI,
-      font: '24px sans-serif',
-    }),
-  })
-}
-
 const COLORS = {
   base: 'transparent',
-  hover: '#10b981',
-  cluster: '#3b82f6',
+  hover: 'rgba(16, 185, 129, .6)',
+  cluster: 'rgba(59, 130, 246, .6)',
   text: '#ffffff',
   stroke: '#ffffff',
 }
 
 const styleCache = new Map<string, Style>()
+
+export function createEmojiStyle(): Style {
+  return new Style({
+    text: new Text({
+      text: '🧟',
+      font: '24px sans-serif',
+    }),
+  })
+}
 
 export function createClusterStyle(feature: FeatureLike): Style {
   const isHovered = feature.get('isHovered') === true
@@ -31,7 +29,23 @@ export function createClusterStyle(feature: FeatureLike): Style {
   const size = features ? features.length : 1
   const isCluster = size > 1
 
-  const baseColor = isCluster ? COLORS.cluster : COLORS.base
+  if (!isCluster) {
+    const styleKey = `emoji-${isHovered}`
+    if (styleCache.has(styleKey)) return styleCache.get(styleKey)!
+
+    const style = new Style({
+      text: new Text({
+        text: '📍',
+        font: '20px sans-serif',
+        fill: new Fill({ color: isHovered ? COLORS.hover : COLORS.text }),
+      }),
+    })
+
+    styleCache.set(styleKey, style)
+    return style
+  }
+
+  const baseColor = COLORS.cluster
   const color = isHovered ? COLORS.hover : baseColor
   const radius = Math.min(10 + Math.log(size + 1) * 3, 30)
 
@@ -45,7 +59,7 @@ export function createClusterStyle(feature: FeatureLike): Style {
       stroke: new Stroke({ color: COLORS.stroke, width: 2 }),
     }),
     text: new Text({
-      text: isCluster ? size.toString() : '',
+      text: size.toString(),
       font: '10px sans-serif',
       fill: new Fill({ color: COLORS.text }),
     }),
