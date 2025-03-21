@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import { useMapStore } from '@/store'
+import type { Place } from '@/types'
 
-const store = useMapStore()
+defineProps<Place>()
 </script>
 
 <template>
   <section>
-    <h2 class="font-bold">Info</h2>
+    <h2 class="font-bold mb-1">Info</h2>
     <div>
-      <p>Name: {{ store.selectedPlace ? store.selectedPlace.name : '' }}</p>
-      <p>Type: {{ store.selectedPlace ? store.selectedPlace.type : '' }}</p>
-      <p>Coordinates: {{ store.selectedPlace ? store.selectedPlace.coordinates : '' }}</p>
+      <p>Name: {{ name }}</p>
+      <p>Type: {{ type }}</p>
+      <p>Coordinates: {{ coordinates }}</p>
     </div>
   </section>
 </template>

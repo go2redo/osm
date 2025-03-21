@@ -2,6 +2,10 @@
 import Filter from './FilterComponent.vue'
 import Info from './InfoComponent.vue'
 import Form from './FormComponent.vue'
+
+import { useMapStore } from '@/store'
+
+const store = useMapStore()
 </script>
 
 <template>
@@ -15,10 +19,15 @@ import Form from './FormComponent.vue'
           <Filter />
         </div>
         <hr />
-        <div>
-          <Info />
-        </div>
-        <hr />
+        <template v-if="store.selectedPlace">
+          <Info
+            :id="store.selectedPlace.id"
+            :name="store.selectedPlace.name"
+            :type="store.selectedPlace.type"
+            :coordinates="store.selectedPlace.coordinates"
+          />
+          <hr />
+        </template>
         <div>
           <Form />
         </div>

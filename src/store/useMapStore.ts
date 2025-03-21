@@ -17,11 +17,25 @@ export const useMapStore = defineStore('map', {
     async fetchUsers() {
       this.users = await fetchUsers()
     },
+    setFilters(types: string[]) {
+      this.filters = types.map((type) => ({ type, isActive: false }))
+    },
+    toggleFilter(type: string) {
+      const filter = this.filters.find((filter) => filter.type === type)
+      if (filter) filter.isActive = !filter.isActive
+    },
+    resetFilters() {
+      this.filters.forEach((filter) => (filter.isActive = false))
+    },
     setSelectedPlace(place: Place | null) {
       this.selectedPlace = place
     },
     setNearestUsers(users: User[]) {
       this.nearestUsers = users
     },
+  },
+  getters: {
+    activeFilters: (state) =>
+      state.filters.filter((filter) => filter.isActive).map((filter) => filter.type),
   },
 })

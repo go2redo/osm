@@ -5,7 +5,10 @@ import type { Place } from './Place'
 export interface MapState {
   currentCenter: Coordinate
   zoomLevel: number
-  filters: string[]
+  filters: {
+    type: string
+    isActive: boolean
+  }[]
   selectedPlace: Place | null
   users: User[]
   nearestUsers: User[]
