@@ -25,6 +25,7 @@ const store = useMapStore()
             :name="store.selectedPlace.name"
             :type="store.selectedPlace.type"
             :coordinates="store.selectedPlace.coordinates"
+            :nearestUsers="store.nearestUsers"
           />
           <hr />
         </template>

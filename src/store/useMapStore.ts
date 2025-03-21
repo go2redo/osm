@@ -2,6 +2,7 @@ import { defineStore } from 'pinia'
 import { fromLonLat } from 'ol/proj'
 import { fetchUsers } from '@/services'
 import type { MapState, Place, User } from '@/types'
+import { findNearestUsers, indexUsers } from '@/geo/userSearch'
 
 export const useMapStore = defineStore('map', {
   state: (): MapState => ({
@@ -11,11 +12,11 @@ export const useMapStore = defineStore('map', {
     selectedPlace: null,
     users: [],
     nearestUsers: [],
-    highlightedUsers: [],
   }),
   actions: {
     async fetchUsers() {
       this.users = await fetchUsers()
+      indexUsers(this.users)
     },
     setFilters(types: string[]) {
       this.filters = types.map((type) => ({ type, isActive: false }))
@@ -30,8 +31,9 @@ export const useMapStore = defineStore('map', {
     setSelectedPlace(place: Place | null) {
       this.selectedPlace = place
     },
-    setNearestUsers(users: User[]) {
-      this.nearestUsers = users
+    findNearestUsers(placeCoords: [number, number]) {
+      const nearest = findNearestUsers(placeCoords)
+      this.nearestUsers = nearest
     },
   },
   getters: {

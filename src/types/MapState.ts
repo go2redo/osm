@@ -11,6 +11,5 @@ export interface MapState {
   }[]
   selectedPlace: Place | null
   users: User[]
-  nearestUsers: User[]
-  highlightedUsers: User[]
+  nearestUsers: { user: User; distance: number }[]
 }

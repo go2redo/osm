@@ -44,6 +44,8 @@ function selectPlace(place: FeatureLike): void {
     type: place.get('type'),
     coordinates: placeCoords,
   })
+
+  store.findNearestUsers(placeCoords)
 }
 
 onMounted(async () => {
