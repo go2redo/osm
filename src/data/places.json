@@ -1,3002 +1,3002 @@
 [
   {
     "id": 1,
-    "name": "National Historical Museum (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.448111, 30.525853]
+    "name": "Historical Site 1",
+    "type": "Monument",
+    "coordinates": [40.586948, -74.494547]
   },
   {
     "id": 2,
-    "name": "National Historical Museum (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.439739, 30.482173]
+    "name": "Historical Site 2",
+    "type": "Museum",
+    "coordinates": [19.833838, -98.760072]
   },
   {
     "id": 3,
-    "name": "House–Museum of Taras Shevchenko (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.447833, 30.525311]
+    "name": "Historical Site 3",
+    "type": "Ruins",
+    "coordinates": [30.210807, 30.971557]
   },
   {
     "id": 4,
-    "name": "House–Museum of Taras Shevchenko (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.436868, 30.528045]
+    "name": "Historical Site 4",
+    "type": "Ruins",
+    "coordinates": [19.198012, 73.097256]
   },
   {
     "id": 5,
-    "name": "House–Museum of Taras Shevchenko (Kyiv) 3",
-    "type": "historical_museum",
-    "coordinates": [50.465424, 30.500396]
+    "name": "Historical Site 5",
+    "type": "Ruins",
+    "coordinates": [-22.796099, -42.877094]
   },
   {
     "id": 6,
-    "name": "House–Museum of Taras Shevchenko (Kyiv) 4",
-    "type": "historical_museum",
-    "coordinates": [50.458418, 30.533317]
+    "name": "Historical Site 6",
+    "type": "Castle",
+    "coordinates": [40.79022, -74.0707]
   },
   {
     "id": 7,
-    "name": "Battlefield Memorial Museum (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.461155, 30.50931]
+    "name": "Historical Site 7",
+    "type": "Castle",
+    "coordinates": [49.228359, 2.080055]
   },
   {
     "id": 8,
-    "name": "Battlefield Memorial Museum (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.435038, 30.502996]
+    "name": "Historical Site 8",
+    "type": "Monument",
+    "coordinates": [48.48079, 2.671599]
   },
   {
     "id": 9,
-    "name": "Art and History Museum (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.433051, 30.517731]
+    "name": "Historical Site 9",
+    "type": "Monument",
+    "coordinates": [35.332747, 139.553359]
   },
   {
     "id": 10,
-    "name": "Art and History Museum (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.469403, 30.519713]
+    "name": "Historical Site 10",
+    "type": "Monument",
+    "coordinates": [35.914378, 139.469418]
   },
   {
     "id": 11,
-    "name": "Museum of Ukrainian History (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.478626, 30.514461]
+    "name": "Historical Site 11",
+    "type": "Castle",
+    "coordinates": [51.628285, 0.125491]
   },
   {
     "id": 12,
-    "name": "Museum of Ukrainian History (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.448695, 30.523892]
+    "name": "Historical Site 12",
+    "type": "Castle",
+    "coordinates": [19.283554, 72.62245]
   },
   {
     "id": 13,
-    "name": "Museum of Ukrainian History (Kyiv) 3",
-    "type": "historical_museum",
-    "coordinates": [50.472218, 30.55468]
+    "name": "Historical Site 13",
+    "type": "Ruins",
+    "coordinates": [41.264855, 28.974555]
   },
   {
     "id": 14,
-    "name": "Aerospace Museum (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.481177, 30.534897]
+    "name": "Historical Site 14",
+    "type": "Museum",
+    "coordinates": [-34.315495, 151.29561]
   },
   {
     "id": 15,
-    "name": "Aerospace Museum (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.435266, 30.55043]
+    "name": "Historical Site 15",
+    "type": "Castle",
+    "coordinates": [49.231991, 1.894041]
   },
   {
     "id": 16,
-    "name": "Aerospace Museum (Kyiv) 3",
-    "type": "historical_museum",
-    "coordinates": [50.452246, 30.531214]
+    "name": "Historical Site 16",
+    "type": "Monument",
+    "coordinates": [51.332534, 0.024143]
   },
   {
     "id": 17,
-    "name": "Cossack Heritage Museum (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.524833, 30.521183]
+    "name": "Historical Site 17",
+    "type": "Palace",
+    "coordinates": [41.10075, 29.243573]
   },
   {
     "id": 18,
-    "name": "Cossack Heritage Museum (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.449867, 30.523562]
+    "name": "Historical Site 18",
+    "type": "Ruins",
+    "coordinates": [14.016193, 100.843511]
   },
   {
     "id": 19,
-    "name": "Railway Transport Museum (Kyiv)",
-    "type": "historical_museum",
-    "coordinates": [50.428955, 30.53807]
+    "name": "Historical Site 19",
+    "type": "Palace",
+    "coordinates": [41.129379, 28.509876]
   },
   {
     "id": 20,
-    "name": "Railway Transport Museum (Kyiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.446843, 30.519657]
+    "name": "Historical Site 20",
+    "type": "Monument",
+    "coordinates": [40.680334, -73.544157]
   },
   {
     "id": 21,
-    "name": "Railway Transport Museum (Kyiv) 3",
-    "type": "historical_museum",
-    "coordinates": [50.446914, 30.529198]
+    "name": "Historical Site 21",
+    "type": "Palace",
+    "coordinates": [-22.792818, -43.57509]
   },
   {
     "id": 22,
-    "name": "Railway Transport Museum (Kyiv) 4",
-    "type": "historical_museum",
-    "coordinates": [50.441387, 30.530326]
+    "name": "Historical Site 22",
+    "type": "Castle",
+    "coordinates": [14.138516, 100.091868]
   },
   {
     "id": 23,
-    "name": "Saint Sophia Cathedral (Kyiv)",
-    "type": "cathedral",
-    "coordinates": [50.454559, 30.513971]
+    "name": "Historical Site 23",
+    "type": "Monument",
+    "coordinates": [13.740811, 100.272883]
   },
   {
     "id": 24,
-    "name": "Saint Sophia Cathedral (Kyiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.527042, 30.530813]
+    "name": "Historical Site 24",
+    "type": "Castle",
+    "coordinates": [-22.745461, -42.96873]
   },
   {
     "id": 25,
-    "name": "Assumption Cathedral (Kyiv)",
-    "type": "cathedral",
-    "coordinates": [50.454227, 30.550987]
+    "name": "Historical Site 25",
+    "type": "Palace",
+    "coordinates": [14.150455, 100.493606]
   },
   {
     "id": 26,
-    "name": "Assumption Cathedral (Kyiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.415233, 30.529283]
+    "name": "Historical Site 26",
+    "type": "Castle",
+    "coordinates": [41.185747, 29.257372]
   },
   {
     "id": 27,
-    "name": "Assumption Cathedral (Kyiv) 3",
-    "type": "cathedral",
-    "coordinates": [50.430743, 30.574945]
+    "name": "Historical Site 27",
+    "type": "Palace",
+    "coordinates": [13.619175, 100.955211]
   },
   {
     "id": 28,
-    "name": "Assumption Cathedral (Kyiv) 4",
-    "type": "cathedral",
-    "coordinates": [50.451945, 30.523416]
+    "name": "Historical Site 28",
+    "type": "Palace",
+    "coordinates": [34.50307, -118.169451]
   },
   {
     "id": 29,
-    "name": "Saint Michael's Cathedral (Kyiv)",
-    "type": "cathedral",
-    "coordinates": [50.414939, 30.584158]
+    "name": "Historical Site 29",
+    "type": "Castle",
+    "coordinates": [30.388515, 31.448912]
   },
   {
     "id": 30,
-    "name": "Saint Michael's Cathedral (Kyiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.442394, 30.561474]
+    "name": "Historical Site 30",
+    "type": "Museum",
+    "coordinates": [-34.352065, 151.163229]
   },
   {
     "id": 31,
-    "name": "Saint Michael's Cathedral (Kyiv) 3",
-    "type": "cathedral",
-    "coordinates": [50.458512, 30.516936]
+    "name": "Historical Site 31",
+    "type": "Monument",
+    "coordinates": [50.260058, 30.433426]
   },
   {
     "id": 32,
-    "name": "Holy Trinity Cathedral (Kyiv)",
-    "type": "cathedral",
-    "coordinates": [50.462438, 30.507499]
+    "name": "Historical Site 32",
+    "type": "Castle",
+    "coordinates": [39.627711, 116.011575]
   },
   {
     "id": 33,
-    "name": "Holy Trinity Cathedral (Kyiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.479762, 30.523153]
+    "name": "Historical Site 33",
+    "type": "Museum",
+    "coordinates": [39.585344, 116.077802]
   },
   {
     "id": 34,
-    "name": "Saint Peter and Paul Cathedral (Kyiv)",
-    "type": "cathedral",
-    "coordinates": [50.45022, 30.52381]
+    "name": "Historical Site 34",
+    "type": "Museum",
+    "coordinates": [19.264012, -99.501427]
   },
   {
     "id": 35,
-    "name": "Saint Peter and Paul Cathedral (Kyiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.454814, 30.519911]
+    "name": "Historical Site 35",
+    "type": "Palace",
+    "coordinates": [51.647325, -0.021811]
   },
   {
     "id": 36,
-    "name": "Saint Nicholas Church (Kyiv)",
-    "type": "church",
-    "coordinates": [50.457051, 30.528632]
+    "name": "Historical Site 36",
+    "type": "Museum",
+    "coordinates": [48.400384, 1.976567]
   },
   {
     "id": 37,
-    "name": "Saint Nicholas Church (Kyiv) 2",
-    "type": "church",
-    "coordinates": [50.449128, 30.523601]
+    "name": "Historical Site 37",
+    "type": "Castle",
+    "coordinates": [49.230313, 2.357951]
   },
   {
     "id": 38,
-    "name": "Saint Nicholas Church (Kyiv) 3",
-    "type": "church",
-    "coordinates": [50.472367, 30.499235]
+    "name": "Historical Site 38",
+    "type": "Museum",
+    "coordinates": [19.352614, 72.907344]
   },
   {
     "id": 39,
-    "name": "Saint Nicholas Church (Kyiv) 4",
-    "type": "church",
-    "coordinates": [50.479756, 30.542114]
+    "name": "Historical Site 39",
+    "type": "Castle",
+    "coordinates": [36.001711, 139.338618]
   },
   {
     "id": 40,
-    "name": "Saint Vladimir Church (Kyiv)",
-    "type": "church",
-    "coordinates": [50.513502, 30.574594]
+    "name": "Historical Site 40",
+    "type": "Castle",
+    "coordinates": [40.7848, 28.94676]
   },
   {
     "id": 41,
-    "name": "Saint Vladimir Church (Kyiv) 2",
-    "type": "church",
-    "coordinates": [50.450392, 30.517709]
+    "name": "Historical Site 41",
+    "type": "Monument",
+    "coordinates": [41.211704, -73.966755]
   },
   {
     "id": 42,
-    "name": "St. Nicholas Monastery (Kyiv)",
-    "type": "church",
-    "coordinates": [50.43269, 30.535976]
+    "name": "Historical Site 42",
+    "type": "Ruins",
+    "coordinates": [29.72988, 31.634546]
   },
   {
     "id": 43,
-    "name": "St. Nicholas Monastery (Kyiv) 2",
-    "type": "church",
-    "coordinates": [50.456211, 30.528331]
+    "name": "Historical Site 43",
+    "type": "Castle",
+    "coordinates": [39.83692, 116.427312]
   },
   {
     "id": 44,
-    "name": "St. Nicholas Monastery (Kyiv) 3",
-    "type": "church",
-    "coordinates": [50.442842, 30.538354]
+    "name": "Historical Site 44",
+    "type": "Ruins",
+    "coordinates": [29.575471, 31.385461]
   },
   {
     "id": 45,
-    "name": "St. Nicholas Monastery (Kyiv) 4",
-    "type": "church",
-    "coordinates": [50.457361, 30.533066]
+    "name": "Historical Site 45",
+    "type": "Monument",
+    "coordinates": [50.933577, 30.292564]
   },
   {
     "id": 46,
-    "name": "Saint Catherine Church (Kyiv)",
-    "type": "church",
-    "coordinates": [50.429968, 30.514194]
+    "name": "Historical Site 46",
+    "type": "Castle",
+    "coordinates": [19.056069, 73.023575]
   },
   {
     "id": 47,
-    "name": "Saint Catherine Church (Kyiv) 2",
-    "type": "church",
-    "coordinates": [50.404939, 30.50837]
+    "name": "Historical Site 47",
+    "type": "Museum",
+    "coordinates": [-23.39774, -43.070835]
   },
   {
     "id": 48,
-    "name": "Saint Catherine Church (Kyiv) 3",
-    "type": "church",
-    "coordinates": [50.451575, 30.524278]
+    "name": "Historical Site 48",
+    "type": "Monument",
+    "coordinates": [51.04824, 0.327478]
   },
   {
     "id": 49,
-    "name": "Saint Catherine Church (Kyiv) 4",
-    "type": "church",
-    "coordinates": [50.427699, 30.502728]
+    "name": "Historical Site 49",
+    "type": "Ruins",
+    "coordinates": [-33.688328, 151.230857]
   },
   {
     "id": 50,
-    "name": "Church of the Nativity (Kyiv)",
-    "type": "church",
-    "coordinates": [50.473156, 30.535662]
+    "name": "Historical Site 50",
+    "type": "Palace",
+    "coordinates": [-33.851037, 151.069636]
   },
   {
     "id": 51,
-    "name": "National Historical Museum (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.924571, 23.996641]
+    "name": "Historical Site 51",
+    "type": "Castle",
+    "coordinates": [34.195498, -117.944582]
   },
   {
     "id": 52,
-    "name": "National Historical Museum (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.837444, 24.002121]
+    "name": "Historical Site 52",
+    "type": "Museum",
+    "coordinates": [-33.429039, 150.830398]
   },
   {
     "id": 53,
-    "name": "National Historical Museum (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.824448, 24.01648]
+    "name": "Historical Site 53",
+    "type": "Museum",
+    "coordinates": [35.855763, 139.658369]
   },
   {
     "id": 54,
-    "name": "National Historical Museum (Lviv) 4",
-    "type": "historical_museum",
-    "coordinates": [49.837215, 24.036102]
+    "name": "Historical Site 54",
+    "type": "Monument",
+    "coordinates": [41.170424, 29.360995]
   },
   {
     "id": 55,
-    "name": "House–Museum of Taras Shevchenko (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.818231, 24.039007]
+    "name": "Historical Site 55",
+    "type": "Ruins",
+    "coordinates": [51.613809, -0.608747]
   },
   {
     "id": 56,
-    "name": "House–Museum of Taras Shevchenko (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.820054, 24.032712]
+    "name": "Historical Site 56",
+    "type": "Ruins",
+    "coordinates": [-33.602896, 151.381731]
   },
   {
     "id": 57,
-    "name": "Battlefield Memorial Museum (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.821109, 24.034392]
+    "name": "Historical Site 57",
+    "type": "Palace",
+    "coordinates": [40.944945, -74.256166]
   },
   {
     "id": 58,
-    "name": "Battlefield Memorial Museum (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.84119, 24.052498]
+    "name": "Historical Site 58",
+    "type": "Castle",
+    "coordinates": [30.544124, 31.313321]
   },
   {
     "id": 59,
-    "name": "Battlefield Memorial Museum (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.817656, 24.039817]
+    "name": "Historical Site 59",
+    "type": "Palace",
+    "coordinates": [-33.473124, 150.756505]
   },
   {
     "id": 60,
-    "name": "Battlefield Memorial Museum (Lviv) 4",
-    "type": "historical_museum",
-    "coordinates": [49.832945, 24.004311]
+    "name": "Historical Site 60",
+    "type": "Museum",
+    "coordinates": [29.873168, 31.179707]
   },
   {
     "id": 61,
-    "name": "Art and History Museum (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.838923, 24.027172]
+    "name": "Historical Site 61",
+    "type": "Palace",
+    "coordinates": [41.193932, 29.145738]
   },
   {
     "id": 62,
-    "name": "Art and History Museum (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.836444, 24.023734]
+    "name": "Historical Site 62",
+    "type": "Monument",
+    "coordinates": [51.324863, -0.098495]
   },
   {
     "id": 63,
-    "name": "Art and History Museum (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.840841, 24.023293]
+    "name": "Historical Site 63",
+    "type": "Palace",
+    "coordinates": [29.688042, 31.324487]
   },
   {
     "id": 64,
-    "name": "Museum of Ukrainian History (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.820893, 24.034543]
+    "name": "Historical Site 64",
+    "type": "Palace",
+    "coordinates": [51.475142, -0.259026]
   },
   {
     "id": 65,
-    "name": "Museum of Ukrainian History (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.840876, 24.026903]
+    "name": "Historical Site 65",
+    "type": "Museum",
+    "coordinates": [13.326207, 100.548227]
   },
   {
     "id": 66,
-    "name": "Museum of Ukrainian History (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.822883, 24.017228]
+    "name": "Historical Site 66",
+    "type": "Museum",
+    "coordinates": [19.399839, -99.069377]
   },
   {
     "id": 67,
-    "name": "Aerospace Museum (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.844828, 24.007266]
+    "name": "Historical Site 67",
+    "type": "Monument",
+    "coordinates": [51.276974, -0.471005]
   },
   {
     "id": 68,
-    "name": "Aerospace Museum (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.84709, 24.034211]
+    "name": "Historical Site 68",
+    "type": "Ruins",
+    "coordinates": [-33.472856, 151.541876]
   },
   {
     "id": 69,
-    "name": "Aerospace Museum (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.781112, 24.023239]
+    "name": "Historical Site 69",
+    "type": "Monument",
+    "coordinates": [39.40668, 116.166973]
   },
   {
     "id": 70,
-    "name": "Cossack Heritage Museum (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.838827, 24.030728]
+    "name": "Historical Site 70",
+    "type": "Castle",
+    "coordinates": [40.234605, -74.293209]
   },
   {
     "id": 71,
-    "name": "Cossack Heritage Museum (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.871556, 24.039546]
+    "name": "Historical Site 71",
+    "type": "Ruins",
+    "coordinates": [40.979248, 28.988678]
   },
   {
     "id": 72,
-    "name": "Cossack Heritage Museum (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.855351, 24.035406]
+    "name": "Historical Site 72",
+    "type": "Monument",
+    "coordinates": [39.484771, 116.434023]
   },
   {
     "id": 73,
-    "name": "Cossack Heritage Museum (Lviv) 4",
-    "type": "historical_museum",
-    "coordinates": [49.85427, 23.982158]
+    "name": "Historical Site 73",
+    "type": "Museum",
+    "coordinates": [14.13617, 100.470031]
   },
   {
     "id": 74,
-    "name": "Railway Transport Museum (Lviv)",
-    "type": "historical_museum",
-    "coordinates": [49.861033, 24.033249]
+    "name": "Historical Site 74",
+    "type": "Palace",
+    "coordinates": [-33.983287, 151.502418]
   },
   {
     "id": 75,
-    "name": "Railway Transport Museum (Lviv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.834828, 24.032521]
+    "name": "Historical Site 75",
+    "type": "Ruins",
+    "coordinates": [40.038642, 116.160021]
   },
   {
     "id": 76,
-    "name": "Railway Transport Museum (Lviv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.832013, 24.006972]
+    "name": "Historical Site 76",
+    "type": "Ruins",
+    "coordinates": [13.516525, 100.412261]
   },
   {
     "id": 77,
-    "name": "Railway Transport Museum (Lviv) 4",
-    "type": "historical_museum",
-    "coordinates": [49.842317, 23.996366]
+    "name": "Historical Site 77",
+    "type": "Museum",
+    "coordinates": [51.997351, 0.108483]
   },
   {
     "id": 78,
-    "name": "Saint Sophia Cathedral (Lviv)",
-    "type": "cathedral",
-    "coordinates": [49.819721, 24.016141]
+    "name": "Historical Site 78",
+    "type": "Castle",
+    "coordinates": [19.097697, 72.768895]
   },
   {
     "id": 79,
-    "name": "Saint Sophia Cathedral (Lviv) 2",
-    "type": "cathedral",
-    "coordinates": [49.839793, 24.064284]
+    "name": "Historical Site 79",
+    "type": "Monument",
+    "coordinates": [14.232716, 100.169352]
   },
   {
     "id": 80,
-    "name": "Saint Sophia Cathedral (Lviv) 3",
-    "type": "cathedral",
-    "coordinates": [49.858639, 24.080949]
+    "name": "Historical Site 80",
+    "type": "Monument",
+    "coordinates": [19.026244, -99.077903]
   },
   {
     "id": 81,
-    "name": "Saint Sophia Cathedral (Lviv) 4",
-    "type": "cathedral",
-    "coordinates": [49.84251, 24.031014]
+    "name": "Historical Site 81",
+    "type": "Castle",
+    "coordinates": [-33.958257, 151.406609]
   },
   {
     "id": 82,
-    "name": "Assumption Cathedral (Lviv)",
-    "type": "cathedral",
-    "coordinates": [49.836626, 24.005922]
+    "name": "Historical Site 82",
+    "type": "Monument",
+    "coordinates": [30.354252, 31.156242]
   },
   {
     "id": 83,
-    "name": "Assumption Cathedral (Lviv) 2",
-    "type": "cathedral",
-    "coordinates": [49.825561, 24.03036]
+    "name": "Historical Site 83",
+    "type": "Monument",
+    "coordinates": [18.583576, 72.408019]
   },
   {
     "id": 84,
-    "name": "Saint Michael's Cathedral (Lviv)",
-    "type": "cathedral",
-    "coordinates": [49.863788, 23.991032]
+    "name": "Historical Site 84",
+    "type": "Castle",
+    "coordinates": [40.4421, -74.013814]
   },
   {
     "id": 85,
-    "name": "Saint Michael's Cathedral (Lviv) 2",
-    "type": "cathedral",
-    "coordinates": [49.786249, 24.033403]
+    "name": "Historical Site 85",
+    "type": "Museum",
+    "coordinates": [-33.826791, 151.320015]
   },
   {
     "id": 86,
-    "name": "Holy Trinity Cathedral (Lviv)",
-    "type": "cathedral",
-    "coordinates": [49.771783, 24.046287]
+    "name": "Historical Site 86",
+    "type": "Palace",
+    "coordinates": [18.994478, -98.839011]
   },
   {
     "id": 87,
-    "name": "Holy Trinity Cathedral (Lviv) 2",
-    "type": "cathedral",
-    "coordinates": [49.832829, 24.029633]
+    "name": "Historical Site 87",
+    "type": "Castle",
+    "coordinates": [35.662131, 139.966667]
   },
   {
     "id": 88,
-    "name": "Holy Trinity Cathedral (Lviv) 3",
-    "type": "cathedral",
-    "coordinates": [49.843064, 24.009479]
+    "name": "Historical Site 88",
+    "type": "Museum",
+    "coordinates": [-33.429103, 150.748854]
   },
   {
     "id": 89,
-    "name": "Saint Peter and Paul Cathedral (Lviv)",
-    "type": "cathedral",
-    "coordinates": [49.825598, 24.019573]
+    "name": "Historical Site 89",
+    "type": "Museum",
+    "coordinates": [19.682808, -98.852725]
   },
   {
     "id": 90,
-    "name": "Saint Peter and Paul Cathedral (Lviv) 2",
-    "type": "cathedral",
-    "coordinates": [49.78247, 23.993048]
+    "name": "Historical Site 90",
+    "type": "Monument",
+    "coordinates": [40.532828, 29.348988]
   },
   {
     "id": 91,
-    "name": "Saint Peter and Paul Cathedral (Lviv) 3",
-    "type": "cathedral",
-    "coordinates": [49.849652, 24.049355]
+    "name": "Historical Site 91",
+    "type": "Castle",
+    "coordinates": [18.682674, 72.716975]
   },
   {
     "id": 92,
-    "name": "Saint Nicholas Church (Lviv)",
-    "type": "church",
-    "coordinates": [49.857527, 24.019798]
+    "name": "Historical Site 92",
+    "type": "Ruins",
+    "coordinates": [14.035506, 100.263247]
   },
   {
     "id": 93,
-    "name": "Saint Nicholas Church (Lviv) 2",
-    "type": "church",
-    "coordinates": [49.819334, 24.036138]
+    "name": "Historical Site 93",
+    "type": "Palace",
+    "coordinates": [50.87898, 30.577795]
   },
   {
     "id": 94,
-    "name": "Saint Nicholas Church (Lviv) 3",
-    "type": "church",
-    "coordinates": [49.838494, 24.030603]
+    "name": "Historical Site 94",
+    "type": "Palace",
+    "coordinates": [-23.175833, -43.3821]
   },
   {
     "id": 95,
-    "name": "Saint Vladimir Church (Lviv)",
-    "type": "church",
-    "coordinates": [49.842137, 24.015113]
+    "name": "Historical Site 95",
+    "type": "Museum",
+    "coordinates": [39.935713, 116.361975]
   },
   {
     "id": 96,
-    "name": "Saint Vladimir Church (Lviv) 2",
-    "type": "church",
-    "coordinates": [49.83253, 24.016991]
+    "name": "Historical Site 96",
+    "type": "Museum",
+    "coordinates": [36.169462, 139.233693]
   },
   {
     "id": 97,
-    "name": "Saint Vladimir Church (Lviv) 3",
-    "type": "church",
-    "coordinates": [49.796057, 24.02919]
+    "name": "Historical Site 97",
+    "type": "Palace",
+    "coordinates": [50.351562, 30.278954]
   },
   {
     "id": 98,
-    "name": "St. Nicholas Monastery (Lviv)",
-    "type": "church",
-    "coordinates": [49.8363, 24.03035]
+    "name": "Historical Site 98",
+    "type": "Museum",
+    "coordinates": [-23.293297, -43.471083]
   },
   {
     "id": 99,
-    "name": "St. Nicholas Monastery (Lviv) 2",
-    "type": "church",
-    "coordinates": [49.835911, 23.957447]
+    "name": "Historical Site 99",
+    "type": "Palace",
+    "coordinates": [50.264712, 30.458939]
   },
   {
     "id": 100,
-    "name": "St. Nicholas Monastery (Lviv) 3",
-    "type": "church",
-    "coordinates": [49.861758, 23.987519]
+    "name": "Historical Site 100",
+    "type": "Ruins",
+    "coordinates": [40.780837, 29.041309]
   },
   {
     "id": 101,
-    "name": "National Historical Museum (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.481888, 30.78189]
+    "name": "Historical Site 101",
+    "type": "Museum",
+    "coordinates": [39.928817, 116.570242]
   },
   {
     "id": 102,
-    "name": "National Historical Museum (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.499185, 30.711374]
+    "name": "Historical Site 102",
+    "type": "Museum",
+    "coordinates": [33.930486, -117.825268]
   },
   {
     "id": 103,
-    "name": "National Historical Museum (Odesa) 3",
-    "type": "historical_museum",
-    "coordinates": [46.487686, 30.724173]
+    "name": "Historical Site 103",
+    "type": "Monument",
+    "coordinates": [41.146791, 28.680991]
   },
   {
     "id": 104,
-    "name": "National Historical Museum (Odesa) 4",
-    "type": "historical_museum",
-    "coordinates": [46.428771, 30.676072]
+    "name": "Historical Site 104",
+    "type": "Monument",
+    "coordinates": [-34.362871, 151.553815]
   },
   {
     "id": 105,
-    "name": "House–Museum of Taras Shevchenko (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.46412, 30.722323]
+    "name": "Historical Site 105",
+    "type": "Palace",
+    "coordinates": [-23.31168, -43.017632]
   },
   {
     "id": 106,
-    "name": "House–Museum of Taras Shevchenko (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.499531, 30.733496]
+    "name": "Historical Site 106",
+    "type": "Monument",
+    "coordinates": [33.762838, -118.180078]
   },
   {
     "id": 107,
-    "name": "Battlefield Memorial Museum (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.501802, 30.750335]
+    "name": "Historical Site 107",
+    "type": "Monument",
+    "coordinates": [50.848925, 30.664847]
   },
   {
     "id": 108,
-    "name": "Battlefield Memorial Museum (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.500574, 30.742089]
+    "name": "Historical Site 108",
+    "type": "Museum",
+    "coordinates": [34.551363, -118.483868]
   },
   {
     "id": 109,
-    "name": "Art and History Museum (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.482214, 30.70163]
+    "name": "Historical Site 109",
+    "type": "Ruins",
+    "coordinates": [40.232169, -74.091036]
   },
   {
     "id": 110,
-    "name": "Art and History Museum (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.492237, 30.723685]
+    "name": "Historical Site 110",
+    "type": "Ruins",
+    "coordinates": [-23.130239, -42.810757]
   },
   {
     "id": 111,
-    "name": "Art and History Museum (Odesa) 3",
-    "type": "historical_museum",
-    "coordinates": [46.513248, 30.727563]
+    "name": "Historical Site 111",
+    "type": "Ruins",
+    "coordinates": [19.234777, -99.474505]
   },
   {
     "id": 112,
-    "name": "Art and History Museum (Odesa) 4",
-    "type": "historical_museum",
-    "coordinates": [46.484449, 30.714773]
+    "name": "Historical Site 112",
+    "type": "Monument",
+    "coordinates": [51.087259, 0.074045]
   },
   {
     "id": 113,
-    "name": "Museum of Ukrainian History (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.477265, 30.717929]
+    "name": "Historical Site 113",
+    "type": "Palace",
+    "coordinates": [40.34551, 116.245067]
   },
   {
     "id": 114,
-    "name": "Museum of Ukrainian History (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.497927, 30.71263]
+    "name": "Historical Site 114",
+    "type": "Palace",
+    "coordinates": [-23.024138, -42.691951]
   },
   {
     "id": 115,
-    "name": "Museum of Ukrainian History (Odesa) 3",
-    "type": "historical_museum",
-    "coordinates": [46.491391, 30.745993]
+    "name": "Historical Site 115",
+    "type": "Castle",
+    "coordinates": [30.192837, 31.522416]
   },
   {
     "id": 116,
-    "name": "Museum of Ukrainian History (Odesa) 4",
-    "type": "historical_museum",
-    "coordinates": [46.48867, 30.729119]
+    "name": "Historical Site 116",
+    "type": "Castle",
+    "coordinates": [14.210961, 100.268062]
   },
   {
     "id": 117,
-    "name": "Aerospace Museum (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.481624, 30.725641]
+    "name": "Historical Site 117",
+    "type": "Museum",
+    "coordinates": [40.570613, 28.762246]
   },
   {
     "id": 118,
-    "name": "Aerospace Museum (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.55588, 30.73643]
+    "name": "Historical Site 118",
+    "type": "Ruins",
+    "coordinates": [30.511207, 30.885333]
   },
   {
     "id": 119,
-    "name": "Aerospace Museum (Odesa) 3",
-    "type": "historical_museum",
-    "coordinates": [46.487079, 30.670022]
+    "name": "Historical Site 119",
+    "type": "Monument",
+    "coordinates": [-22.459418, -43.019276]
   },
   {
     "id": 120,
-    "name": "Aerospace Museum (Odesa) 4",
-    "type": "historical_museum",
-    "coordinates": [46.478813, 30.765335]
+    "name": "Historical Site 120",
+    "type": "Castle",
+    "coordinates": [40.717675, 29.265544]
   },
   {
     "id": 121,
-    "name": "Cossack Heritage Museum (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.464954, 30.723709]
+    "name": "Historical Site 121",
+    "type": "Monument",
+    "coordinates": [13.978507, 100.587037]
   },
   {
     "id": 122,
-    "name": "Cossack Heritage Museum (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.482884, 30.720002]
+    "name": "Historical Site 122",
+    "type": "Museum",
+    "coordinates": [-22.845753, -42.807134]
   },
   {
     "id": 123,
-    "name": "Railway Transport Museum (Odesa)",
-    "type": "historical_museum",
-    "coordinates": [46.50641, 30.744172]
+    "name": "Historical Site 123",
+    "type": "Monument",
+    "coordinates": [51.113175, 0.052903]
   },
   {
     "id": 124,
-    "name": "Railway Transport Museum (Odesa) 2",
-    "type": "historical_museum",
-    "coordinates": [46.481239, 30.722492]
+    "name": "Historical Site 124",
+    "type": "Palace",
+    "coordinates": [39.714708, 116.688493]
   },
   {
     "id": 125,
-    "name": "Saint Sophia Cathedral (Odesa)",
-    "type": "cathedral",
-    "coordinates": [46.494329, 30.704866]
+    "name": "Historical Site 125",
+    "type": "Museum",
+    "coordinates": [41.441643, 28.482606]
   },
   {
     "id": 126,
-    "name": "Saint Sophia Cathedral (Odesa) 2",
-    "type": "cathedral",
-    "coordinates": [46.469058, 30.735562]
+    "name": "Historical Site 126",
+    "type": "Palace",
+    "coordinates": [13.451046, 100.710041]
   },
   {
     "id": 127,
-    "name": "Assumption Cathedral (Odesa)",
-    "type": "cathedral",
-    "coordinates": [46.463513, 30.746522]
+    "name": "Historical Site 127",
+    "type": "Museum",
+    "coordinates": [51.582711, -0.200431]
   },
   {
     "id": 128,
-    "name": "Assumption Cathedral (Odesa) 2",
-    "type": "cathedral",
-    "coordinates": [46.487023, 30.717403]
+    "name": "Historical Site 128",
+    "type": "Museum",
+    "coordinates": [49.316001, 2.743186]
   },
   {
     "id": 129,
-    "name": "Saint Michael's Cathedral (Odesa)",
-    "type": "cathedral",
-    "coordinates": [46.486378, 30.682636]
+    "name": "Historical Site 129",
+    "type": "Castle",
+    "coordinates": [-34.233212, 150.800856]
   },
   {
     "id": 130,
-    "name": "Saint Michael's Cathedral (Odesa) 2",
-    "type": "cathedral",
-    "coordinates": [46.525869, 30.732695]
+    "name": "Historical Site 130",
+    "type": "Ruins",
+    "coordinates": [35.306472, 140.053765]
   },
   {
     "id": 131,
-    "name": "Saint Michael's Cathedral (Odesa) 3",
-    "type": "cathedral",
-    "coordinates": [46.501958, 30.701569]
+    "name": "Historical Site 131",
+    "type": "Palace",
+    "coordinates": [19.801782, -98.853157]
   },
   {
     "id": 132,
-    "name": "Holy Trinity Cathedral (Odesa)",
-    "type": "cathedral",
-    "coordinates": [46.470541, 30.726192]
+    "name": "Historical Site 132",
+    "type": "Monument",
+    "coordinates": [40.241499, -74.313189]
   },
   {
     "id": 133,
-    "name": "Holy Trinity Cathedral (Odesa) 2",
-    "type": "cathedral",
-    "coordinates": [46.448975, 30.754098]
+    "name": "Historical Site 133",
+    "type": "Ruins",
+    "coordinates": [41.21086, -73.991136]
   },
   {
     "id": 134,
-    "name": "Saint Peter and Paul Cathedral (Odesa)",
-    "type": "cathedral",
-    "coordinates": [46.48232, 30.722179]
+    "name": "Historical Site 134",
+    "type": "Museum",
+    "coordinates": [40.809635, 29.243949]
   },
   {
     "id": 135,
-    "name": "Saint Peter and Paul Cathedral (Odesa) 2",
-    "type": "cathedral",
-    "coordinates": [46.502711, 30.726146]
+    "name": "Historical Site 135",
+    "type": "Palace",
+    "coordinates": [35.660946, 139.668209]
   },
   {
     "id": 136,
-    "name": "Saint Peter and Paul Cathedral (Odesa) 3",
-    "type": "cathedral",
-    "coordinates": [46.474711, 30.710922]
+    "name": "Historical Site 136",
+    "type": "Monument",
+    "coordinates": [35.932226, 139.541797]
   },
   {
     "id": 137,
-    "name": "Saint Peter and Paul Cathedral (Odesa) 4",
-    "type": "cathedral",
-    "coordinates": [46.480731, 30.769629]
+    "name": "Historical Site 137",
+    "type": "Ruins",
+    "coordinates": [30.120018, 31.29968]
   },
   {
     "id": 138,
-    "name": "Saint Nicholas Church (Odesa)",
-    "type": "church",
-    "coordinates": [46.489431, 30.723605]
+    "name": "Historical Site 138",
+    "type": "Castle",
+    "coordinates": [52.002188, -0.200583]
   },
   {
     "id": 139,
-    "name": "Saint Nicholas Church (Odesa) 2",
-    "type": "church",
-    "coordinates": [46.482267, 30.723373]
+    "name": "Historical Site 139",
+    "type": "Castle",
+    "coordinates": [34.381601, -118.370865]
   },
   {
     "id": 140,
-    "name": "Saint Vladimir Church (Odesa)",
-    "type": "church",
-    "coordinates": [46.433482, 30.757862]
+    "name": "Historical Site 140",
+    "type": "Castle",
+    "coordinates": [19.363864, 73.04786]
   },
   {
     "id": 141,
-    "name": "Saint Vladimir Church (Odesa) 2",
-    "type": "church",
-    "coordinates": [46.49268, 30.724032]
+    "name": "Historical Site 141",
+    "type": "Ruins",
+    "coordinates": [-33.699289, 151.673]
   },
   {
     "id": 142,
-    "name": "St. Nicholas Monastery (Odesa)",
-    "type": "church",
-    "coordinates": [46.484099, 30.756052]
+    "name": "Historical Site 142",
+    "type": "Castle",
+    "coordinates": [18.957166, 73.044913]
   },
   {
     "id": 143,
-    "name": "St. Nicholas Monastery (Odesa) 2",
-    "type": "church",
-    "coordinates": [46.482998, 30.716935]
+    "name": "Historical Site 143",
+    "type": "Ruins",
+    "coordinates": [40.09219, 116.143926]
   },
   {
     "id": 144,
-    "name": "Saint Catherine Church (Odesa)",
-    "type": "church",
-    "coordinates": [46.474638, 30.711128]
+    "name": "Historical Site 144",
+    "type": "Museum",
+    "coordinates": [30.429068, 31.425354]
   },
   {
     "id": 145,
-    "name": "Saint Catherine Church (Odesa) 2",
-    "type": "church",
-    "coordinates": [46.475337, 30.727266]
+    "name": "Historical Site 145",
+    "type": "Castle",
+    "coordinates": [40.483895, -74.111735]
   },
   {
     "id": 146,
-    "name": "Saint Catherine Church (Odesa) 3",
-    "type": "church",
-    "coordinates": [46.48706, 30.748132]
+    "name": "Historical Site 146",
+    "type": "Museum",
+    "coordinates": [-33.614578, 150.985606]
   },
   {
     "id": 147,
-    "name": "Saint Catherine Church (Odesa) 4",
-    "type": "church",
-    "coordinates": [46.47881, 30.717339]
+    "name": "Historical Site 147",
+    "type": "Ruins",
+    "coordinates": [-33.45844, 151.389406]
   },
   {
     "id": 148,
-    "name": "Church of the Nativity (Odesa)",
-    "type": "church",
-    "coordinates": [46.480849, 30.732234]
+    "name": "Historical Site 148",
+    "type": "Palace",
+    "coordinates": [30.419709, 31.537125]
   },
   {
     "id": 149,
-    "name": "Church of the Nativity (Odesa) 2",
-    "type": "church",
-    "coordinates": [46.541904, 30.742785]
+    "name": "Historical Site 149",
+    "type": "Castle",
+    "coordinates": [33.932125, -118.482064]
   },
   {
     "id": 150,
-    "name": "Holy Resurrection Church (Odesa)",
-    "type": "church",
-    "coordinates": [46.412588, 30.730885]
+    "name": "Historical Site 150",
+    "type": "Castle",
+    "coordinates": [51.234169, -0.241533]
   },
   {
     "id": 151,
-    "name": "National Historical Museum (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [49.97274, 36.188711]
+    "name": "Historical Site 151",
+    "type": "Ruins",
+    "coordinates": [-34.247947, 150.885283]
   },
   {
     "id": 152,
-    "name": "National Historical Museum (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.981971, 36.21326]
+    "name": "Historical Site 152",
+    "type": "Ruins",
+    "coordinates": [35.209019, 140.011531]
   },
   {
     "id": 153,
-    "name": "National Historical Museum (Kharkiv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.944689, 36.248929]
+    "name": "Historical Site 153",
+    "type": "Monument",
+    "coordinates": [-22.519417, -42.787568]
   },
   {
     "id": 154,
-    "name": "National Historical Museum (Kharkiv) 4",
-    "type": "historical_museum",
-    "coordinates": [50.037529, 36.248222]
+    "name": "Historical Site 154",
+    "type": "Ruins",
+    "coordinates": [-22.558727, -42.696767]
   },
   {
     "id": 155,
-    "name": "House–Museum of Taras Shevchenko (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [49.958563, 36.222156]
+    "name": "Historical Site 155",
+    "type": "Palace",
+    "coordinates": [40.052026, 116.303202]
   },
   {
     "id": 156,
-    "name": "House–Museum of Taras Shevchenko (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.005855, 36.220179]
+    "name": "Historical Site 156",
+    "type": "Ruins",
+    "coordinates": [41.051531, 28.88944]
   },
   {
     "id": 157,
-    "name": "House–Museum of Taras Shevchenko (Kharkiv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.993492, 36.231036]
+    "name": "Historical Site 157",
+    "type": "Monument",
+    "coordinates": [18.676242, 72.938373]
   },
   {
     "id": 158,
-    "name": "Battlefield Memorial Museum (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [50.008205, 36.269506]
+    "name": "Historical Site 158",
+    "type": "Monument",
+    "coordinates": [41.059487, 28.881647]
   },
   {
     "id": 159,
-    "name": "Battlefield Memorial Museum (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.976871, 36.287629]
+    "name": "Historical Site 159",
+    "type": "Castle",
+    "coordinates": [48.621814, 2.573558]
   },
   {
     "id": 160,
-    "name": "Art and History Museum (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [49.980297, 36.193508]
+    "name": "Historical Site 160",
+    "type": "Monument",
+    "coordinates": [29.578475, 30.782255]
   },
   {
     "id": 161,
-    "name": "Art and History Museum (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.998677, 36.201439]
+    "name": "Historical Site 161",
+    "type": "Museum",
+    "coordinates": [19.225488, 72.440497]
   },
   {
     "id": 162,
-    "name": "Museum of Ukrainian History (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [49.994763, 36.22624]
+    "name": "Historical Site 162",
+    "type": "Castle",
+    "coordinates": [40.510187, -73.83752]
   },
   {
     "id": 163,
-    "name": "Museum of Ukrainian History (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.9924, 36.219986]
+    "name": "Historical Site 163",
+    "type": "Castle",
+    "coordinates": [35.414002, 139.275017]
   },
   {
     "id": 164,
-    "name": "Museum of Ukrainian History (Kharkiv) 3",
-    "type": "historical_museum",
-    "coordinates": [50.01999, 36.199059]
+    "name": "Historical Site 164",
+    "type": "Palace",
+    "coordinates": [29.65431, 30.749293]
   },
   {
     "id": 165,
-    "name": "Aerospace Museum (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [49.991513, 36.239844]
+    "name": "Historical Site 165",
+    "type": "Palace",
+    "coordinates": [14.17345, 100.335481]
   },
   {
     "id": 166,
-    "name": "Aerospace Museum (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.005268, 36.207274]
+    "name": "Historical Site 166",
+    "type": "Monument",
+    "coordinates": [-23.17237, -43.014367]
   },
   {
     "id": 167,
-    "name": "Cossack Heritage Museum (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [49.994553, 36.237413]
+    "name": "Historical Site 167",
+    "type": "Monument",
+    "coordinates": [51.011461, -0.445278]
   },
   {
     "id": 168,
-    "name": "Cossack Heritage Museum (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [49.992995, 36.249185]
+    "name": "Historical Site 168",
+    "type": "Castle",
+    "coordinates": [51.198828, -0.36829]
   },
   {
     "id": 169,
-    "name": "Railway Transport Museum (Kharkiv)",
-    "type": "historical_museum",
-    "coordinates": [50.04201, 36.210616]
+    "name": "Historical Site 169",
+    "type": "Monument",
+    "coordinates": [-23.359096, -43.16711]
   },
   {
     "id": 170,
-    "name": "Railway Transport Museum (Kharkiv) 2",
-    "type": "historical_museum",
-    "coordinates": [50.01865, 36.247396]
+    "name": "Historical Site 170",
+    "type": "Ruins",
+    "coordinates": [19.640361, -98.710117]
   },
   {
     "id": 171,
-    "name": "Railway Transport Museum (Kharkiv) 3",
-    "type": "historical_museum",
-    "coordinates": [49.937404, 36.278135]
+    "name": "Historical Site 171",
+    "type": "Castle",
+    "coordinates": [40.342066, -74.125437]
   },
   {
     "id": 172,
-    "name": "Railway Transport Museum (Kharkiv) 4",
-    "type": "historical_museum",
-    "coordinates": [49.972249, 36.199255]
+    "name": "Historical Site 172",
+    "type": "Monument",
+    "coordinates": [18.954897, 73.353026]
   },
   {
     "id": 173,
-    "name": "Saint Sophia Cathedral (Kharkiv)",
-    "type": "cathedral",
-    "coordinates": [49.972861, 36.244022]
+    "name": "Historical Site 173",
+    "type": "Palace",
+    "coordinates": [29.649678, 31.20618]
   },
   {
     "id": 174,
-    "name": "Saint Sophia Cathedral (Kharkiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.003066, 36.254541]
+    "name": "Historical Site 174",
+    "type": "Museum",
+    "coordinates": [35.76683, 139.906494]
   },
   {
     "id": 175,
-    "name": "Saint Sophia Cathedral (Kharkiv) 3",
-    "type": "cathedral",
-    "coordinates": [50.00057, 36.231994]
+    "name": "Historical Site 175",
+    "type": "Museum",
+    "coordinates": [19.117919, -99.197258]
   },
   {
     "id": 176,
-    "name": "Saint Sophia Cathedral (Kharkiv) 4",
-    "type": "cathedral",
-    "coordinates": [49.981145, 36.244266]
+    "name": "Historical Site 176",
+    "type": "Palace",
+    "coordinates": [19.151328, -99.593512]
   },
   {
     "id": 177,
-    "name": "Assumption Cathedral (Kharkiv)",
-    "type": "cathedral",
-    "coordinates": [49.980524, 36.237392]
+    "name": "Historical Site 177",
+    "type": "Ruins",
+    "coordinates": [50.739154, 30.191511]
   },
   {
     "id": 178,
-    "name": "Assumption Cathedral (Kharkiv) 2",
-    "type": "cathedral",
-    "coordinates": [49.969953, 36.244758]
+    "name": "Historical Site 178",
+    "type": "Ruins",
+    "coordinates": [41.002928, 29.273754]
   },
   {
     "id": 179,
-    "name": "Saint Michael's Cathedral (Kharkiv)",
-    "type": "cathedral",
-    "coordinates": [49.993791, 36.230591]
+    "name": "Historical Site 179",
+    "type": "Museum",
+    "coordinates": [34.036496, -118.194325]
   },
   {
     "id": 180,
-    "name": "Saint Michael's Cathedral (Kharkiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.054971, 36.213929]
+    "name": "Historical Site 180",
+    "type": "Ruins",
+    "coordinates": [48.621772, 1.931361]
   },
   {
     "id": 181,
-    "name": "Saint Michael's Cathedral (Kharkiv) 3",
-    "type": "cathedral",
-    "coordinates": [49.996957, 36.217836]
+    "name": "Historical Site 181",
+    "type": "Castle",
+    "coordinates": [40.430759, -73.863964]
   },
   {
     "id": 182,
-    "name": "Holy Trinity Cathedral (Kharkiv)",
-    "type": "cathedral",
-    "coordinates": [49.962719, 36.219077]
+    "name": "Historical Site 182",
+    "type": "Ruins",
+    "coordinates": [13.729591, 100.592567]
   },
   {
     "id": 183,
-    "name": "Holy Trinity Cathedral (Kharkiv) 2",
-    "type": "cathedral",
-    "coordinates": [50.063128, 36.295879]
+    "name": "Historical Site 183",
+    "type": "Palace",
+    "coordinates": [-23.109051, -43.116388]
   },
   {
     "id": 184,
-    "name": "Holy Trinity Cathedral (Kharkiv) 3",
-    "type": "cathedral",
-    "coordinates": [49.977143, 36.231635]
+    "name": "Historical Site 184",
+    "type": "Museum",
+    "coordinates": [41.373469, 29.309042]
   },
   {
     "id": 185,
-    "name": "Saint Peter and Paul Cathedral (Kharkiv)",
-    "type": "cathedral",
-    "coordinates": [49.986234, 36.237502]
+    "name": "Historical Site 185",
+    "type": "Castle",
+    "coordinates": [19.524593, -98.645385]
   },
   {
     "id": 186,
-    "name": "Saint Peter and Paul Cathedral (Kharkiv) 2",
-    "type": "cathedral",
-    "coordinates": [49.931876, 36.225718]
+    "name": "Historical Site 186",
+    "type": "Castle",
+    "coordinates": [35.197447, 139.859044]
   },
   {
     "id": 187,
-    "name": "Saint Nicholas Church (Kharkiv)",
-    "type": "church",
-    "coordinates": [49.948125, 36.256196]
+    "name": "Historical Site 187",
+    "type": "Museum",
+    "coordinates": [50.310515, 30.828132]
   },
   {
     "id": 188,
-    "name": "Saint Nicholas Church (Kharkiv) 2",
-    "type": "church",
-    "coordinates": [49.989123, 36.235996]
+    "name": "Historical Site 188",
+    "type": "Castle",
+    "coordinates": [33.710165, -118.270192]
   },
   {
     "id": 189,
-    "name": "Saint Nicholas Church (Kharkiv) 3",
-    "type": "church",
-    "coordinates": [49.964282, 36.208166]
+    "name": "Historical Site 189",
+    "type": "Castle",
+    "coordinates": [40.709994, 28.862492]
   },
   {
     "id": 190,
-    "name": "Saint Vladimir Church (Kharkiv)",
-    "type": "church",
-    "coordinates": [50.024493, 36.155668]
+    "name": "Historical Site 190",
+    "type": "Palace",
+    "coordinates": [51.981366, -0.477006]
   },
   {
     "id": 191,
-    "name": "Saint Vladimir Church (Kharkiv) 2",
-    "type": "church",
-    "coordinates": [49.993018, 36.226037]
+    "name": "Historical Site 191",
+    "type": "Ruins",
+    "coordinates": [-33.41113, 151.13557]
   },
   {
     "id": 192,
-    "name": "Saint Vladimir Church (Kharkiv) 3",
-    "type": "church",
-    "coordinates": [49.980656, 36.239955]
+    "name": "Historical Site 192",
+    "type": "Palace",
+    "coordinates": [50.228056, 30.041969]
   },
   {
     "id": 193,
-    "name": "St. Nicholas Monastery (Kharkiv)",
-    "type": "church",
-    "coordinates": [50.042326, 36.24717]
+    "name": "Historical Site 193",
+    "type": "Monument",
+    "coordinates": [39.506243, 116.391846]
   },
   {
     "id": 194,
-    "name": "St. Nicholas Monastery (Kharkiv) 2",
-    "type": "church",
-    "coordinates": [49.966625, 36.234463]
+    "name": "Historical Site 194",
+    "type": "Museum",
+    "coordinates": [30.08328, 31.655985]
   },
   {
     "id": 195,
-    "name": "St. Nicholas Monastery (Kharkiv) 3",
-    "type": "church",
-    "coordinates": [50.002335, 36.241891]
+    "name": "Historical Site 195",
+    "type": "Museum",
+    "coordinates": [-34.339668, 151.03368]
   },
   {
     "id": 196,
-    "name": "St. Nicholas Monastery (Kharkiv) 4",
-    "type": "church",
-    "coordinates": [49.977463, 36.258249]
+    "name": "Historical Site 196",
+    "type": "Monument",
+    "coordinates": [50.703717, 30.349213]
   },
   {
     "id": 197,
-    "name": "Saint Catherine Church (Kharkiv)",
-    "type": "church",
-    "coordinates": [49.989443, 36.221603]
+    "name": "Historical Site 197",
+    "type": "Monument",
+    "coordinates": [-22.781069, -43.265254]
   },
   {
     "id": 198,
-    "name": "Saint Catherine Church (Kharkiv) 2",
-    "type": "church",
-    "coordinates": [49.991603, 36.232382]
+    "name": "Historical Site 198",
+    "type": "Palace",
+    "coordinates": [40.321552, 116.069903]
   },
   {
     "id": 199,
-    "name": "Saint Catherine Church (Kharkiv) 3",
-    "type": "church",
-    "coordinates": [50.020163, 36.250672]
+    "name": "Historical Site 199",
+    "type": "Castle",
+    "coordinates": [18.74483, 73.315403]
   },
   {
     "id": 200,
-    "name": "Church of the Nativity (Kharkiv)",
-    "type": "church",
-    "coordinates": [49.978314, 36.210846]
+    "name": "Historical Site 200",
+    "type": "Castle",
+    "coordinates": [35.324819, 139.310747]
   },
   {
     "id": 201,
-    "name": "National Historical Museum (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.413143, 35.09576]
+    "name": "Historical Site 201",
+    "type": "Ruins",
+    "coordinates": [41.133738, 28.686885]
   },
   {
     "id": 202,
-    "name": "National Historical Museum (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.458543, 35.040959]
+    "name": "Historical Site 202",
+    "type": "Ruins",
+    "coordinates": [51.379736, 0.351612]
   },
   {
     "id": 203,
-    "name": "National Historical Museum (Dnipro) 3",
-    "type": "historical_museum",
-    "coordinates": [48.457864, 35.038287]
+    "name": "Historical Site 203",
+    "type": "Palace",
+    "coordinates": [19.022018, 72.83798]
   },
   {
     "id": 204,
-    "name": "National Historical Museum (Dnipro) 4",
-    "type": "historical_museum",
-    "coordinates": [48.465549, 35.063546]
+    "name": "Historical Site 204",
+    "type": "Palace",
+    "coordinates": [33.80183, -117.762171]
   },
   {
     "id": 205,
-    "name": "House–Museum of Taras Shevchenko (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.479664, 35.034908]
+    "name": "Historical Site 205",
+    "type": "Monument",
+    "coordinates": [50.298421, 30.226846]
   },
   {
     "id": 206,
-    "name": "House–Museum of Taras Shevchenko (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.394433, 35.022658]
+    "name": "Historical Site 206",
+    "type": "Monument",
+    "coordinates": [51.454226, -0.456926]
   },
   {
     "id": 207,
-    "name": "Battlefield Memorial Museum (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.472116, 34.985198]
+    "name": "Historical Site 207",
+    "type": "Museum",
+    "coordinates": [18.774864, 72.382716]
   },
   {
     "id": 208,
-    "name": "Battlefield Memorial Museum (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.463254, 35.04878]
+    "name": "Historical Site 208",
+    "type": "Ruins",
+    "coordinates": [34.370635, -118.457447]
   },
   {
     "id": 209,
-    "name": "Art and History Museum (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.462762, 35.035089]
+    "name": "Historical Site 209",
+    "type": "Monument",
+    "coordinates": [18.738127, 73.251082]
   },
   {
     "id": 210,
-    "name": "Art and History Museum (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.458031, 35.077768]
+    "name": "Historical Site 210",
+    "type": "Palace",
+    "coordinates": [14.14993, 100.136532]
   },
   {
     "id": 211,
-    "name": "Art and History Museum (Dnipro) 3",
-    "type": "historical_museum",
-    "coordinates": [48.464089, 35.041634]
+    "name": "Historical Site 211",
+    "type": "Palace",
+    "coordinates": [-23.355288, -43.121817]
   },
   {
     "id": 212,
-    "name": "Art and History Museum (Dnipro) 4",
-    "type": "historical_museum",
-    "coordinates": [48.429289, 35.078166]
+    "name": "Historical Site 212",
+    "type": "Museum",
+    "coordinates": [19.304814, 72.893012]
   },
   {
     "id": 213,
-    "name": "Museum of Ukrainian History (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.520123, 35.080335]
+    "name": "Historical Site 213",
+    "type": "Palace",
+    "coordinates": [33.61159, -117.909789]
   },
   {
     "id": 214,
-    "name": "Museum of Ukrainian History (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.464242, 35.037601]
+    "name": "Historical Site 214",
+    "type": "Castle",
+    "coordinates": [-22.80707, -43.235977]
   },
   {
     "id": 215,
-    "name": "Museum of Ukrainian History (Dnipro) 3",
-    "type": "historical_museum",
-    "coordinates": [48.471495, 35.006297]
+    "name": "Historical Site 215",
+    "type": "Monument",
+    "coordinates": [-33.641879, 150.838512]
   },
   {
     "id": 216,
-    "name": "Aerospace Museum (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.459012, 35.039309]
+    "name": "Historical Site 216",
+    "type": "Monument",
+    "coordinates": [39.989686, 116.867429]
   },
   {
     "id": 217,
-    "name": "Aerospace Museum (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.435412, 35.042953]
+    "name": "Historical Site 217",
+    "type": "Monument",
+    "coordinates": [-22.573541, -43.350113]
   },
   {
     "id": 218,
-    "name": "Aerospace Museum (Dnipro) 3",
-    "type": "historical_museum",
-    "coordinates": [48.525038, 35.0138]
+    "name": "Historical Site 218",
+    "type": "Castle",
+    "coordinates": [51.060002, -0.447929]
   },
   {
     "id": 219,
-    "name": "Cossack Heritage Museum (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.497351, 34.995264]
+    "name": "Historical Site 219",
+    "type": "Museum",
+    "coordinates": [18.872621, 72.984971]
   },
   {
     "id": 220,
-    "name": "Cossack Heritage Museum (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.464561, 35.030025]
+    "name": "Historical Site 220",
+    "type": "Monument",
+    "coordinates": [19.391503, -99.391215]
   },
   {
     "id": 221,
-    "name": "Cossack Heritage Museum (Dnipro) 3",
-    "type": "historical_museum",
-    "coordinates": [48.456706, 34.997793]
+    "name": "Historical Site 221",
+    "type": "Ruins",
+    "coordinates": [40.654387, 28.959519]
   },
   {
     "id": 222,
-    "name": "Cossack Heritage Museum (Dnipro) 4",
-    "type": "historical_museum",
-    "coordinates": [48.531961, 34.990946]
+    "name": "Historical Site 222",
+    "type": "Ruins",
+    "coordinates": [29.555313, 31.671741]
   },
   {
     "id": 223,
-    "name": "Railway Transport Museum (Dnipro)",
-    "type": "historical_museum",
-    "coordinates": [48.403129, 35.057006]
+    "name": "Historical Site 223",
+    "type": "Castle",
+    "coordinates": [19.584633, -99.342789]
   },
   {
     "id": 224,
-    "name": "Railway Transport Museum (Dnipro) 2",
-    "type": "historical_museum",
-    "coordinates": [48.45743, 35.042159]
+    "name": "Historical Site 224",
+    "type": "Ruins",
+    "coordinates": [40.170218, 116.524016]
   },
   {
     "id": 225,
-    "name": "Railway Transport Museum (Dnipro) 3",
-    "type": "historical_museum",
-    "coordinates": [48.465743, 35.048625]
+    "name": "Historical Site 225",
+    "type": "Castle",
+    "coordinates": [35.327967, 140.0041]
   },
   {
     "id": 226,
-    "name": "Railway Transport Museum (Dnipro) 4",
-    "type": "historical_museum",
-    "coordinates": [48.483269, 35.040482]
+    "name": "Historical Site 226",
+    "type": "Monument",
+    "coordinates": [36.061208, 139.464122]
   },
   {
     "id": 227,
-    "name": "Saint Sophia Cathedral (Dnipro)",
-    "type": "cathedral",
-    "coordinates": [48.460701, 35.052424]
+    "name": "Historical Site 227",
+    "type": "Museum",
+    "coordinates": [40.537694, 28.955498]
   },
   {
     "id": 228,
-    "name": "Saint Sophia Cathedral (Dnipro) 2",
-    "type": "cathedral",
-    "coordinates": [48.511785, 35.093483]
+    "name": "Historical Site 228",
+    "type": "Ruins",
+    "coordinates": [51.37381, -0.171312]
   },
   {
     "id": 229,
-    "name": "Assumption Cathedral (Dnipro)",
-    "type": "cathedral",
-    "coordinates": [48.464762, 35.046044]
+    "name": "Historical Site 229",
+    "type": "Monument",
+    "coordinates": [48.857161, 2.486907]
   },
   {
     "id": 230,
-    "name": "Assumption Cathedral (Dnipro) 2",
-    "type": "cathedral",
-    "coordinates": [48.482218, 35.001608]
+    "name": "Historical Site 230",
+    "type": "Monument",
+    "coordinates": [39.545475, 116.672679]
   },
   {
     "id": 231,
-    "name": "Saint Michael's Cathedral (Dnipro)",
-    "type": "cathedral",
-    "coordinates": [48.450208, 35.022469]
+    "name": "Historical Site 231",
+    "type": "Palace",
+    "coordinates": [39.627007, 116.157095]
   },
   {
     "id": 232,
-    "name": "Saint Michael's Cathedral (Dnipro) 2",
-    "type": "cathedral",
-    "coordinates": [48.471833, 35.065268]
+    "name": "Historical Site 232",
+    "type": "Monument",
+    "coordinates": [51.018822, -0.031231]
   },
   {
     "id": 233,
-    "name": "Saint Michael's Cathedral (Dnipro) 3",
-    "type": "cathedral",
-    "coordinates": [48.462984, 35.036124]
+    "name": "Historical Site 233",
+    "type": "Ruins",
+    "coordinates": [50.11767, 30.266696]
   },
   {
     "id": 234,
-    "name": "Saint Michael's Cathedral (Dnipro) 4",
-    "type": "cathedral",
-    "coordinates": [48.498603, 35.036471]
+    "name": "Historical Site 234",
+    "type": "Palace",
+    "coordinates": [39.580203, 116.668133]
   },
   {
     "id": 235,
-    "name": "Holy Trinity Cathedral (Dnipro)",
-    "type": "cathedral",
-    "coordinates": [48.449767, 35.046336]
+    "name": "Historical Site 235",
+    "type": "Museum",
+    "coordinates": [40.380699, 116.83707]
   },
   {
     "id": 236,
-    "name": "Holy Trinity Cathedral (Dnipro) 2",
-    "type": "cathedral",
-    "coordinates": [48.530884, 35.024559]
+    "name": "Historical Site 236",
+    "type": "Palace",
+    "coordinates": [40.150337, 116.295475]
   },
   {
     "id": 237,
-    "name": "Holy Trinity Cathedral (Dnipro) 3",
-    "type": "cathedral",
-    "coordinates": [48.504715, 35.05372]
+    "name": "Historical Site 237",
+    "type": "Museum",
+    "coordinates": [48.398483, 2.290118]
   },
   {
     "id": 238,
-    "name": "Saint Peter and Paul Cathedral (Dnipro)",
-    "type": "cathedral",
-    "coordinates": [48.450831, 35.033818]
+    "name": "Historical Site 238",
+    "type": "Palace",
+    "coordinates": [39.99211, 116.025923]
   },
   {
     "id": 239,
-    "name": "Saint Peter and Paul Cathedral (Dnipro) 2",
-    "type": "cathedral",
-    "coordinates": [48.478479, 35.012454]
+    "name": "Historical Site 239",
+    "type": "Castle",
+    "coordinates": [40.527238, -73.901008]
   },
   {
     "id": 240,
-    "name": "Saint Peter and Paul Cathedral (Dnipro) 3",
-    "type": "cathedral",
-    "coordinates": [48.46332, 35.055471]
+    "name": "Historical Site 240",
+    "type": "Castle",
+    "coordinates": [35.345761, 139.698332]
   },
   {
     "id": 241,
-    "name": "Saint Peter and Paul Cathedral (Dnipro) 4",
-    "type": "cathedral",
-    "coordinates": [48.440266, 35.025274]
+    "name": "Historical Site 241",
+    "type": "Monument",
+    "coordinates": [50.459874, 30.43569]
   },
   {
     "id": 242,
-    "name": "Saint Nicholas Church (Dnipro)",
-    "type": "church",
-    "coordinates": [48.481982, 35.035262]
+    "name": "Historical Site 242",
+    "type": "Palace",
+    "coordinates": [48.93413, 1.884004]
   },
   {
     "id": 243,
-    "name": "Saint Nicholas Church (Dnipro) 2",
-    "type": "church",
-    "coordinates": [48.470079, 35.042045]
+    "name": "Historical Site 243",
+    "type": "Castle",
+    "coordinates": [13.526734, 100.925562]
   },
   {
     "id": 244,
-    "name": "Saint Nicholas Church (Dnipro) 3",
-    "type": "church",
-    "coordinates": [48.485784, 35.03312]
+    "name": "Historical Site 244",
+    "type": "Palace",
+    "coordinates": [-22.825425, -42.766739]
   },
   {
     "id": 245,
-    "name": "Saint Nicholas Church (Dnipro) 4",
-    "type": "church",
-    "coordinates": [48.460555, 35.044788]
+    "name": "Historical Site 245",
+    "type": "Monument",
+    "coordinates": [34.037626, -118.740653]
   },
   {
     "id": 246,
-    "name": "Saint Vladimir Church (Dnipro)",
-    "type": "church",
-    "coordinates": [48.477832, 35.02691]
+    "name": "Historical Site 246",
+    "type": "Palace",
+    "coordinates": [51.688053, -0.044793]
   },
   {
     "id": 247,
-    "name": "Saint Vladimir Church (Dnipro) 2",
-    "type": "church",
-    "coordinates": [48.465716, 35.067028]
+    "name": "Historical Site 247",
+    "type": "Palace",
+    "coordinates": [51.14792, 0.088615]
   },
   {
     "id": 248,
-    "name": "Saint Vladimir Church (Dnipro) 3",
-    "type": "church",
-    "coordinates": [48.464866, 35.046041]
+    "name": "Historical Site 248",
+    "type": "Castle",
+    "coordinates": [18.774133, 72.416601]
   },
   {
     "id": 249,
-    "name": "St. Nicholas Monastery (Dnipro)",
-    "type": "church",
-    "coordinates": [48.523168, 35.059274]
+    "name": "Historical Site 249",
+    "type": "Museum",
+    "coordinates": [19.13832, -98.665188]
   },
   {
     "id": 250,
-    "name": "St. Nicholas Monastery (Dnipro) 2",
-    "type": "church",
-    "coordinates": [48.464261, 35.044971]
+    "name": "Historical Site 250",
+    "type": "Castle",
+    "coordinates": [-22.588823, -43.2739]
   },
   {
     "id": 251,
-    "name": "National Historical Museum (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.839128, 35.138101]
+    "name": "Historical Site 251",
+    "type": "Palace",
+    "coordinates": [34.21018, -117.907331]
   },
   {
     "id": 252,
-    "name": "National Historical Museum (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.884609, 35.153666]
+    "name": "Historical Site 252",
+    "type": "Palace",
+    "coordinates": [19.248253, 72.502486]
   },
   {
     "id": 253,
-    "name": "National Historical Museum (Zaporizhzhia) 3",
-    "type": "historical_museum",
-    "coordinates": [47.837877, 35.140842]
+    "name": "Historical Site 253",
+    "type": "Monument",
+    "coordinates": [-34.343347, 151.173156]
   },
   {
     "id": 254,
-    "name": "National Historical Museum (Zaporizhzhia) 4",
-    "type": "historical_museum",
-    "coordinates": [47.907481, 35.17921]
+    "name": "Historical Site 254",
+    "type": "Castle",
+    "coordinates": [39.703835, 116.840469]
   },
   {
     "id": 255,
-    "name": "House–Museum of Taras Shevchenko (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.822162, 35.154132]
+    "name": "Historical Site 255",
+    "type": "Monument",
+    "coordinates": [30.257381, 31.681497]
   },
   {
     "id": 256,
-    "name": "House–Museum of Taras Shevchenko (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.800944, 35.137362]
+    "name": "Historical Site 256",
+    "type": "Palace",
+    "coordinates": [29.884935, 31.098974]
   },
   {
     "id": 257,
-    "name": "House–Museum of Taras Shevchenko (Zaporizhzhia) 3",
-    "type": "historical_museum",
-    "coordinates": [47.864294, 35.125617]
+    "name": "Historical Site 257",
+    "type": "Ruins",
+    "coordinates": [18.645286, 72.451287]
   },
   {
     "id": 258,
-    "name": "House–Museum of Taras Shevchenko (Zaporizhzhia) 4",
-    "type": "historical_museum",
-    "coordinates": [47.838886, 35.14162]
+    "name": "Historical Site 258",
+    "type": "Monument",
+    "coordinates": [50.382894, 30.32274]
   },
   {
     "id": 259,
-    "name": "Battlefield Memorial Museum (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.818925, 35.114083]
+    "name": "Historical Site 259",
+    "type": "Ruins",
+    "coordinates": [39.687239, 115.924261]
   },
   {
     "id": 260,
-    "name": "Battlefield Memorial Museum (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.861076, 35.086641]
+    "name": "Historical Site 260",
+    "type": "Monument",
+    "coordinates": [41.025922, -73.907046]
   },
   {
     "id": 261,
-    "name": "Battlefield Memorial Museum (Zaporizhzhia) 3",
-    "type": "historical_museum",
-    "coordinates": [47.903152, 35.096863]
+    "name": "Historical Site 261",
+    "type": "Monument",
+    "coordinates": [50.554699, 30.863649]
   },
   {
     "id": 262,
-    "name": "Art and History Museum (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.872153, 35.117345]
+    "name": "Historical Site 262",
+    "type": "Castle",
+    "coordinates": [-22.970729, -43.187739]
   },
   {
     "id": 263,
-    "name": "Art and History Museum (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.769405, 35.087585]
+    "name": "Historical Site 263",
+    "type": "Palace",
+    "coordinates": [39.545817, 115.919414]
   },
   {
     "id": 264,
-    "name": "Art and History Museum (Zaporizhzhia) 3",
-    "type": "historical_museum",
-    "coordinates": [47.830763, 35.137475]
+    "name": "Historical Site 264",
+    "type": "Monument",
+    "coordinates": [40.313443, 115.928671]
   },
   {
     "id": 265,
-    "name": "Art and History Museum (Zaporizhzhia) 4",
-    "type": "historical_museum",
-    "coordinates": [47.840507, 35.141354]
+    "name": "Historical Site 265",
+    "type": "Palace",
+    "coordinates": [40.373547, 116.391114]
   },
   {
     "id": 266,
-    "name": "Museum of Ukrainian History (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.826257, 35.147618]
+    "name": "Historical Site 266",
+    "type": "Ruins",
+    "coordinates": [51.744913, -0.245745]
   },
   {
     "id": 267,
-    "name": "Museum of Ukrainian History (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.832893, 35.135314]
+    "name": "Historical Site 267",
+    "type": "Museum",
+    "coordinates": [50.548158, 30.077599]
   },
   {
     "id": 268,
-    "name": "Aerospace Museum (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.782671, 35.140474]
+    "name": "Historical Site 268",
+    "type": "Castle",
+    "coordinates": [40.709603, 28.540186]
   },
   {
     "id": 269,
-    "name": "Aerospace Museum (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.843227, 35.136208]
+    "name": "Historical Site 269",
+    "type": "Ruins",
+    "coordinates": [48.838609, 2.212222]
   },
   {
     "id": 270,
-    "name": "Aerospace Museum (Zaporizhzhia) 3",
-    "type": "historical_museum",
-    "coordinates": [47.852004, 35.134927]
+    "name": "Historical Site 270",
+    "type": "Museum",
+    "coordinates": [19.258217, 72.815323]
   },
   {
     "id": 271,
-    "name": "Cossack Heritage Museum (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.839464, 35.141958]
+    "name": "Historical Site 271",
+    "type": "Palace",
+    "coordinates": [48.792816, 2.196689]
   },
   {
     "id": 272,
-    "name": "Cossack Heritage Museum (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.824626, 35.154685]
+    "name": "Historical Site 272",
+    "type": "Palace",
+    "coordinates": [-34.138064, 151.699635]
   },
   {
     "id": 273,
-    "name": "Railway Transport Museum (Zaporizhzhia)",
-    "type": "historical_museum",
-    "coordinates": [47.850699, 35.149945]
+    "name": "Historical Site 273",
+    "type": "Museum",
+    "coordinates": [51.077939, 0.104343]
   },
   {
     "id": 274,
-    "name": "Railway Transport Museum (Zaporizhzhia) 2",
-    "type": "historical_museum",
-    "coordinates": [47.873171, 35.090697]
+    "name": "Historical Site 274",
+    "type": "Castle",
+    "coordinates": [14.160046, 100.657853]
   },
   {
     "id": 275,
-    "name": "Railway Transport Museum (Zaporizhzhia) 3",
-    "type": "historical_museum",
-    "coordinates": [47.849932, 35.186359]
+    "name": "Historical Site 275",
+    "type": "Ruins",
+    "coordinates": [40.263449, -73.547744]
   },
   {
     "id": 276,
-    "name": "Railway Transport Museum (Zaporizhzhia) 4",
-    "type": "historical_museum",
-    "coordinates": [47.86969, 35.140246]
+    "name": "Historical Site 276",
+    "type": "Museum",
+    "coordinates": [33.891019, -118.46004]
   },
   {
     "id": 277,
-    "name": "Saint Sophia Cathedral (Zaporizhzhia)",
-    "type": "cathedral",
-    "coordinates": [47.838021, 35.139325]
+    "name": "Historical Site 277",
+    "type": "Museum",
+    "coordinates": [14.182783, 100.461818]
   },
   {
     "id": 278,
-    "name": "Saint Sophia Cathedral (Zaporizhzhia) 2",
-    "type": "cathedral",
-    "coordinates": [47.785875, 35.080145]
+    "name": "Historical Site 278",
+    "type": "Palace",
+    "coordinates": [40.16216, 116.019605]
   },
   {
     "id": 279,
-    "name": "Saint Sophia Cathedral (Zaporizhzhia) 3",
-    "type": "cathedral",
-    "coordinates": [47.852256, 35.190373]
+    "name": "Historical Site 279",
+    "type": "Monument",
+    "coordinates": [49.076921, 2.647909]
   },
   {
     "id": 280,
-    "name": "Saint Sophia Cathedral (Zaporizhzhia) 4",
-    "type": "cathedral",
-    "coordinates": [47.837325, 35.139189]
+    "name": "Historical Site 280",
+    "type": "Ruins",
+    "coordinates": [-34.115094, 151.141287]
   },
   {
     "id": 281,
-    "name": "Assumption Cathedral (Zaporizhzhia)",
-    "type": "cathedral",
-    "coordinates": [47.83575, 35.179532]
+    "name": "Historical Site 281",
+    "type": "Museum",
+    "coordinates": [40.885379, 29.289772]
   },
   {
     "id": 282,
-    "name": "Assumption Cathedral (Zaporizhzhia) 2",
-    "type": "cathedral",
-    "coordinates": [47.811779, 35.087258]
+    "name": "Historical Site 282",
+    "type": "Castle",
+    "coordinates": [51.538119, 0.29545]
   },
   {
     "id": 283,
-    "name": "Saint Michael's Cathedral (Zaporizhzhia)",
-    "type": "cathedral",
-    "coordinates": [47.839663, 35.074795]
+    "name": "Historical Site 283",
+    "type": "Museum",
+    "coordinates": [51.269098, -0.298041]
   },
   {
     "id": 284,
-    "name": "Saint Michael's Cathedral (Zaporizhzhia) 2",
-    "type": "cathedral",
-    "coordinates": [47.824776, 35.131098]
+    "name": "Historical Site 284",
+    "type": "Palace",
+    "coordinates": [35.836113, 139.841613]
   },
   {
     "id": 285,
-    "name": "Holy Trinity Cathedral (Zaporizhzhia)",
-    "type": "cathedral",
-    "coordinates": [47.836374, 35.141666]
+    "name": "Historical Site 285",
+    "type": "Ruins",
+    "coordinates": [35.791453, 139.839001]
   },
   {
     "id": 286,
-    "name": "Holy Trinity Cathedral (Zaporizhzhia) 2",
-    "type": "cathedral",
-    "coordinates": [47.838396, 35.139687]
+    "name": "Historical Site 286",
+    "type": "Palace",
+    "coordinates": [39.611759, 116.609187]
   },
   {
     "id": 287,
-    "name": "Holy Trinity Cathedral (Zaporizhzhia) 3",
-    "type": "cathedral",
-    "coordinates": [47.853436, 35.088263]
+    "name": "Historical Site 287",
+    "type": "Castle",
+    "coordinates": [19.189669, -99.032934]
   },
   {
     "id": 288,
-    "name": "Saint Peter and Paul Cathedral (Zaporizhzhia)",
-    "type": "cathedral",
-    "coordinates": [47.8339, 35.142452]
+    "name": "Historical Site 288",
+    "type": "Palace",
+    "coordinates": [40.098166, 115.943876]
   },
   {
     "id": 289,
-    "name": "Saint Peter and Paul Cathedral (Zaporizhzhia) 2",
-    "type": "cathedral",
-    "coordinates": [47.838954, 35.138916]
+    "name": "Historical Site 289",
+    "type": "Ruins",
+    "coordinates": [50.448772, 30.216526]
   },
   {
     "id": 290,
-    "name": "Saint Peter and Paul Cathedral (Zaporizhzhia) 3",
-    "type": "cathedral",
-    "coordinates": [47.8384, 35.125487]
+    "name": "Historical Site 290",
+    "type": "Museum",
+    "coordinates": [19.512469, -99.145404]
   },
   {
     "id": 291,
-    "name": "Saint Peter and Paul Cathedral (Zaporizhzhia) 4",
-    "type": "cathedral",
-    "coordinates": [47.856227, 35.141781]
+    "name": "Historical Site 291",
+    "type": "Museum",
+    "coordinates": [18.952026, -99.591098]
   },
   {
     "id": 292,
-    "name": "Saint Nicholas Church (Zaporizhzhia)",
-    "type": "church",
-    "coordinates": [47.881966, 35.147647]
+    "name": "Historical Site 292",
+    "type": "Palace",
+    "coordinates": [-33.738936, 151.686162]
   },
   {
     "id": 293,
-    "name": "Saint Nicholas Church (Zaporizhzhia) 2",
-    "type": "church",
-    "coordinates": [47.84172, 35.154782]
+    "name": "Historical Site 293",
+    "type": "Monument",
+    "coordinates": [40.341501, 115.914832]
   },
   {
     "id": 294,
-    "name": "Saint Nicholas Church (Zaporizhzhia) 3",
-    "type": "church",
-    "coordinates": [47.839445, 35.141475]
+    "name": "Historical Site 294",
+    "type": "Monument",
+    "coordinates": [-22.935408, -43.624956]
   },
   {
     "id": 295,
-    "name": "Saint Nicholas Church (Zaporizhzhia) 4",
-    "type": "church",
-    "coordinates": [47.813211, 35.156572]
+    "name": "Historical Site 295",
+    "type": "Ruins",
+    "coordinates": [40.914978, -74.476794]
   },
   {
     "id": 296,
-    "name": "Saint Vladimir Church (Zaporizhzhia)",
-    "type": "church",
-    "coordinates": [47.785954, 35.105789]
+    "name": "Historical Site 296",
+    "type": "Ruins",
+    "coordinates": [51.099784, 0.008171]
   },
   {
     "id": 297,
-    "name": "Saint Vladimir Church (Zaporizhzhia) 2",
-    "type": "church",
-    "coordinates": [47.83606, 35.139782]
+    "name": "Historical Site 297",
+    "type": "Castle",
+    "coordinates": [19.290543, -99.068778]
   },
   {
     "id": 298,
-    "name": "St. Nicholas Monastery (Zaporizhzhia)",
-    "type": "church",
-    "coordinates": [47.842046, 35.05345]
+    "name": "Historical Site 298",
+    "type": "Ruins",
+    "coordinates": [41.318745, 29.318946]
   },
   {
     "id": 299,
-    "name": "St. Nicholas Monastery (Zaporizhzhia) 2",
-    "type": "church",
-    "coordinates": [47.837324, 35.140725]
+    "name": "Historical Site 299",
+    "type": "Ruins",
+    "coordinates": [50.008402, 30.093304]
   },
   {
     "id": 300,
-    "name": "St. Nicholas Monastery (Zaporizhzhia) 3",
-    "type": "church",
-    "coordinates": [47.8948, 35.152318]
+    "name": "Historical Site 300",
+    "type": "Palace",
+    "coordinates": [34.282832, -118.367427]
   },
   {
     "id": 301,
-    "name": "National Historical Museum (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.20663, 28.497766]
+    "name": "Historical Site 301",
+    "type": "Ruins",
+    "coordinates": [29.68064, 31.252597]
   },
   {
     "id": 302,
-    "name": "National Historical Museum (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.228499, 28.465382]
+    "name": "Historical Site 302",
+    "type": "Castle",
+    "coordinates": [51.798283, 0.309868]
   },
   {
     "id": 303,
-    "name": "National Historical Museum (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.236952, 28.45922]
+    "name": "Historical Site 303",
+    "type": "Castle",
+    "coordinates": [13.652112, 100.482336]
   },
   {
     "id": 304,
-    "name": "House–Museum of Taras Shevchenko (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.242319, 28.475227]
+    "name": "Historical Site 304",
+    "type": "Ruins",
+    "coordinates": [48.539849, 2.144863]
   },
   {
     "id": 305,
-    "name": "House–Museum of Taras Shevchenko (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.236503, 28.470168]
+    "name": "Historical Site 305",
+    "type": "Ruins",
+    "coordinates": [40.346841, -73.653803]
   },
   {
     "id": 306,
-    "name": "House–Museum of Taras Shevchenko (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.212235, 28.440096]
+    "name": "Historical Site 306",
+    "type": "Ruins",
+    "coordinates": [40.521604, 28.90452]
   },
   {
     "id": 307,
-    "name": "House–Museum of Taras Shevchenko (Vinnytsia) 4",
-    "type": "historical_museum",
-    "coordinates": [49.204556, 28.495332]
+    "name": "Historical Site 307",
+    "type": "Ruins",
+    "coordinates": [39.82541, 116.090732]
   },
   {
     "id": 308,
-    "name": "Battlefield Memorial Museum (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.240103, 28.450202]
+    "name": "Historical Site 308",
+    "type": "Palace",
+    "coordinates": [41.086505, 29.370056]
   },
   {
     "id": 309,
-    "name": "Battlefield Memorial Museum (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.234812, 28.451663]
+    "name": "Historical Site 309",
+    "type": "Castle",
+    "coordinates": [19.503237, 72.624048]
   },
   {
     "id": 310,
-    "name": "Battlefield Memorial Museum (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.229718, 28.429702]
+    "name": "Historical Site 310",
+    "type": "Monument",
+    "coordinates": [-22.707525, -43.236691]
   },
   {
     "id": 311,
-    "name": "Art and History Museum (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.277802, 28.493357]
+    "name": "Historical Site 311",
+    "type": "Ruins",
+    "coordinates": [50.140599, 30.458062]
   },
   {
     "id": 312,
-    "name": "Art and History Museum (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.216051, 28.45308]
+    "name": "Historical Site 312",
+    "type": "Palace",
+    "coordinates": [40.327167, -73.859467]
   },
   {
     "id": 313,
-    "name": "Art and History Museum (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.230007, 28.456888]
+    "name": "Historical Site 313",
+    "type": "Museum",
+    "coordinates": [30.357075, 31.072686]
   },
   {
     "id": 314,
-    "name": "Art and History Museum (Vinnytsia) 4",
-    "type": "historical_museum",
-    "coordinates": [49.233833, 28.47045]
+    "name": "Historical Site 314",
+    "type": "Ruins",
+    "coordinates": [40.954448, 28.771841]
   },
   {
     "id": 315,
-    "name": "Museum of Ukrainian History (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.220215, 28.452279]
+    "name": "Historical Site 315",
+    "type": "Palace",
+    "coordinates": [51.718975, -0.151306]
   },
   {
     "id": 316,
-    "name": "Museum of Ukrainian History (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.239943, 28.469014]
+    "name": "Historical Site 316",
+    "type": "Palace",
+    "coordinates": [-33.968159, 151.089635]
   },
   {
     "id": 317,
-    "name": "Museum of Ukrainian History (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.224657, 28.477248]
+    "name": "Historical Site 317",
+    "type": "Palace",
+    "coordinates": [50.305949, 30.176439]
   },
   {
     "id": 318,
-    "name": "Aerospace Museum (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.262468, 28.497346]
+    "name": "Historical Site 318",
+    "type": "Castle",
+    "coordinates": [13.944841, 100.423191]
   },
   {
     "id": 319,
-    "name": "Aerospace Museum (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.237419, 28.456862]
+    "name": "Historical Site 319",
+    "type": "Ruins",
+    "coordinates": [-22.71391, -42.674299]
   },
   {
     "id": 320,
-    "name": "Aerospace Museum (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.205614, 28.500687]
+    "name": "Historical Site 320",
+    "type": "Monument",
+    "coordinates": [50.010751, 30.741925]
   },
   {
     "id": 321,
-    "name": "Cossack Heritage Museum (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.236806, 28.471882]
+    "name": "Historical Site 321",
+    "type": "Ruins",
+    "coordinates": [13.882866, 100.966001]
   },
   {
     "id": 322,
-    "name": "Cossack Heritage Museum (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.218125, 28.477205]
+    "name": "Historical Site 322",
+    "type": "Castle",
+    "coordinates": [41.025569, 28.563632]
   },
   {
     "id": 323,
-    "name": "Cossack Heritage Museum (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.241951, 28.473693]
+    "name": "Historical Site 323",
+    "type": "Monument",
+    "coordinates": [49.314425, 2.324712]
   },
   {
     "id": 324,
-    "name": "Cossack Heritage Museum (Vinnytsia) 4",
-    "type": "historical_museum",
-    "coordinates": [49.175432, 28.485797]
+    "name": "Historical Site 324",
+    "type": "Museum",
+    "coordinates": [40.681352, 28.953807]
   },
   {
     "id": 325,
-    "name": "Railway Transport Museum (Vinnytsia)",
-    "type": "historical_museum",
-    "coordinates": [49.234057, 28.467823]
+    "name": "Historical Site 325",
+    "type": "Castle",
+    "coordinates": [19.342799, 72.689868]
   },
   {
     "id": 326,
-    "name": "Railway Transport Museum (Vinnytsia) 2",
-    "type": "historical_museum",
-    "coordinates": [49.253143, 28.491904]
+    "name": "Historical Site 326",
+    "type": "Museum",
+    "coordinates": [-22.55335, -43.449623]
   },
   {
     "id": 327,
-    "name": "Railway Transport Museum (Vinnytsia) 3",
-    "type": "historical_museum",
-    "coordinates": [49.261825, 28.4999]
+    "name": "Historical Site 327",
+    "type": "Monument",
+    "coordinates": [40.921539, -73.589738]
   },
   {
     "id": 328,
-    "name": "Railway Transport Museum (Vinnytsia) 4",
-    "type": "historical_museum",
-    "coordinates": [49.255921, 28.481382]
+    "name": "Historical Site 328",
+    "type": "Monument",
+    "coordinates": [35.7777, 139.517464]
   },
   {
     "id": 329,
-    "name": "Saint Sophia Cathedral (Vinnytsia)",
-    "type": "cathedral",
-    "coordinates": [49.198311, 28.45437]
+    "name": "Historical Site 329",
+    "type": "Palace",
+    "coordinates": [30.475436, 31.577032]
   },
   {
     "id": 330,
-    "name": "Saint Sophia Cathedral (Vinnytsia) 2",
-    "type": "cathedral",
-    "coordinates": [49.231214, 28.480574]
+    "name": "Historical Site 330",
+    "type": "Monument",
+    "coordinates": [34.173955, -118.030913]
   },
   {
     "id": 331,
-    "name": "Saint Sophia Cathedral (Vinnytsia) 3",
-    "type": "cathedral",
-    "coordinates": [49.227029, 28.489343]
+    "name": "Historical Site 331",
+    "type": "Ruins",
+    "coordinates": [39.738349, 116.714473]
   },
   {
     "id": 332,
-    "name": "Assumption Cathedral (Vinnytsia)",
-    "type": "cathedral",
-    "coordinates": [49.188274, 28.495909]
+    "name": "Historical Site 332",
+    "type": "Palace",
+    "coordinates": [49.104304, 2.260239]
   },
   {
     "id": 333,
-    "name": "Assumption Cathedral (Vinnytsia) 2",
-    "type": "cathedral",
-    "coordinates": [49.232937, 28.468036]
+    "name": "Historical Site 333",
+    "type": "Monument",
+    "coordinates": [50.079082, 30.57248]
   },
   {
     "id": 334,
-    "name": "Assumption Cathedral (Vinnytsia) 3",
-    "type": "cathedral",
-    "coordinates": [49.226001, 28.457809]
+    "name": "Historical Site 334",
+    "type": "Monument",
+    "coordinates": [50.19617, 30.653871]
   },
   {
     "id": 335,
-    "name": "Assumption Cathedral (Vinnytsia) 4",
-    "type": "cathedral",
-    "coordinates": [49.235035, 28.470387]
+    "name": "Historical Site 335",
+    "type": "Museum",
+    "coordinates": [40.795345, 28.675331]
   },
   {
     "id": 336,
-    "name": "Saint Michael's Cathedral (Vinnytsia)",
-    "type": "cathedral",
-    "coordinates": [49.260059, 28.517503]
+    "name": "Historical Site 336",
+    "type": "Monument",
+    "coordinates": [19.589409, -99.058869]
   },
   {
     "id": 337,
-    "name": "Saint Michael's Cathedral (Vinnytsia) 2",
-    "type": "cathedral",
-    "coordinates": [49.239475, 28.49741]
+    "name": "Historical Site 337",
+    "type": "Castle",
+    "coordinates": [18.820126, 73.190826]
   },
   {
     "id": 338,
-    "name": "Saint Michael's Cathedral (Vinnytsia) 3",
-    "type": "cathedral",
-    "coordinates": [49.206825, 28.478555]
+    "name": "Historical Site 338",
+    "type": "Monument",
+    "coordinates": [34.358558, -118.304448]
   },
   {
     "id": 339,
-    "name": "Saint Michael's Cathedral (Vinnytsia) 4",
-    "type": "cathedral",
-    "coordinates": [49.237036, 28.468783]
+    "name": "Historical Site 339",
+    "type": "Monument",
+    "coordinates": [19.333031, 72.395048]
   },
   {
     "id": 340,
-    "name": "Holy Trinity Cathedral (Vinnytsia)",
-    "type": "cathedral",
-    "coordinates": [49.259739, 28.453904]
+    "name": "Historical Site 340",
+    "type": "Ruins",
+    "coordinates": [30.506166, 31.344099]
   },
   {
     "id": 341,
-    "name": "Holy Trinity Cathedral (Vinnytsia) 2",
-    "type": "cathedral",
-    "coordinates": [49.207756, 28.490599]
+    "name": "Historical Site 341",
+    "type": "Castle",
+    "coordinates": [19.319439, 73.206588]
   },
   {
     "id": 342,
-    "name": "Holy Trinity Cathedral (Vinnytsia) 3",
-    "type": "cathedral",
-    "coordinates": [49.218404, 28.501306]
+    "name": "Historical Site 342",
+    "type": "Ruins",
+    "coordinates": [18.848091, 73.207132]
   },
   {
     "id": 343,
-    "name": "Saint Peter and Paul Cathedral (Vinnytsia)",
-    "type": "cathedral",
-    "coordinates": [49.219818, 28.448869]
+    "name": "Historical Site 343",
+    "type": "Monument",
+    "coordinates": [50.284367, 30.274932]
   },
   {
     "id": 344,
-    "name": "Saint Peter and Paul Cathedral (Vinnytsia) 2",
-    "type": "cathedral",
-    "coordinates": [49.226076, 28.498145]
+    "name": "Historical Site 344",
+    "type": "Ruins",
+    "coordinates": [-22.876799, -43.128316]
   },
   {
     "id": 345,
-    "name": "Saint Peter and Paul Cathedral (Vinnytsia) 3",
-    "type": "cathedral",
-    "coordinates": [49.205165, 28.447911]
+    "name": "Historical Site 345",
+    "type": "Castle",
+    "coordinates": [-22.472128, -43.118655]
   },
   {
     "id": 346,
-    "name": "Saint Peter and Paul Cathedral (Vinnytsia) 4",
-    "type": "cathedral",
-    "coordinates": [49.231542, 28.467727]
+    "name": "Historical Site 346",
+    "type": "Palace",
+    "coordinates": [-22.961666, -43.306732]
   },
   {
     "id": 347,
-    "name": "Saint Nicholas Church (Vinnytsia)",
-    "type": "church",
-    "coordinates": [49.238931, 28.460905]
+    "name": "Historical Site 347",
+    "type": "Museum",
+    "coordinates": [-34.29934, 151.697734]
   },
   {
     "id": 348,
-    "name": "Saint Nicholas Church (Vinnytsia) 2",
-    "type": "church",
-    "coordinates": [49.223022, 28.479135]
+    "name": "Historical Site 348",
+    "type": "Ruins",
+    "coordinates": [19.432488, -99.562975]
   },
   {
     "id": 349,
-    "name": "Saint Vladimir Church (Vinnytsia)",
-    "type": "church",
-    "coordinates": [49.202577, 28.52618]
+    "name": "Historical Site 349",
+    "type": "Monument",
+    "coordinates": [-22.626809, -43.549741]
   },
   {
     "id": 350,
-    "name": "Saint Vladimir Church (Vinnytsia) 2",
-    "type": "church",
-    "coordinates": [49.233312, 28.432546]
+    "name": "Historical Site 350",
+    "type": "Castle",
+    "coordinates": [35.671893, 139.781924]
   },
   {
     "id": 351,
-    "name": "National Historical Museum (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.587697, 34.549877]
+    "name": "Historical Site 351",
+    "type": "Ruins",
+    "coordinates": [-33.61681, 151.438938]
   },
   {
     "id": 352,
-    "name": "National Historical Museum (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.65592, 34.565774]
+    "name": "Historical Site 352",
+    "type": "Palace",
+    "coordinates": [13.420709, 100.950558]
   },
   {
     "id": 353,
-    "name": "National Historical Museum (Poltava) 3",
-    "type": "historical_museum",
-    "coordinates": [49.590647, 34.547909]
+    "name": "Historical Site 353",
+    "type": "Museum",
+    "coordinates": [50.504232, 30.270778]
   },
   {
     "id": 354,
-    "name": "National Historical Museum (Poltava) 4",
-    "type": "historical_museum",
-    "coordinates": [49.591723, 34.537379]
+    "name": "Historical Site 354",
+    "type": "Museum",
+    "coordinates": [40.576332, -73.57572]
   },
   {
     "id": 355,
-    "name": "House–Museum of Taras Shevchenko (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.591976, 34.553928]
+    "name": "Historical Site 355",
+    "type": "Ruins",
+    "coordinates": [40.843703, -73.99325]
   },
   {
     "id": 356,
-    "name": "House–Museum of Taras Shevchenko (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.609847, 34.569226]
+    "name": "Historical Site 356",
+    "type": "Monument",
+    "coordinates": [29.850565, 31.019309]
   },
   {
     "id": 357,
-    "name": "House–Museum of Taras Shevchenko (Poltava) 3",
-    "type": "historical_museum",
-    "coordinates": [49.582676, 34.577307]
+    "name": "Historical Site 357",
+    "type": "Castle",
+    "coordinates": [30.537524, 31.12035]
   },
   {
     "id": 358,
-    "name": "House–Museum of Taras Shevchenko (Poltava) 4",
-    "type": "historical_museum",
-    "coordinates": [49.597387, 34.554152]
+    "name": "Historical Site 358",
+    "type": "Monument",
+    "coordinates": [35.704138, 139.301574]
   },
   {
     "id": 359,
-    "name": "Battlefield Memorial Museum (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.595578, 34.575184]
+    "name": "Historical Site 359",
+    "type": "Palace",
+    "coordinates": [29.567206, 31.494805]
   },
   {
     "id": 360,
-    "name": "Battlefield Memorial Museum (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.6034, 34.561499]
+    "name": "Historical Site 360",
+    "type": "Castle",
+    "coordinates": [41.076895, -74.280254]
   },
   {
     "id": 361,
-    "name": "Art and History Museum (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.569728, 34.526271]
+    "name": "Historical Site 361",
+    "type": "Museum",
+    "coordinates": [51.766668, 0.205371]
   },
   {
     "id": 362,
-    "name": "Art and History Museum (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.59128, 34.551537]
+    "name": "Historical Site 362",
+    "type": "Museum",
+    "coordinates": [-33.693419, 150.983388]
   },
   {
     "id": 363,
-    "name": "Museum of Ukrainian History (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.611553, 34.551702]
+    "name": "Historical Site 363",
+    "type": "Ruins",
+    "coordinates": [-22.494657, -43.593567]
   },
   {
     "id": 364,
-    "name": "Museum of Ukrainian History (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.591315, 34.566683]
+    "name": "Historical Site 364",
+    "type": "Castle",
+    "coordinates": [19.057716, 72.520835]
   },
   {
     "id": 365,
-    "name": "Museum of Ukrainian History (Poltava) 3",
-    "type": "historical_museum",
-    "coordinates": [49.578397, 34.564473]
+    "name": "Historical Site 365",
+    "type": "Ruins",
+    "coordinates": [13.633449, 100.161139]
   },
   {
     "id": 366,
-    "name": "Aerospace Museum (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.575452, 34.511523]
+    "name": "Historical Site 366",
+    "type": "Monument",
+    "coordinates": [40.285544, 116.458469]
   },
   {
     "id": 367,
-    "name": "Aerospace Museum (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.62947, 34.578567]
+    "name": "Historical Site 367",
+    "type": "Museum",
+    "coordinates": [13.916025, 100.294391]
   },
   {
     "id": 368,
-    "name": "Aerospace Museum (Poltava) 3",
-    "type": "historical_museum",
-    "coordinates": [49.584839, 34.574377]
+    "name": "Historical Site 368",
+    "type": "Ruins",
+    "coordinates": [-33.662978, 151.265143]
   },
   {
     "id": 369,
-    "name": "Aerospace Museum (Poltava) 4",
-    "type": "historical_museum",
-    "coordinates": [49.588276, 34.526722]
+    "name": "Historical Site 369",
+    "type": "Palace",
+    "coordinates": [30.262017, 30.756064]
   },
   {
     "id": 370,
-    "name": "Cossack Heritage Museum (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.574234, 34.619733]
+    "name": "Historical Site 370",
+    "type": "Palace",
+    "coordinates": [39.787254, 116.847436]
   },
   {
     "id": 371,
-    "name": "Cossack Heritage Museum (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.588648, 34.551454]
+    "name": "Historical Site 371",
+    "type": "Ruins",
+    "coordinates": [40.619957, 29.022568]
   },
   {
     "id": 372,
-    "name": "Cossack Heritage Museum (Poltava) 3",
-    "type": "historical_museum",
-    "coordinates": [49.64808, 34.561259]
+    "name": "Historical Site 372",
+    "type": "Ruins",
+    "coordinates": [-33.598924, 151.303458]
   },
   {
     "id": 373,
-    "name": "Railway Transport Museum (Poltava)",
-    "type": "historical_museum",
-    "coordinates": [49.601741, 34.524537]
+    "name": "Historical Site 373",
+    "type": "Palace",
+    "coordinates": [13.465027, 100.007018]
   },
   {
     "id": 374,
-    "name": "Railway Transport Museum (Poltava) 2",
-    "type": "historical_museum",
-    "coordinates": [49.589303, 34.551738]
+    "name": "Historical Site 374",
+    "type": "Museum",
+    "coordinates": [29.615531, 30.877616]
   },
   {
     "id": 375,
-    "name": "Railway Transport Museum (Poltava) 3",
-    "type": "historical_museum",
-    "coordinates": [49.588027, 34.553234]
+    "name": "Historical Site 375",
+    "type": "Museum",
+    "coordinates": [19.041403, 72.734392]
   },
   {
     "id": 376,
-    "name": "Railway Transport Museum (Poltava) 4",
-    "type": "historical_museum",
-    "coordinates": [49.588341, 34.551394]
+    "name": "Historical Site 376",
+    "type": "Ruins",
+    "coordinates": [50.372158, 30.046191]
   },
   {
     "id": 377,
-    "name": "Saint Sophia Cathedral (Poltava)",
-    "type": "cathedral",
-    "coordinates": [49.588593, 34.549734]
+    "name": "Historical Site 377",
+    "type": "Palace",
+    "coordinates": [41.037845, 28.947628]
   },
   {
     "id": 378,
-    "name": "Saint Sophia Cathedral (Poltava) 2",
-    "type": "cathedral",
-    "coordinates": [49.58248, 34.55337]
+    "name": "Historical Site 378",
+    "type": "Castle",
+    "coordinates": [51.516489, -0.48705]
   },
   {
     "id": 379,
-    "name": "Assumption Cathedral (Poltava)",
-    "type": "cathedral",
-    "coordinates": [49.593275, 34.552415]
+    "name": "Historical Site 379",
+    "type": "Ruins",
+    "coordinates": [50.156289, 30.563806]
   },
   {
     "id": 380,
-    "name": "Assumption Cathedral (Poltava) 2",
-    "type": "cathedral",
-    "coordinates": [49.586729, 34.544644]
+    "name": "Historical Site 380",
+    "type": "Palace",
+    "coordinates": [40.659516, 28.763394]
   },
   {
     "id": 381,
-    "name": "Assumption Cathedral (Poltava) 3",
-    "type": "cathedral",
-    "coordinates": [49.60891, 34.588927]
+    "name": "Historical Site 381",
+    "type": "Monument",
+    "coordinates": [30.127896, 31.377956]
   },
   {
     "id": 382,
-    "name": "Assumption Cathedral (Poltava) 4",
-    "type": "cathedral",
-    "coordinates": [49.584972, 34.520786]
+    "name": "Historical Site 382",
+    "type": "Castle",
+    "coordinates": [-34.04912, 151.065857]
   },
   {
     "id": 383,
-    "name": "Saint Michael's Cathedral (Poltava)",
-    "type": "cathedral",
-    "coordinates": [49.622456, 34.527858]
+    "name": "Historical Site 383",
+    "type": "Castle",
+    "coordinates": [35.685475, 139.17255]
   },
   {
     "id": 384,
-    "name": "Saint Michael's Cathedral (Poltava) 2",
-    "type": "cathedral",
-    "coordinates": [49.550801, 34.598762]
+    "name": "Historical Site 384",
+    "type": "Monument",
+    "coordinates": [40.834228, -73.685383]
   },
   {
     "id": 385,
-    "name": "Holy Trinity Cathedral (Poltava)",
-    "type": "cathedral",
-    "coordinates": [49.588245, 34.551438]
+    "name": "Historical Site 385",
+    "type": "Monument",
+    "coordinates": [30.088453, 31.109356]
   },
   {
     "id": 386,
-    "name": "Holy Trinity Cathedral (Poltava) 2",
-    "type": "cathedral",
-    "coordinates": [49.580327, 34.540833]
+    "name": "Historical Site 386",
+    "type": "Monument",
+    "coordinates": [-34.244683, 151.338871]
   },
   {
     "id": 387,
-    "name": "Holy Trinity Cathedral (Poltava) 3",
-    "type": "cathedral",
-    "coordinates": [49.538576, 34.522552]
+    "name": "Historical Site 387",
+    "type": "Monument",
+    "coordinates": [35.232011, 139.817152]
   },
   {
     "id": 388,
-    "name": "Holy Trinity Cathedral (Poltava) 4",
-    "type": "cathedral",
-    "coordinates": [49.584255, 34.539129]
+    "name": "Historical Site 388",
+    "type": "Palace",
+    "coordinates": [30.460552, 31.244765]
   },
   {
     "id": 389,
-    "name": "Saint Peter and Paul Cathedral (Poltava)",
-    "type": "cathedral",
-    "coordinates": [49.552951, 34.583321]
+    "name": "Historical Site 389",
+    "type": "Monument",
+    "coordinates": [35.540838, 139.275353]
   },
   {
     "id": 390,
-    "name": "Saint Peter and Paul Cathedral (Poltava) 2",
-    "type": "cathedral",
-    "coordinates": [49.63602, 34.605139]
+    "name": "Historical Site 390",
+    "type": "Ruins",
+    "coordinates": [30.237263, 30.776706]
   },
   {
     "id": 391,
-    "name": "Saint Peter and Paul Cathedral (Poltava) 3",
-    "type": "cathedral",
-    "coordinates": [49.591616, 34.549671]
+    "name": "Historical Site 391",
+    "type": "Museum",
+    "coordinates": [-22.580817, -43.072677]
   },
   {
     "id": 392,
-    "name": "Saint Nicholas Church (Poltava)",
-    "type": "church",
-    "coordinates": [49.556925, 34.513607]
+    "name": "Historical Site 392",
+    "type": "Ruins",
+    "coordinates": [18.953769, 72.81662]
   },
   {
     "id": 393,
-    "name": "Saint Nicholas Church (Poltava) 2",
-    "type": "church",
-    "coordinates": [49.59168, 34.53873]
+    "name": "Historical Site 393",
+    "type": "Ruins",
+    "coordinates": [-22.605612, -42.838824]
   },
   {
     "id": 394,
-    "name": "Saint Nicholas Church (Poltava) 3",
-    "type": "church",
-    "coordinates": [49.590488, 34.554907]
+    "name": "Historical Site 394",
+    "type": "Ruins",
+    "coordinates": [40.276609, 116.11985]
   },
   {
     "id": 395,
-    "name": "Saint Nicholas Church (Poltava) 4",
-    "type": "church",
-    "coordinates": [49.621348, 34.638512]
+    "name": "Historical Site 395",
+    "type": "Palace",
+    "coordinates": [13.806648, 100.069531]
   },
   {
     "id": 396,
-    "name": "Saint Vladimir Church (Poltava)",
-    "type": "church",
-    "coordinates": [49.588934, 34.553838]
+    "name": "Historical Site 396",
+    "type": "Palace",
+    "coordinates": [19.442969, 73.028157]
   },
   {
     "id": 397,
-    "name": "Saint Vladimir Church (Poltava) 2",
-    "type": "church",
-    "coordinates": [49.58448, 34.562382]
+    "name": "Historical Site 397",
+    "type": "Castle",
+    "coordinates": [50.555224, 30.085279]
   },
   {
     "id": 398,
-    "name": "Saint Vladimir Church (Poltava) 3",
-    "type": "church",
-    "coordinates": [49.603703, 34.542558]
+    "name": "Historical Site 398",
+    "type": "Museum",
+    "coordinates": [51.720514, -0.110292]
   },
   {
     "id": 399,
-    "name": "St. Nicholas Monastery (Poltava)",
-    "type": "church",
-    "coordinates": [49.640319, 34.554205]
+    "name": "Historical Site 399",
+    "type": "Castle",
+    "coordinates": [34.518461, -117.950066]
   },
   {
     "id": 400,
-    "name": "St. Nicholas Monastery (Poltava) 2",
-    "type": "church",
-    "coordinates": [49.578145, 34.533409]
+    "name": "Historical Site 400",
+    "type": "Palace",
+    "coordinates": [19.326286, 73.326691]
   },
   {
     "id": 401,
-    "name": "National Historical Museum (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.889617, 24.674378]
+    "name": "Historical Site 401",
+    "type": "Ruins",
+    "coordinates": [50.708813, 30.954027]
   },
   {
     "id": 402,
-    "name": "National Historical Museum (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.925813, 24.742669]
+    "name": "Historical Site 402",
+    "type": "Ruins",
+    "coordinates": [36.130112, 139.220962]
   },
   {
     "id": 403,
-    "name": "House–Museum of Taras Shevchenko (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.913642, 24.648378]
+    "name": "Historical Site 403",
+    "type": "Castle",
+    "coordinates": [18.744773, 72.854807]
   },
   {
     "id": 404,
-    "name": "House–Museum of Taras Shevchenko (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.92929, 24.708545]
+    "name": "Historical Site 404",
+    "type": "Palace",
+    "coordinates": [35.750306, 139.369834]
   },
   {
     "id": 405,
-    "name": "House–Museum of Taras Shevchenko (Ivano-Frankivsk) 3",
-    "type": "historical_museum",
-    "coordinates": [48.973269, 24.676785]
+    "name": "Historical Site 405",
+    "type": "Monument",
+    "coordinates": [13.493337, 100.459312]
   },
   {
     "id": 406,
-    "name": "Battlefield Memorial Museum (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.931332, 24.698893]
+    "name": "Historical Site 406",
+    "type": "Ruins",
+    "coordinates": [29.700454, 31.055195]
   },
   {
     "id": 407,
-    "name": "Battlefield Memorial Museum (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.917467, 24.724025]
+    "name": "Historical Site 407",
+    "type": "Monument",
+    "coordinates": [34.107849, -118.292773]
   },
   {
     "id": 408,
-    "name": "Battlefield Memorial Museum (Ivano-Frankivsk) 3",
-    "type": "historical_museum",
-    "coordinates": [48.937383, 24.684823]
+    "name": "Historical Site 408",
+    "type": "Museum",
+    "coordinates": [50.067645, 30.984795]
   },
   {
     "id": 409,
-    "name": "Art and History Museum (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.920895, 24.708355]
+    "name": "Historical Site 409",
+    "type": "Palace",
+    "coordinates": [33.765933, -118.117183]
   },
   {
     "id": 410,
-    "name": "Art and History Museum (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.919477, 24.709073]
+    "name": "Historical Site 410",
+    "type": "Castle",
+    "coordinates": [30.338026, 30.913199]
   },
   {
     "id": 411,
-    "name": "Museum of Ukrainian History (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.931251, 24.721218]
+    "name": "Historical Site 411",
+    "type": "Museum",
+    "coordinates": [-23.329707, -43.05853]
   },
   {
     "id": 412,
-    "name": "Museum of Ukrainian History (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.921326, 24.707249]
+    "name": "Historical Site 412",
+    "type": "Monument",
+    "coordinates": [13.592212, 100.002877]
   },
   {
     "id": 413,
-    "name": "Museum of Ukrainian History (Ivano-Frankivsk) 3",
-    "type": "historical_museum",
-    "coordinates": [48.867162, 24.743194]
+    "name": "Historical Site 413",
+    "type": "Palace",
+    "coordinates": [40.252707, 115.971072]
   },
   {
     "id": 414,
-    "name": "Museum of Ukrainian History (Ivano-Frankivsk) 4",
-    "type": "historical_museum",
-    "coordinates": [48.917143, 24.744754]
+    "name": "Historical Site 414",
+    "type": "Castle",
+    "coordinates": [40.644066, 29.036279]
   },
   {
     "id": 415,
-    "name": "Aerospace Museum (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.975143, 24.702244]
+    "name": "Historical Site 415",
+    "type": "Museum",
+    "coordinates": [40.863809, 28.934065]
   },
   {
     "id": 416,
-    "name": "Aerospace Museum (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.926412, 24.6994]
+    "name": "Historical Site 416",
+    "type": "Monument",
+    "coordinates": [39.522735, 116.53418]
   },
   {
     "id": 417,
-    "name": "Cossack Heritage Museum (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.906491, 24.788915]
+    "name": "Historical Site 417",
+    "type": "Monument",
+    "coordinates": [50.267272, 30.661232]
   },
   {
     "id": 418,
-    "name": "Cossack Heritage Museum (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.994148, 24.704112]
+    "name": "Historical Site 418",
+    "type": "Palace",
+    "coordinates": [19.753326, -98.708565]
   },
   {
     "id": 419,
-    "name": "Railway Transport Museum (Ivano-Frankivsk)",
-    "type": "historical_museum",
-    "coordinates": [48.917516, 24.71118]
+    "name": "Historical Site 419",
+    "type": "Monument",
+    "coordinates": [35.216155, 139.536621]
   },
   {
     "id": 420,
-    "name": "Railway Transport Museum (Ivano-Frankivsk) 2",
-    "type": "historical_museum",
-    "coordinates": [48.916366, 24.647629]
+    "name": "Historical Site 420",
+    "type": "Castle",
+    "coordinates": [19.322793, 72.490511]
   },
   {
     "id": 421,
-    "name": "Railway Transport Museum (Ivano-Frankivsk) 3",
-    "type": "historical_museum",
-    "coordinates": [48.915115, 24.725045]
+    "name": "Historical Site 421",
+    "type": "Castle",
+    "coordinates": [-22.600264, -43.217385]
   },
   {
     "id": 422,
-    "name": "Railway Transport Museum (Ivano-Frankivsk) 4",
-    "type": "historical_museum",
-    "coordinates": [48.959917, 24.67683]
+    "name": "Historical Site 422",
+    "type": "Monument",
+    "coordinates": [48.730658, 2.154596]
   },
   {
     "id": 423,
-    "name": "Saint Sophia Cathedral (Ivano-Frankivsk)",
-    "type": "cathedral",
-    "coordinates": [48.934151, 24.701023]
+    "name": "Historical Site 423",
+    "type": "Monument",
+    "coordinates": [48.776761, 2.186257]
   },
   {
     "id": 424,
-    "name": "Saint Sophia Cathedral (Ivano-Frankivsk) 2",
-    "type": "cathedral",
-    "coordinates": [48.927468, 24.715971]
+    "name": "Historical Site 424",
+    "type": "Palace",
+    "coordinates": [19.096872, 72.541592]
   },
   {
     "id": 425,
-    "name": "Assumption Cathedral (Ivano-Frankivsk)",
-    "type": "cathedral",
-    "coordinates": [48.914381, 24.716993]
+    "name": "Historical Site 425",
+    "type": "Museum",
+    "coordinates": [19.18372, -98.691375]
   },
   {
     "id": 426,
-    "name": "Assumption Cathedral (Ivano-Frankivsk) 2",
-    "type": "cathedral",
-    "coordinates": [48.925487, 24.712637]
+    "name": "Historical Site 426",
+    "type": "Monument",
+    "coordinates": [30.417803, 30.947482]
   },
   {
     "id": 427,
-    "name": "Assumption Cathedral (Ivano-Frankivsk) 3",
-    "type": "cathedral",
-    "coordinates": [48.921404, 24.70112]
+    "name": "Historical Site 427",
+    "type": "Palace",
+    "coordinates": [29.728766, 30.830715]
   },
   {
     "id": 428,
-    "name": "Assumption Cathedral (Ivano-Frankivsk) 4",
-    "type": "cathedral",
-    "coordinates": [48.912731, 24.720479]
+    "name": "Historical Site 428",
+    "type": "Ruins",
+    "coordinates": [48.828002, 2.083187]
   },
   {
     "id": 429,
-    "name": "Saint Michael's Cathedral (Ivano-Frankivsk)",
-    "type": "cathedral",
-    "coordinates": [48.878459, 24.744072]
+    "name": "Historical Site 429",
+    "type": "Palace",
+    "coordinates": [50.820458, 30.504411]
   },
   {
     "id": 430,
-    "name": "Saint Michael's Cathedral (Ivano-Frankivsk) 2",
-    "type": "cathedral",
-    "coordinates": [48.921806, 24.711323]
+    "name": "Historical Site 430",
+    "type": "Ruins",
+    "coordinates": [19.833055, -99.31689]
   },
   {
     "id": 431,
-    "name": "Saint Michael's Cathedral (Ivano-Frankivsk) 3",
-    "type": "cathedral",
-    "coordinates": [48.924545, 24.709936]
+    "name": "Historical Site 431",
+    "type": "Castle",
+    "coordinates": [41.134689, -74.303929]
   },
   {
     "id": 432,
-    "name": "Saint Michael's Cathedral (Ivano-Frankivsk) 4",
-    "type": "cathedral",
-    "coordinates": [48.948889, 24.701154]
+    "name": "Historical Site 432",
+    "type": "Palace",
+    "coordinates": [51.761269, -0.25115]
   },
   {
     "id": 433,
-    "name": "Holy Trinity Cathedral (Ivano-Frankivsk)",
-    "type": "cathedral",
-    "coordinates": [48.942914, 24.754241]
+    "name": "Historical Site 433",
+    "type": "Palace",
+    "coordinates": [40.065148, 115.949343]
   },
   {
     "id": 434,
-    "name": "Holy Trinity Cathedral (Ivano-Frankivsk) 2",
-    "type": "cathedral",
-    "coordinates": [48.886467, 24.751878]
+    "name": "Historical Site 434",
+    "type": "Castle",
+    "coordinates": [-22.980035, -43.192506]
   },
   {
     "id": 435,
-    "name": "Holy Trinity Cathedral (Ivano-Frankivsk) 3",
-    "type": "cathedral",
-    "coordinates": [48.912113, 24.677088]
+    "name": "Historical Site 435",
+    "type": "Castle",
+    "coordinates": [-34.360354, 151.438999]
   },
   {
     "id": 436,
-    "name": "Holy Trinity Cathedral (Ivano-Frankivsk) 4",
-    "type": "cathedral",
-    "coordinates": [48.9242, 24.71002]
+    "name": "Historical Site 436",
+    "type": "Castle",
+    "coordinates": [41.504011, 28.674962]
   },
   {
     "id": 437,
-    "name": "Saint Peter and Paul Cathedral (Ivano-Frankivsk)",
-    "type": "cathedral",
-    "coordinates": [48.915336, 24.697722]
+    "name": "Historical Site 437",
+    "type": "Monument",
+    "coordinates": [34.238085, -118.441574]
   },
   {
     "id": 438,
-    "name": "Saint Peter and Paul Cathedral (Ivano-Frankivsk) 2",
-    "type": "cathedral",
-    "coordinates": [48.898328, 24.729171]
+    "name": "Historical Site 438",
+    "type": "Ruins",
+    "coordinates": [18.972898, -98.779515]
   },
   {
     "id": 439,
-    "name": "Saint Nicholas Church (Ivano-Frankivsk)",
-    "type": "church",
-    "coordinates": [48.890737, 24.696234]
+    "name": "Historical Site 439",
+    "type": "Monument",
+    "coordinates": [34.422351, -118.249879]
   },
   {
     "id": 440,
-    "name": "Saint Nicholas Church (Ivano-Frankivsk) 2",
-    "type": "church",
-    "coordinates": [48.934288, 24.710787]
+    "name": "Historical Site 440",
+    "type": "Castle",
+    "coordinates": [34.151154, -118.482975]
   },
   {
     "id": 441,
-    "name": "Saint Nicholas Church (Ivano-Frankivsk) 3",
-    "type": "church",
-    "coordinates": [48.986024, 24.744615]
+    "name": "Historical Site 441",
+    "type": "Monument",
+    "coordinates": [49.095928, 2.338222]
   },
   {
     "id": 442,
-    "name": "Saint Nicholas Church (Ivano-Frankivsk) 4",
-    "type": "church",
-    "coordinates": [48.895426, 24.723306]
+    "name": "Historical Site 442",
+    "type": "Monument",
+    "coordinates": [19.892478, -98.643134]
   },
   {
     "id": 443,
-    "name": "Saint Vladimir Church (Ivano-Frankivsk)",
-    "type": "church",
-    "coordinates": [48.906513, 24.715864]
+    "name": "Historical Site 443",
+    "type": "Castle",
+    "coordinates": [19.616991, -98.653708]
   },
   {
     "id": 444,
-    "name": "Saint Vladimir Church (Ivano-Frankivsk) 2",
-    "type": "church",
-    "coordinates": [48.871495, 24.65509]
+    "name": "Historical Site 444",
+    "type": "Palace",
+    "coordinates": [51.571414, -0.590201]
   },
   {
     "id": 445,
-    "name": "St. Nicholas Monastery (Ivano-Frankivsk)",
-    "type": "church",
-    "coordinates": [48.925175, 24.711142]
+    "name": "Historical Site 445",
+    "type": "Museum",
+    "coordinates": [19.127594, -99.594008]
   },
   {
     "id": 446,
-    "name": "St. Nicholas Monastery (Ivano-Frankivsk) 2",
-    "type": "church",
-    "coordinates": [48.921322, 24.700539]
+    "name": "Historical Site 446",
+    "type": "Palace",
+    "coordinates": [30.098349, 31.152514]
   },
   {
     "id": 447,
-    "name": "Saint Catherine Church (Ivano-Frankivsk)",
-    "type": "church",
-    "coordinates": [48.895348, 24.709899]
+    "name": "Historical Site 447",
+    "type": "Museum",
+    "coordinates": [51.579373, -0.161724]
   },
   {
     "id": 448,
-    "name": "Saint Catherine Church (Ivano-Frankivsk) 2",
-    "type": "church",
-    "coordinates": [48.933098, 24.689571]
+    "name": "Historical Site 448",
+    "type": "Castle",
+    "coordinates": [-33.596624, 151.187878]
   },
   {
     "id": 449,
-    "name": "Church of the Nativity (Ivano-Frankivsk)",
-    "type": "church",
-    "coordinates": [48.923375, 24.710739]
+    "name": "Historical Site 449",
+    "type": "Castle",
+    "coordinates": [-33.928326, 150.788748]
   },
   {
     "id": 450,
-    "name": "Church of the Nativity (Ivano-Frankivsk) 2",
-    "type": "church",
-    "coordinates": [48.921274, 24.685603]
+    "name": "Historical Site 450",
+    "type": "Ruins",
+    "coordinates": [19.865532, -98.636614]
   },
   {
     "id": 451,
-    "name": "National Historical Museum (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.503686, 31.275155]
+    "name": "Historical Site 451",
+    "type": "Palace",
+    "coordinates": [13.336649, 100.786674]
   },
   {
     "id": 452,
-    "name": "National Historical Museum (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.478133, 31.304965]
+    "name": "Historical Site 452",
+    "type": "Museum",
+    "coordinates": [51.617585, -0.51426]
   },
   {
     "id": 453,
-    "name": "National Historical Museum (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.508429, 31.25289]
+    "name": "Historical Site 453",
+    "type": "Palace",
+    "coordinates": [-23.099114, -43.579457]
   },
   {
     "id": 454,
-    "name": "National Historical Museum (Chernihiv) 4",
-    "type": "historical_museum",
-    "coordinates": [51.520485, 31.279804]
+    "name": "Historical Site 454",
+    "type": "Museum",
+    "coordinates": [19.272012, 73.135703]
   },
   {
     "id": 455,
-    "name": "House–Museum of Taras Shevchenko (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.544694, 31.310475]
+    "name": "Historical Site 455",
+    "type": "Castle",
+    "coordinates": [48.952427, 2.686445]
   },
   {
     "id": 456,
-    "name": "House–Museum of Taras Shevchenko (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.479518, 31.234647]
+    "name": "Historical Site 456",
+    "type": "Palace",
+    "coordinates": [34.15343, -118.539771]
   },
   {
     "id": 457,
-    "name": "House–Museum of Taras Shevchenko (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.430317, 31.289388]
+    "name": "Historical Site 457",
+    "type": "Ruins",
+    "coordinates": [41.284661, 29.193966]
   },
   {
     "id": 458,
-    "name": "Battlefield Memorial Museum (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.504891, 31.286771]
+    "name": "Historical Site 458",
+    "type": "Museum",
+    "coordinates": [50.786149, 31.006456]
   },
   {
     "id": 459,
-    "name": "Battlefield Memorial Museum (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.512582, 31.226156]
+    "name": "Historical Site 459",
+    "type": "Ruins",
+    "coordinates": [39.740031, 116.280905]
   },
   {
     "id": 460,
-    "name": "Battlefield Memorial Museum (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.504001, 31.287368]
+    "name": "Historical Site 460",
+    "type": "Castle",
+    "coordinates": [-34.276515, 151.64896]
   },
   {
     "id": 461,
-    "name": "Battlefield Memorial Museum (Chernihiv) 4",
-    "type": "historical_museum",
-    "coordinates": [51.495551, 31.316141]
+    "name": "Historical Site 461",
+    "type": "Castle",
+    "coordinates": [-34.074138, 150.871761]
   },
   {
     "id": 462,
-    "name": "Art and History Museum (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.515703, 31.258254]
+    "name": "Historical Site 462",
+    "type": "Ruins",
+    "coordinates": [35.627748, 139.578801]
   },
   {
     "id": 463,
-    "name": "Art and History Museum (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.49817, 31.288123]
+    "name": "Historical Site 463",
+    "type": "Ruins",
+    "coordinates": [18.987927, 72.611254]
   },
   {
     "id": 464,
-    "name": "Museum of Ukrainian History (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.492176, 31.289021]
+    "name": "Historical Site 464",
+    "type": "Museum",
+    "coordinates": [39.419108, 115.931957]
   },
   {
     "id": 465,
-    "name": "Museum of Ukrainian History (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.506869, 31.260568]
+    "name": "Historical Site 465",
+    "type": "Castle",
+    "coordinates": [30.426338, 31.619455]
   },
   {
     "id": 466,
-    "name": "Museum of Ukrainian History (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.549737, 31.314596]
+    "name": "Historical Site 466",
+    "type": "Museum",
+    "coordinates": [50.190957, 30.177744]
   },
   {
     "id": 467,
-    "name": "Aerospace Museum (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.497963, 31.289033]
+    "name": "Historical Site 467",
+    "type": "Ruins",
+    "coordinates": [19.592809, -98.734455]
   },
   {
     "id": 468,
-    "name": "Aerospace Museum (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.487834, 31.233353]
+    "name": "Historical Site 468",
+    "type": "Museum",
+    "coordinates": [35.427343, 139.278241]
   },
   {
     "id": 469,
-    "name": "Aerospace Museum (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.501968, 31.291088]
+    "name": "Historical Site 469",
+    "type": "Monument",
+    "coordinates": [-34.333281, 151.135155]
   },
   {
     "id": 470,
-    "name": "Aerospace Museum (Chernihiv) 4",
-    "type": "historical_museum",
-    "coordinates": [51.510986, 31.274978]
+    "name": "Historical Site 470",
+    "type": "Monument",
+    "coordinates": [35.857468, 139.166876]
   },
   {
     "id": 471,
-    "name": "Cossack Heritage Museum (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.445466, 31.337669]
+    "name": "Historical Site 471",
+    "type": "Monument",
+    "coordinates": [39.708594, 116.419397]
   },
   {
     "id": 472,
-    "name": "Cossack Heritage Museum (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.464318, 31.303823]
+    "name": "Historical Site 472",
+    "type": "Palace",
+    "coordinates": [48.687506, 1.906362]
   },
   {
     "id": 473,
-    "name": "Cossack Heritage Museum (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.487239, 31.271986]
+    "name": "Historical Site 473",
+    "type": "Castle",
+    "coordinates": [30.202412, 31.537813]
   },
   {
     "id": 474,
-    "name": "Cossack Heritage Museum (Chernihiv) 4",
-    "type": "historical_museum",
-    "coordinates": [51.498011, 31.29064]
+    "name": "Historical Site 474",
+    "type": "Ruins",
+    "coordinates": [33.915355, -117.79572]
   },
   {
     "id": 475,
-    "name": "Railway Transport Museum (Chernihiv)",
-    "type": "historical_museum",
-    "coordinates": [51.503202, 31.257509]
+    "name": "Historical Site 475",
+    "type": "Monument",
+    "coordinates": [13.376687, 100.606982]
   },
   {
     "id": 476,
-    "name": "Railway Transport Museum (Chernihiv) 2",
-    "type": "historical_museum",
-    "coordinates": [51.498802, 31.290248]
+    "name": "Historical Site 476",
+    "type": "Museum",
+    "coordinates": [40.27469, 115.982878]
   },
   {
     "id": 477,
-    "name": "Railway Transport Museum (Chernihiv) 3",
-    "type": "historical_museum",
-    "coordinates": [51.500939, 31.24596]
+    "name": "Historical Site 477",
+    "type": "Museum",
+    "coordinates": [29.570409, 31.552601]
   },
   {
     "id": 478,
-    "name": "Saint Sophia Cathedral (Chernihiv)",
-    "type": "cathedral",
-    "coordinates": [51.452177, 31.240434]
+    "name": "Historical Site 478",
+    "type": "Castle",
+    "coordinates": [19.395891, 72.510211]
   },
   {
     "id": 479,
-    "name": "Saint Sophia Cathedral (Chernihiv) 2",
-    "type": "cathedral",
-    "coordinates": [51.529345, 31.287216]
+    "name": "Historical Site 479",
+    "type": "Ruins",
+    "coordinates": [29.979656, 31.210866]
   },
   {
     "id": 480,
-    "name": "Assumption Cathedral (Chernihiv)",
-    "type": "cathedral",
-    "coordinates": [51.50109, 31.293993]
+    "name": "Historical Site 480",
+    "type": "Castle",
+    "coordinates": [35.230455, 139.534001]
   },
   {
     "id": 481,
-    "name": "Assumption Cathedral (Chernihiv) 2",
-    "type": "cathedral",
-    "coordinates": [51.492207, 31.309302]
+    "name": "Historical Site 481",
+    "type": "Ruins",
+    "coordinates": [39.522087, 116.734068]
   },
   {
     "id": 482,
-    "name": "Assumption Cathedral (Chernihiv) 3",
-    "type": "cathedral",
-    "coordinates": [51.508535, 31.263668]
+    "name": "Historical Site 482",
+    "type": "Monument",
+    "coordinates": [41.146946, -74.37431]
   },
   {
     "id": 483,
-    "name": "Saint Michael's Cathedral (Chernihiv)",
-    "type": "cathedral",
-    "coordinates": [51.530311, 31.259435]
+    "name": "Historical Site 483",
+    "type": "Ruins",
+    "coordinates": [51.806048, -0.52748]
   },
   {
     "id": 484,
-    "name": "Saint Michael's Cathedral (Chernihiv) 2",
-    "type": "cathedral",
-    "coordinates": [51.55823, 31.327359]
+    "name": "Historical Site 484",
+    "type": "Monument",
+    "coordinates": [40.967485, 28.819255]
   },
   {
     "id": 485,
-    "name": "Saint Michael's Cathedral (Chernihiv) 3",
-    "type": "cathedral",
-    "coordinates": [51.50365, 31.330327]
+    "name": "Historical Site 485",
+    "type": "Palace",
+    "coordinates": [18.636383, 72.412198]
   },
   {
     "id": 486,
-    "name": "Holy Trinity Cathedral (Chernihiv)",
-    "type": "cathedral",
-    "coordinates": [51.491578, 31.288973]
+    "name": "Historical Site 486",
+    "type": "Monument",
+    "coordinates": [19.346853, 73.015514]
   },
   {
     "id": 487,
-    "name": "Holy Trinity Cathedral (Chernihiv) 2",
-    "type": "cathedral",
-    "coordinates": [51.499336, 31.287823]
+    "name": "Historical Site 487",
+    "type": "Monument",
+    "coordinates": [40.512669, -73.945401]
   },
   {
     "id": 488,
-    "name": "Holy Trinity Cathedral (Chernihiv) 3",
-    "type": "cathedral",
-    "coordinates": [51.475385, 31.292557]
+    "name": "Historical Site 488",
+    "type": "Ruins",
+    "coordinates": [35.828437, 139.721114]
   },
   {
     "id": 489,
-    "name": "Holy Trinity Cathedral (Chernihiv) 4",
-    "type": "cathedral",
-    "coordinates": [51.501008, 31.295989]
+    "name": "Historical Site 489",
+    "type": "Ruins",
+    "coordinates": [34.29803, -118.689539]
   },
   {
     "id": 490,
-    "name": "Saint Peter and Paul Cathedral (Chernihiv)",
-    "type": "cathedral",
-    "coordinates": [51.518052, 31.281971]
+    "name": "Historical Site 490",
+    "type": "Castle",
+    "coordinates": [48.617557, 2.531306]
   },
   {
     "id": 491,
-    "name": "Saint Peter and Paul Cathedral (Chernihiv) 2",
-    "type": "cathedral",
-    "coordinates": [51.498177, 31.289281]
+    "name": "Historical Site 491",
+    "type": "Museum",
+    "coordinates": [39.62429, 116.46567]
   },
   {
     "id": 492,
-    "name": "Saint Peter and Paul Cathedral (Chernihiv) 3",
-    "type": "cathedral",
-    "coordinates": [51.470864, 31.274115]
+    "name": "Historical Site 492",
+    "type": "Castle",
+    "coordinates": [13.538412, 100.986404]
   },
   {
     "id": 493,
-    "name": "Saint Nicholas Church (Chernihiv)",
-    "type": "church",
-    "coordinates": [51.553535, 31.366073]
+    "name": "Historical Site 493",
+    "type": "Castle",
+    "coordinates": [13.747061, 100.865127]
   },
   {
     "id": 494,
-    "name": "Saint Nicholas Church (Chernihiv) 2",
-    "type": "church",
-    "coordinates": [51.499809, 31.288118]
+    "name": "Historical Site 494",
+    "type": "Ruins",
+    "coordinates": [51.547995, -0.374463]
   },
   {
     "id": 495,
-    "name": "Saint Vladimir Church (Chernihiv)",
-    "type": "church",
-    "coordinates": [51.456675, 31.291285]
+    "name": "Historical Site 495",
+    "type": "Ruins",
+    "coordinates": [49.063061, 2.705301]
   },
   {
     "id": 496,
-    "name": "Saint Vladimir Church (Chernihiv) 2",
-    "type": "church",
-    "coordinates": [51.480814, 31.303393]
+    "name": "Historical Site 496",
+    "type": "Museum",
+    "coordinates": [33.662055, -118.066242]
   },
   {
     "id": 497,
-    "name": "Saint Vladimir Church (Chernihiv) 3",
-    "type": "church",
-    "coordinates": [51.480687, 31.277517]
+    "name": "Historical Site 497",
+    "type": "Ruins",
+    "coordinates": [19.227393, -99.586012]
   },
   {
     "id": 498,
-    "name": "Saint Vladimir Church (Chernihiv) 4",
-    "type": "church",
-    "coordinates": [51.481051, 31.31222]
+    "name": "Historical Site 498",
+    "type": "Ruins",
+    "coordinates": [34.149142, -118.510931]
   },
   {
     "id": 499,
-    "name": "St. Nicholas Monastery (Chernihiv)",
-    "type": "church",
-    "coordinates": [51.499546, 31.289918]
+    "name": "Historical Site 499",
+    "type": "Ruins",
+    "coordinates": [41.463006, 29.205608]
   },
   {
     "id": 500,
-    "name": "St. Nicholas Monastery (Chernihiv) 2",
-    "type": "church",
-    "coordinates": [51.494433, 31.266344]
+    "name": "Historical Site 500",
+    "type": "Museum",
+    "coordinates": [48.968185, 2.451762]
   }
 ]

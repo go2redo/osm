@@ -7,7 +7,7 @@ import { findNearestUsers, indexUsers } from '@/geo/userSearch'
 export const useMapStore = defineStore('map', {
   state: (): MapState => ({
     currentCenter: fromLonLat([35.0462, 48.4647]),
-    zoomLevel: 14,
+    zoomLevel: 4,
     filters: [],
     selectedPlace: null,
     users: [],

@@ -78,11 +78,7 @@ function handleSubmit(): void {
             type="select"
             name="type"
             v-model="formData.type"
-            :options="[
-              { value: 'historical_museum', label: 'historical_museum' },
-              { value: 'cathedral', label: 'cathedral' },
-              { value: 'church', label: 'church' },
-            ]"
+            :options="store.filters.map((filter) => filter.type)"
             validation="required"
             :classes="{
               outer: 'flex flex-col gap-1',
@@ -127,7 +123,7 @@ function handleSubmit(): void {
         <div class="flex justify-center">
           <button
             type="submit"
-            class="bg-slate-900 text-white py-1 px-2 rounded-sm cursor-pointer border text-sm"
+            class="text-slate-900 bg-white py-1 px-2 rounded-sm cursor-pointer border text-sm w-full font-bold"
           >
             Submit
           </button>
