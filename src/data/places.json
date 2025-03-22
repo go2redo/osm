@@ -1,3002 +1,1850 @@
 [
   {
     "id": 1,
-    "name": "Historical Site 1",
-    "type": "Monument",
-    "coordinates": [40.586948, -74.494547]
+    "name": "Cultural Center 1 (New York)",
+    "type": "Park",
+    "coordinates": [40.72043372866807, -73.98020224533909]
   },
   {
     "id": 2,
-    "name": "Historical Site 2",
-    "type": "Museum",
-    "coordinates": [19.833838, -98.760072]
+    "name": "Bridge 2 (New York)",
+    "type": "Cultural Center",
+    "coordinates": [40.72913623504503, -74.01558574185431]
   },
   {
     "id": 3,
-    "name": "Historical Site 3",
-    "type": "Ruins",
-    "coordinates": [30.210807, 30.971557]
+    "name": "Museum 3 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.74520396497839, -73.96273520997538]
   },
   {
     "id": 4,
-    "name": "Historical Site 4",
-    "type": "Ruins",
-    "coordinates": [19.198012, 73.097256]
+    "name": "Cultural Center 4 (New York)",
+    "type": "Bridge",
+    "coordinates": [40.74932424238516, -74.05121787687601]
   },
   {
     "id": 5,
-    "name": "Historical Site 5",
-    "type": "Ruins",
-    "coordinates": [-22.796099, -42.877094]
+    "name": "Cultural Center 5 (New York)",
+    "type": "Cultural Center",
+    "coordinates": [40.74883824474695, -74.03052780798429]
   },
   {
     "id": 6,
-    "name": "Historical Site 6",
-    "type": "Castle",
-    "coordinates": [40.79022, -74.0707]
+    "name": "Museum 6 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.702039322372, -73.98603081041033]
   },
   {
     "id": 7,
-    "name": "Historical Site 7",
-    "type": "Castle",
-    "coordinates": [49.228359, 2.080055]
+    "name": "Museum 7 (New York)",
+    "type": "Park",
+    "coordinates": [40.72813342606439, -74.02227429025399]
   },
   {
     "id": 8,
-    "name": "Historical Site 8",
-    "type": "Monument",
-    "coordinates": [48.48079, 2.671599]
+    "name": "Museum 8 (New York)",
+    "type": "Park",
+    "coordinates": [40.681175585811225, -74.01028940545288]
   },
   {
     "id": 9,
-    "name": "Historical Site 9",
-    "type": "Monument",
-    "coordinates": [35.332747, 139.553359]
+    "name": "Museum 9 (New York)",
+    "type": "Museum",
+    "coordinates": [40.716988028159335, -74.04872512456015]
   },
   {
     "id": 10,
-    "name": "Historical Site 10",
-    "type": "Monument",
-    "coordinates": [35.914378, 139.469418]
+    "name": "Historical Site 10 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.74529670973685, -74.03378857748429]
   },
   {
     "id": 11,
-    "name": "Historical Site 11",
-    "type": "Castle",
-    "coordinates": [51.628285, 0.125491]
+    "name": "Bridge 11 (New York)",
+    "type": "Park",
+    "coordinates": [40.68001629617006, -74.01865537897643]
   },
   {
     "id": 12,
-    "name": "Historical Site 12",
-    "type": "Castle",
-    "coordinates": [19.283554, 72.62245]
+    "name": "Museum 12 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.714761656342496, -73.96725794041637]
   },
   {
     "id": 13,
-    "name": "Historical Site 13",
-    "type": "Ruins",
-    "coordinates": [41.264855, 28.974555]
+    "name": "Bridge 13 (New York)",
+    "type": "Landmark",
+    "coordinates": [40.66481434304305, -73.96680969114139]
   },
   {
     "id": 14,
-    "name": "Historical Site 14",
-    "type": "Museum",
-    "coordinates": [-34.315495, 151.29561]
+    "name": "Bridge 14 (New York)",
+    "type": "Park",
+    "coordinates": [40.69886808096709, -74.0529265686706]
   },
   {
     "id": 15,
-    "name": "Historical Site 15",
-    "type": "Castle",
-    "coordinates": [49.231991, 1.894041]
+    "name": "Park 15 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.73002282043428, -74.02098927930912]
   },
   {
     "id": 16,
-    "name": "Historical Site 16",
-    "type": "Monument",
-    "coordinates": [51.332534, 0.024143]
+    "name": "Cultural Center 16 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.732453242476474, -73.96689135821579]
   },
   {
     "id": 17,
-    "name": "Historical Site 17",
-    "type": "Palace",
-    "coordinates": [41.10075, 29.243573]
+    "name": "Cultural Center 17 (New York)",
+    "type": "Bridge",
+    "coordinates": [40.689696468932674, -73.99506652099379]
   },
   {
     "id": 18,
-    "name": "Historical Site 18",
-    "type": "Ruins",
-    "coordinates": [14.016193, 100.843511]
+    "name": "Park 18 (New York)",
+    "type": "Museum",
+    "coordinates": [40.762706448254434, -73.97936835993195]
   },
   {
     "id": 19,
-    "name": "Historical Site 19",
-    "type": "Palace",
-    "coordinates": [41.129379, 28.509876]
+    "name": "Bridge 19 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.67949180999145, -74.05115085056029]
   },
   {
     "id": 20,
-    "name": "Historical Site 20",
-    "type": "Monument",
-    "coordinates": [40.680334, -73.544157]
+    "name": "Historical Site 20 (New York)",
+    "type": "Bridge",
+    "coordinates": [40.73841335675411, -73.98095020386637]
   },
   {
     "id": 21,
-    "name": "Historical Site 21",
-    "type": "Palace",
-    "coordinates": [-22.792818, -43.57509]
+    "name": "Cultural Center 21 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.68902322687734, -74.01644528195129]
   },
   {
     "id": 22,
-    "name": "Historical Site 22",
-    "type": "Castle",
-    "coordinates": [14.138516, 100.091868]
+    "name": "Museum 22 (New York)",
+    "type": "Bridge",
+    "coordinates": [40.69216611303229, -74.01611170151611]
   },
   {
     "id": 23,
-    "name": "Historical Site 23",
-    "type": "Monument",
-    "coordinates": [13.740811, 100.272883]
+    "name": "Landmark 23 (New York)",
+    "type": "Landmark",
+    "coordinates": [40.70460502177656, -73.97946439578807]
   },
   {
     "id": 24,
-    "name": "Historical Site 24",
-    "type": "Castle",
-    "coordinates": [-22.745461, -42.96873]
+    "name": "Landmark 24 (New York)",
+    "type": "Park",
+    "coordinates": [40.67431853310874, -74.0291161933887]
   },
   {
     "id": 25,
-    "name": "Historical Site 25",
-    "type": "Palace",
-    "coordinates": [14.150455, 100.493606]
+    "name": "Historical Site 25 (New York)",
+    "type": "Landmark",
+    "coordinates": [40.70693972646938, -73.99204925985167]
   },
   {
     "id": 26,
-    "name": "Historical Site 26",
-    "type": "Castle",
-    "coordinates": [41.185747, 29.257372]
+    "name": "Historical Site 26 (New York)",
+    "type": "Landmark",
+    "coordinates": [40.69870775723945, -74.04452051600303]
   },
   {
     "id": 27,
-    "name": "Historical Site 27",
-    "type": "Palace",
-    "coordinates": [13.619175, 100.955211]
+    "name": "Landmark 27 (New York)",
+    "type": "Park",
+    "coordinates": [40.6940610182972, -73.97248466155037]
   },
   {
     "id": 28,
-    "name": "Historical Site 28",
-    "type": "Palace",
-    "coordinates": [34.50307, -118.169451]
+    "name": "Museum 28 (New York)",
+    "type": "Park",
+    "coordinates": [40.7030706672089, -74.03198057246207]
   },
   {
     "id": 29,
-    "name": "Historical Site 29",
-    "type": "Castle",
-    "coordinates": [30.388515, 31.448912]
+    "name": "Landmark 29 (New York)",
+    "type": "Cultural Center",
+    "coordinates": [40.67227047322129, -74.0343514055234]
   },
   {
     "id": 30,
-    "name": "Historical Site 30",
-    "type": "Museum",
-    "coordinates": [-34.352065, 151.163229]
+    "name": "Park 30 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.7190744495538, -73.95857484996883]
   },
   {
     "id": 31,
-    "name": "Historical Site 31",
-    "type": "Monument",
-    "coordinates": [50.260058, 30.433426]
+    "name": "Museum 31 (New York)",
+    "type": "Park",
+    "coordinates": [40.69995750415283, -73.96805896363739]
   },
   {
     "id": 32,
-    "name": "Historical Site 32",
-    "type": "Castle",
-    "coordinates": [39.627711, 116.011575]
+    "name": "Cultural Center 32 (New York)",
+    "type": "Museum",
+    "coordinates": [40.736677500737706, -73.97149310103887]
   },
   {
     "id": 33,
-    "name": "Historical Site 33",
-    "type": "Museum",
-    "coordinates": [39.585344, 116.077802]
+    "name": "Historical Site 33 (New York)",
+    "type": "Park",
+    "coordinates": [40.70613056555551, -74.04804562661215]
   },
   {
     "id": 34,
-    "name": "Historical Site 34",
-    "type": "Museum",
-    "coordinates": [19.264012, -99.501427]
+    "name": "Park 34 (New York)",
+    "type": "Park",
+    "coordinates": [40.67600148453015, -74.01334537954791]
   },
   {
     "id": 35,
-    "name": "Historical Site 35",
-    "type": "Palace",
-    "coordinates": [51.647325, -0.021811]
+    "name": "Museum 35 (New York)",
+    "type": "Park",
+    "coordinates": [40.74731904326464, -74.00646692922832]
   },
   {
     "id": 36,
-    "name": "Historical Site 36",
-    "type": "Museum",
-    "coordinates": [48.400384, 1.976567]
+    "name": "Landmark 36 (New York)",
+    "type": "Cultural Center",
+    "coordinates": [40.72888387948226, -74.04396618818734]
   },
   {
     "id": 37,
-    "name": "Historical Site 37",
-    "type": "Castle",
-    "coordinates": [49.230313, 2.357951]
+    "name": "Cultural Center 37 (New York)",
+    "type": "Cultural Center",
+    "coordinates": [40.75869120388293, -74.01037669161754]
   },
   {
     "id": 38,
-    "name": "Historical Site 38",
+    "name": "Bridge 38 (New York)",
     "type": "Museum",
-    "coordinates": [19.352614, 72.907344]
+    "coordinates": [40.674935570091634, -74.03613985526255]
   },
   {
     "id": 39,
-    "name": "Historical Site 39",
-    "type": "Castle",
-    "coordinates": [36.001711, 139.338618]
+    "name": "Cultural Center 39 (New York)",
+    "type": "Landmark",
+    "coordinates": [40.666185261365044, -74.00737113271994]
   },
   {
     "id": 40,
-    "name": "Historical Site 40",
-    "type": "Castle",
-    "coordinates": [40.7848, 28.94676]
+    "name": "Bridge 40 (New York)",
+    "type": "Historical Site",
+    "coordinates": [40.732588088682846, -73.97839628935786]
   },
   {
     "id": 41,
-    "name": "Historical Site 41",
-    "type": "Monument",
-    "coordinates": [41.211704, -73.966755]
+    "name": "Landmark 41 (New York)",
+    "type": "Bridge",
+    "coordinates": [40.691330926900925, -74.05415097442086]
   },
   {
     "id": 42,
-    "name": "Historical Site 42",
-    "type": "Ruins",
-    "coordinates": [29.72988, 31.634546]
+    "name": "Museum 42 (New York)",
+    "type": "Bridge",
+    "coordinates": [40.706207919280516, -74.0492070706423]
   },
   {
     "id": 43,
-    "name": "Historical Site 43",
-    "type": "Castle",
-    "coordinates": [39.83692, 116.427312]
+    "name": "Landmark 43 (New York)",
+    "type": "Museum",
+    "coordinates": [40.72724485932649, -73.97597686273208]
   },
   {
     "id": 44,
-    "name": "Historical Site 44",
-    "type": "Ruins",
-    "coordinates": [29.575471, 31.385461]
+    "name": "Cultural Center 44 (Paris)",
+    "type": "Bridge",
+    "coordinates": [48.86530832160317, 2.354668251424661]
   },
   {
     "id": 45,
-    "name": "Historical Site 45",
-    "type": "Monument",
-    "coordinates": [50.933577, 30.292564]
+    "name": "Historical Site 45 (Paris)",
+    "type": "Historical Site",
+    "coordinates": [48.87200745775255, 2.3717290643011895]
   },
   {
     "id": 46,
-    "name": "Historical Site 46",
-    "type": "Castle",
-    "coordinates": [19.056069, 73.023575]
+    "name": "Historical Site 46 (Paris)",
+    "type": "Museum",
+    "coordinates": [48.80724124396766, 2.3082109433657623]
   },
   {
     "id": 47,
-    "name": "Historical Site 47",
-    "type": "Museum",
-    "coordinates": [-23.39774, -43.070835]
+    "name": "Bridge 47 (Paris)",
+    "type": "Bridge",
+    "coordinates": [48.87433375893871, 2.351723931625352]
   },
   {
     "id": 48,
-    "name": "Historical Site 48",
-    "type": "Monument",
-    "coordinates": [51.04824, 0.327478]
+    "name": "Bridge 48 (Paris)",
+    "type": "Museum",
+    "coordinates": [48.856788055356596, 2.3803940250946294]
   },
   {
     "id": 49,
-    "name": "Historical Site 49",
-    "type": "Ruins",
-    "coordinates": [-33.688328, 151.230857]
+    "name": "Historical Site 49 (Paris)",
+    "type": "Bridge",
+    "coordinates": [48.857517854725586, 2.3440570485139154]
   },
   {
     "id": 50,
-    "name": "Historical Site 50",
-    "type": "Palace",
-    "coordinates": [-33.851037, 151.069636]
+    "name": "Cultural Center 50 (Paris)",
+    "type": "Historical Site",
+    "coordinates": [48.85655905623752, 2.3037130922113445]
   },
   {
     "id": 51,
-    "name": "Historical Site 51",
-    "type": "Castle",
-    "coordinates": [34.195498, -117.944582]
+    "name": "Historical Site 51 (Paris)",
+    "type": "Cultural Center",
+    "coordinates": [48.834847404276175, 2.366996907523827]
   },
   {
     "id": 52,
-    "name": "Historical Site 52",
-    "type": "Museum",
-    "coordinates": [-33.429039, 150.830398]
+    "name": "Museum 52 (Paris)",
+    "type": "Landmark",
+    "coordinates": [48.87071002789232, 2.311363426249223]
   },
   {
     "id": 53,
-    "name": "Historical Site 53",
-    "type": "Museum",
-    "coordinates": [35.855763, 139.658369]
+    "name": "Bridge 53 (Paris)",
+    "type": "Cultural Center",
+    "coordinates": [48.81688574662454, 2.3465200985960952]
   },
   {
     "id": 54,
-    "name": "Historical Site 54",
-    "type": "Monument",
-    "coordinates": [41.170424, 29.360995]
+    "name": "Museum 54 (Paris)",
+    "type": "Bridge",
+    "coordinates": [48.84879843311845, 2.3158441684555435]
   },
   {
     "id": 55,
-    "name": "Historical Site 55",
-    "type": "Ruins",
-    "coordinates": [51.613809, -0.608747]
+    "name": "Museum 55 (Paris)",
+    "type": "Cultural Center",
+    "coordinates": [48.887955983745975, 2.304240124840004]
   },
   {
     "id": 56,
-    "name": "Historical Site 56",
-    "type": "Ruins",
-    "coordinates": [-33.602896, 151.381731]
+    "name": "Museum 56 (Tokyo)",
+    "type": "Museum",
+    "coordinates": [35.71190188264132, 139.68684616103607]
   },
   {
     "id": 57,
-    "name": "Historical Site 57",
-    "type": "Palace",
-    "coordinates": [40.944945, -74.256166]
+    "name": "Park 57 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.66895033551479, 139.6752605612022]
   },
   {
     "id": 58,
-    "name": "Historical Site 58",
-    "type": "Castle",
-    "coordinates": [30.544124, 31.313321]
+    "name": "Historical Site 58 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.67417987046653, 139.63890717394412]
   },
   {
     "id": 59,
-    "name": "Historical Site 59",
-    "type": "Palace",
-    "coordinates": [-33.473124, 150.756505]
+    "name": "Bridge 59 (Tokyo)",
+    "type": "Museum",
+    "coordinates": [35.718488359617055, 139.66686161607663]
   },
   {
     "id": 60,
-    "name": "Historical Site 60",
-    "type": "Museum",
-    "coordinates": [29.873168, 31.179707]
+    "name": "Museum 60 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.724763333679256, 139.62389371510102]
   },
   {
     "id": 61,
-    "name": "Historical Site 61",
-    "type": "Palace",
-    "coordinates": [41.193932, 29.145738]
+    "name": "Cultural Center 61 (Tokyo)",
+    "type": "Cultural Center",
+    "coordinates": [35.67432536120381, 139.6536817210941]
   },
   {
     "id": 62,
-    "name": "Historical Site 62",
-    "type": "Monument",
-    "coordinates": [51.324863, -0.098495]
+    "name": "Landmark 62 (Tokyo)",
+    "type": "Historical Site",
+    "coordinates": [35.675588564948185, 139.653978742292]
   },
   {
     "id": 63,
-    "name": "Historical Site 63",
-    "type": "Palace",
-    "coordinates": [29.688042, 31.324487]
+    "name": "Park 63 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.62818418446448, 139.65177344608057]
   },
   {
     "id": 64,
-    "name": "Historical Site 64",
-    "type": "Palace",
-    "coordinates": [51.475142, -0.259026]
+    "name": "Landmark 64 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.71973022780074, 139.6006279758644]
   },
   {
     "id": 65,
-    "name": "Historical Site 65",
-    "type": "Museum",
-    "coordinates": [13.326207, 100.548227]
+    "name": "Landmark 65 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.62921493665215, 139.6036303370987]
   },
   {
     "id": 66,
-    "name": "Historical Site 66",
-    "type": "Museum",
-    "coordinates": [19.399839, -99.069377]
+    "name": "Museum 66 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.6334776733766, 139.68967656979726]
   },
   {
     "id": 67,
-    "name": "Historical Site 67",
-    "type": "Monument",
-    "coordinates": [51.276974, -0.471005]
+    "name": "Museum 67 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.71194272761342, 139.6284993471913]
   },
   {
     "id": 68,
-    "name": "Historical Site 68",
-    "type": "Ruins",
-    "coordinates": [-33.472856, 151.541876]
+    "name": "Cultural Center 68 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.66691134453972, 139.60587598848113]
   },
   {
     "id": 69,
-    "name": "Historical Site 69",
-    "type": "Monument",
-    "coordinates": [39.40668, 116.166973]
+    "name": "Landmark 69 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.68033591994735, 139.6836421470912]
   },
   {
     "id": 70,
-    "name": "Historical Site 70",
-    "type": "Castle",
-    "coordinates": [40.234605, -74.293209]
+    "name": "Museum 70 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.662953885515364, 139.69464935626422]
   },
   {
     "id": 71,
-    "name": "Historical Site 71",
-    "type": "Ruins",
-    "coordinates": [40.979248, 28.988678]
+    "name": "Historical Site 71 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.65040493169315, 139.60858373989066]
   },
   {
     "id": 72,
-    "name": "Historical Site 72",
-    "type": "Monument",
-    "coordinates": [39.484771, 116.434023]
+    "name": "Landmark 72 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.63771199088573, 139.62376893926393]
   },
   {
     "id": 73,
-    "name": "Historical Site 73",
-    "type": "Museum",
-    "coordinates": [14.13617, 100.470031]
+    "name": "Park 73 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.63996562439245, 139.6521831552611]
   },
   {
     "id": 74,
-    "name": "Historical Site 74",
-    "type": "Palace",
-    "coordinates": [-33.983287, 151.502418]
+    "name": "Bridge 74 (Tokyo)",
+    "type": "Historical Site",
+    "coordinates": [35.64339537663167, 139.64889009620572]
   },
   {
     "id": 75,
-    "name": "Historical Site 75",
-    "type": "Ruins",
-    "coordinates": [40.038642, 116.160021]
+    "name": "Bridge 75 (Tokyo)",
+    "type": "Historical Site",
+    "coordinates": [35.72256121353191, 139.63500404243734]
   },
   {
     "id": 76,
-    "name": "Historical Site 76",
-    "type": "Ruins",
-    "coordinates": [13.516525, 100.412261]
+    "name": "Historical Site 76 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.65695164262901, 139.63328605566983]
   },
   {
     "id": 77,
-    "name": "Historical Site 77",
-    "type": "Museum",
-    "coordinates": [51.997351, 0.108483]
+    "name": "Cultural Center 77 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.66071733268649, 139.68203941731215]
   },
   {
     "id": 78,
-    "name": "Historical Site 78",
-    "type": "Castle",
-    "coordinates": [19.097697, 72.768895]
+    "name": "Park 78 (Tokyo)",
+    "type": "Museum",
+    "coordinates": [35.62825105322421, 139.68658418348727]
   },
   {
     "id": 79,
-    "name": "Historical Site 79",
-    "type": "Monument",
-    "coordinates": [14.232716, 100.169352]
+    "name": "Historical Site 79 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.67420675658859, 139.67094002497953]
   },
   {
     "id": 80,
-    "name": "Historical Site 80",
-    "type": "Monument",
-    "coordinates": [19.026244, -99.077903]
+    "name": "Landmark 80 (Tokyo)",
+    "type": "Museum",
+    "coordinates": [35.700889321217694, 139.6754985293129]
   },
   {
     "id": 81,
-    "name": "Historical Site 81",
-    "type": "Castle",
-    "coordinates": [-33.958257, 151.406609]
+    "name": "Museum 81 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.72568582128606, 139.61302953533558]
   },
   {
     "id": 82,
-    "name": "Historical Site 82",
-    "type": "Monument",
-    "coordinates": [30.354252, 31.156242]
+    "name": "Cultural Center 82 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.69852640483974, 139.67808534480153]
   },
   {
     "id": 83,
-    "name": "Historical Site 83",
-    "type": "Monument",
-    "coordinates": [18.583576, 72.408019]
+    "name": "Museum 83 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.6859458099686, 139.61314599998465]
   },
   {
     "id": 84,
-    "name": "Historical Site 84",
-    "type": "Castle",
-    "coordinates": [40.4421, -74.013814]
+    "name": "Cultural Center 84 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.6322133144747, 139.60080099343705]
   },
   {
     "id": 85,
-    "name": "Historical Site 85",
-    "type": "Museum",
-    "coordinates": [-33.826791, 151.320015]
+    "name": "Landmark 85 (Tokyo)",
+    "type": "Landmark",
+    "coordinates": [35.69528052540268, 139.69951382103062]
   },
   {
     "id": 86,
-    "name": "Historical Site 86",
-    "type": "Palace",
-    "coordinates": [18.994478, -98.839011]
+    "name": "Landmark 86 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.67453194513557, 139.60827558254033]
   },
   {
     "id": 87,
-    "name": "Historical Site 87",
-    "type": "Castle",
-    "coordinates": [35.662131, 139.966667]
+    "name": "Historical Site 87 (Tokyo)",
+    "type": "Cultural Center",
+    "coordinates": [35.66989217188936, 139.60081263167658]
   },
   {
     "id": 88,
-    "name": "Historical Site 88",
-    "type": "Museum",
-    "coordinates": [-33.429103, 150.748854]
+    "name": "Bridge 88 (Tokyo)",
+    "type": "Park",
+    "coordinates": [35.64181817268169, 139.62849523934847]
   },
   {
     "id": 89,
-    "name": "Historical Site 89",
-    "type": "Museum",
-    "coordinates": [19.682808, -98.852725]
+    "name": "Bridge 89 (Tokyo)",
+    "type": "Bridge",
+    "coordinates": [35.6822015527414, 139.6195721309013]
   },
   {
     "id": 90,
-    "name": "Historical Site 90",
-    "type": "Monument",
-    "coordinates": [40.532828, 29.348988]
+    "name": "Museum 90 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.471096093698506, -0.09208414070549353]
   },
   {
     "id": 91,
-    "name": "Historical Site 91",
-    "type": "Castle",
-    "coordinates": [18.682674, 72.716975]
+    "name": "Cultural Center 91 (London)",
+    "type": "Historical Site",
+    "coordinates": [51.5068627123742, -0.1508518490479548]
   },
   {
     "id": 92,
-    "name": "Historical Site 92",
-    "type": "Ruins",
-    "coordinates": [14.035506, 100.263247]
+    "name": "Bridge 92 (London)",
+    "type": "Museum",
+    "coordinates": [51.5406848998508, -0.1108227886691132]
   },
   {
     "id": 93,
-    "name": "Historical Site 93",
-    "type": "Palace",
-    "coordinates": [50.87898, 30.577795]
+    "name": "Museum 93 (London)",
+    "type": "Museum",
+    "coordinates": [51.48168613575663, -0.09677341548383135]
   },
   {
     "id": 94,
-    "name": "Historical Site 94",
-    "type": "Palace",
-    "coordinates": [-23.175833, -43.3821]
+    "name": "Bridge 94 (London)",
+    "type": "Bridge",
+    "coordinates": [51.486803788308976, -0.16962462009931076]
   },
   {
     "id": 95,
-    "name": "Historical Site 95",
-    "type": "Museum",
-    "coordinates": [39.935713, 116.361975]
+    "name": "Museum 95 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.54673110122459, -0.13659843258179494]
   },
   {
     "id": 96,
-    "name": "Historical Site 96",
-    "type": "Museum",
-    "coordinates": [36.169462, 139.233693]
+    "name": "Park 96 (London)",
+    "type": "Bridge",
+    "coordinates": [51.492832009881376, -0.17516777417624507]
   },
   {
     "id": 97,
-    "name": "Historical Site 97",
-    "type": "Palace",
-    "coordinates": [50.351562, 30.278954]
+    "name": "Park 97 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.55242299626312, -0.11740590729805889]
   },
   {
     "id": 98,
-    "name": "Historical Site 98",
-    "type": "Museum",
-    "coordinates": [-23.293297, -43.471083]
+    "name": "Park 98 (London)",
+    "type": "Landmark",
+    "coordinates": [51.51263125111014, -0.12534808176843834]
   },
   {
     "id": 99,
-    "name": "Historical Site 99",
-    "type": "Palace",
-    "coordinates": [50.264712, 30.458939]
+    "name": "Park 99 (London)",
+    "type": "Park",
+    "coordinates": [51.491583583367564, -0.13045086576586432]
   },
   {
     "id": 100,
-    "name": "Historical Site 100",
-    "type": "Ruins",
-    "coordinates": [40.780837, 29.041309]
+    "name": "Bridge 100 (London)",
+    "type": "Historical Site",
+    "coordinates": [51.53877904024573, -0.13403911934688956]
   },
   {
     "id": 101,
-    "name": "Historical Site 101",
+    "name": "Museum 101 (London)",
     "type": "Museum",
-    "coordinates": [39.928817, 116.570242]
+    "coordinates": [51.48325059636207, -0.08232914407897518]
   },
   {
     "id": 102,
-    "name": "Historical Site 102",
+    "name": "Cultural Center 102 (London)",
     "type": "Museum",
-    "coordinates": [33.930486, -117.825268]
+    "coordinates": [51.52609546836022, -0.14759991238478037]
   },
   {
     "id": 103,
-    "name": "Historical Site 103",
-    "type": "Monument",
-    "coordinates": [41.146791, 28.680991]
+    "name": "Cultural Center 103 (London)",
+    "type": "Bridge",
+    "coordinates": [51.50158414934773, -0.17708078650298875]
   },
   {
     "id": 104,
-    "name": "Historical Site 104",
-    "type": "Monument",
-    "coordinates": [-34.362871, 151.553815]
+    "name": "Landmark 104 (London)",
+    "type": "Landmark",
+    "coordinates": [51.53936665668635, -0.14637880192136518]
   },
   {
     "id": 105,
-    "name": "Historical Site 105",
-    "type": "Palace",
-    "coordinates": [-23.31168, -43.017632]
+    "name": "Bridge 105 (London)",
+    "type": "Bridge",
+    "coordinates": [51.53722255977802, -0.14076464104051534]
   },
   {
     "id": 106,
-    "name": "Historical Site 106",
-    "type": "Monument",
-    "coordinates": [33.762838, -118.180078]
+    "name": "Historical Site 106 (London)",
+    "type": "Bridge",
+    "coordinates": [51.52078099580258, -0.1504798425237534]
   },
   {
     "id": 107,
-    "name": "Historical Site 107",
-    "type": "Monument",
-    "coordinates": [50.848925, 30.664847]
+    "name": "Landmark 107 (London)",
+    "type": "Bridge",
+    "coordinates": [51.492386747840015, -0.08346917312219344]
   },
   {
     "id": 108,
-    "name": "Historical Site 108",
-    "type": "Museum",
-    "coordinates": [34.551363, -118.483868]
+    "name": "Museum 108 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.51750373524927, -0.16120451912663405]
   },
   {
     "id": 109,
-    "name": "Historical Site 109",
-    "type": "Ruins",
-    "coordinates": [40.232169, -74.091036]
+    "name": "Museum 109 (London)",
+    "type": "Bridge",
+    "coordinates": [51.49110751732345, -0.15816961674505603]
   },
   {
     "id": 110,
-    "name": "Historical Site 110",
-    "type": "Ruins",
-    "coordinates": [-23.130239, -42.810757]
+    "name": "Historical Site 110 (London)",
+    "type": "Bridge",
+    "coordinates": [51.48602282228019, -0.1586616150136925]
   },
   {
     "id": 111,
-    "name": "Historical Site 111",
-    "type": "Ruins",
-    "coordinates": [19.234777, -99.474505]
+    "name": "Park 111 (London)",
+    "type": "Park",
+    "coordinates": [51.49492889489766, -0.14238982698654176]
   },
   {
     "id": 112,
-    "name": "Historical Site 112",
-    "type": "Monument",
-    "coordinates": [51.087259, 0.074045]
+    "name": "Museum 112 (London)",
+    "type": "Landmark",
+    "coordinates": [51.52175732034204, -0.1172919942795062]
   },
   {
     "id": 113,
-    "name": "Historical Site 113",
-    "type": "Palace",
-    "coordinates": [40.34551, 116.245067]
+    "name": "Cultural Center 113 (London)",
+    "type": "Park",
+    "coordinates": [51.47564903565598, -0.17155338326844025]
   },
   {
     "id": 114,
-    "name": "Historical Site 114",
-    "type": "Palace",
-    "coordinates": [-23.024138, -42.691951]
+    "name": "Bridge 114 (London)",
+    "type": "Park",
+    "coordinates": [51.47274788531284, -0.1452011994268347]
   },
   {
     "id": 115,
-    "name": "Historical Site 115",
-    "type": "Castle",
-    "coordinates": [30.192837, 31.522416]
+    "name": "Bridge 115 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.48751306353062, -0.15049387864857874]
   },
   {
     "id": 116,
-    "name": "Historical Site 116",
-    "type": "Castle",
-    "coordinates": [14.210961, 100.268062]
+    "name": "Cultural Center 116 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.536869901158845, -0.10413179980800685]
   },
   {
     "id": 117,
-    "name": "Historical Site 117",
-    "type": "Museum",
-    "coordinates": [40.570613, 28.762246]
+    "name": "Museum 117 (London)",
+    "type": "Park",
+    "coordinates": [51.465339877162904, -0.08605538330217227]
   },
   {
     "id": 118,
-    "name": "Historical Site 118",
-    "type": "Ruins",
-    "coordinates": [30.511207, 30.885333]
+    "name": "Cultural Center 118 (London)",
+    "type": "Landmark",
+    "coordinates": [51.50411271374795, -0.13514224789794685]
   },
   {
     "id": 119,
-    "name": "Historical Site 119",
-    "type": "Monument",
-    "coordinates": [-22.459418, -43.019276]
+    "name": "Park 119 (London)",
+    "type": "Cultural Center",
+    "coordinates": [51.46622523268124, -0.1448063642145675]
   },
   {
     "id": 120,
-    "name": "Historical Site 120",
-    "type": "Castle",
-    "coordinates": [40.717675, 29.265544]
+    "name": "Landmark 120 (London)",
+    "type": "Landmark",
+    "coordinates": [51.49333238959755, -0.170614339095292]
   },
   {
     "id": 121,
-    "name": "Historical Site 121",
-    "type": "Monument",
-    "coordinates": [13.978507, 100.587037]
+    "name": "Cultural Center 121 (London)",
+    "type": "Bridge",
+    "coordinates": [51.46173710640763, -0.08121789931489957]
   },
   {
     "id": 122,
-    "name": "Historical Site 122",
-    "type": "Museum",
-    "coordinates": [-22.845753, -42.807134]
+    "name": "Park 122 (London)",
+    "type": "Landmark",
+    "coordinates": [51.50625412125279, -0.14211641452560303]
   },
   {
     "id": 123,
-    "name": "Historical Site 123",
-    "type": "Monument",
-    "coordinates": [51.113175, 0.052903]
+    "name": "Cultural Center 123 (London)",
+    "type": "Historical Site",
+    "coordinates": [51.459878089058975, -0.1774780279471507]
   },
   {
     "id": 124,
-    "name": "Historical Site 124",
-    "type": "Palace",
-    "coordinates": [39.714708, 116.688493]
+    "name": "Bridge 124 (London)",
+    "type": "Bridge",
+    "coordinates": [51.47843639807401, -0.1753959721827459]
   },
   {
     "id": 125,
-    "name": "Historical Site 125",
-    "type": "Museum",
-    "coordinates": [41.441643, 28.482606]
+    "name": "Bridge 125 (Sydney)",
+    "type": "Historical Site",
+    "coordinates": [-33.908607117067554, 151.18361689694294]
   },
   {
     "id": 126,
-    "name": "Historical Site 126",
-    "type": "Palace",
-    "coordinates": [13.451046, 100.710041]
+    "name": "Cultural Center 126 (Sydney)",
+    "type": "Museum",
+    "coordinates": [-33.88829747381129, 151.25203348974213]
   },
   {
     "id": 127,
-    "name": "Historical Site 127",
-    "type": "Museum",
-    "coordinates": [51.582711, -0.200431]
+    "name": "Landmark 127 (Sydney)",
+    "type": "Park",
+    "coordinates": [-33.903331447025884, 151.2327794290669]
   },
   {
     "id": 128,
-    "name": "Historical Site 128",
-    "type": "Museum",
-    "coordinates": [49.316001, 2.743186]
+    "name": "Cultural Center 128 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.89388339144181, 151.1690431444394]
   },
   {
     "id": 129,
-    "name": "Historical Site 129",
-    "type": "Castle",
-    "coordinates": [-34.233212, 150.800856]
+    "name": "Landmark 129 (Sydney)",
+    "type": "Bridge",
+    "coordinates": [-33.82574785315661, 151.22050038707323]
   },
   {
     "id": 130,
-    "name": "Historical Site 130",
-    "type": "Ruins",
-    "coordinates": [35.306472, 140.053765]
+    "name": "Landmark 130 (Sydney)",
+    "type": "Historical Site",
+    "coordinates": [-33.823488855131835, 151.2581480154916]
   },
   {
     "id": 131,
-    "name": "Historical Site 131",
-    "type": "Palace",
-    "coordinates": [19.801782, -98.853157]
+    "name": "Cultural Center 131 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.82944866818708, 151.21200991381406]
   },
   {
     "id": 132,
-    "name": "Historical Site 132",
-    "type": "Monument",
-    "coordinates": [40.241499, -74.313189]
+    "name": "Historical Site 132 (Sydney)",
+    "type": "Bridge",
+    "coordinates": [-33.835301791567225, 151.23836228286575]
   },
   {
     "id": 133,
-    "name": "Historical Site 133",
-    "type": "Ruins",
-    "coordinates": [41.21086, -73.991136]
+    "name": "Park 133 (Sydney)",
+    "type": "Bridge",
+    "coordinates": [-33.86077157329571, 151.24774685814813]
   },
   {
     "id": 134,
-    "name": "Historical Site 134",
-    "type": "Museum",
-    "coordinates": [40.809635, 29.243949]
+    "name": "Bridge 134 (Sydney)",
+    "type": "Historical Site",
+    "coordinates": [-33.918444475748785, 151.217377992662]
   },
   {
     "id": 135,
-    "name": "Historical Site 135",
-    "type": "Palace",
-    "coordinates": [35.660946, 139.668209]
+    "name": "Landmark 135 (Sydney)",
+    "type": "Park",
+    "coordinates": [-33.874693901609845, 151.15976678231436]
   },
   {
     "id": 136,
-    "name": "Historical Site 136",
-    "type": "Monument",
-    "coordinates": [35.932226, 139.541797]
+    "name": "Historical Site 136 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.832525494060405, 151.22782585501645]
   },
   {
     "id": 137,
-    "name": "Historical Site 137",
-    "type": "Ruins",
-    "coordinates": [30.120018, 31.29968]
+    "name": "Bridge 137 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.871093814587894, 151.20052216390178]
   },
   {
     "id": 138,
-    "name": "Historical Site 138",
-    "type": "Castle",
-    "coordinates": [52.002188, -0.200583]
+    "name": "Museum 138 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.8927326710584, 151.1721473934031]
   },
   {
     "id": 139,
-    "name": "Historical Site 139",
-    "type": "Castle",
-    "coordinates": [34.381601, -118.370865]
+    "name": "Museum 139 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.911895680363806, 151.23509840538233]
   },
   {
     "id": 140,
-    "name": "Historical Site 140",
-    "type": "Castle",
-    "coordinates": [19.363864, 73.04786]
+    "name": "Cultural Center 140 (Sydney)",
+    "type": "Museum",
+    "coordinates": [-33.89375832753697, 151.21987858988655]
   },
   {
     "id": 141,
-    "name": "Historical Site 141",
-    "type": "Ruins",
-    "coordinates": [-33.699289, 151.673]
+    "name": "Landmark 141 (Sydney)",
+    "type": "Bridge",
+    "coordinates": [-33.878119049902075, 151.20794118721108]
   },
   {
     "id": 142,
-    "name": "Historical Site 142",
-    "type": "Castle",
-    "coordinates": [18.957166, 73.044913]
+    "name": "Park 142 (Sydney)",
+    "type": "Bridge",
+    "coordinates": [-33.883688697573156, 151.1764224188183]
   },
   {
     "id": 143,
-    "name": "Historical Site 143",
-    "type": "Ruins",
-    "coordinates": [40.09219, 116.143926]
+    "name": "Museum 143 (Sydney)",
+    "type": "Landmark",
+    "coordinates": [-33.85312591888178, 151.16358356930598]
   },
   {
     "id": 144,
-    "name": "Historical Site 144",
-    "type": "Museum",
-    "coordinates": [30.429068, 31.425354]
+    "name": "Historical Site 144 (Sydney)",
+    "type": "Historical Site",
+    "coordinates": [-33.893392696280294, 151.24239567017173]
   },
   {
     "id": 145,
-    "name": "Historical Site 145",
-    "type": "Castle",
-    "coordinates": [40.483895, -74.111735]
+    "name": "Bridge 145 (Sydney)",
+    "type": "Park",
+    "coordinates": [-33.82664347519546, 151.20317043289785]
   },
   {
     "id": 146,
-    "name": "Historical Site 146",
-    "type": "Museum",
-    "coordinates": [-33.614578, 150.985606]
+    "name": "Bridge 146 (Sydney)",
+    "type": "Park",
+    "coordinates": [-33.8814611650595, 151.19360355474336]
   },
   {
     "id": 147,
-    "name": "Historical Site 147",
-    "type": "Ruins",
-    "coordinates": [-33.45844, 151.389406]
+    "name": "Cultural Center 147 (Sydney)",
+    "type": "Landmark",
+    "coordinates": [-33.866540897917886, 151.18122584641577]
   },
   {
     "id": 148,
-    "name": "Historical Site 148",
-    "type": "Palace",
-    "coordinates": [30.419709, 31.537125]
+    "name": "Bridge 148 (Sydney)",
+    "type": "Historical Site",
+    "coordinates": [-33.915213879160866, 151.18161518234706]
   },
   {
     "id": 149,
-    "name": "Historical Site 149",
-    "type": "Castle",
-    "coordinates": [33.932125, -118.482064]
+    "name": "Bridge 149 (Sydney)",
+    "type": "Museum",
+    "coordinates": [-33.84255927039269, 151.23447818328862]
   },
   {
     "id": 150,
-    "name": "Historical Site 150",
-    "type": "Castle",
-    "coordinates": [51.234169, -0.241533]
+    "name": "Cultural Center 150 (Sydney)",
+    "type": "Park",
+    "coordinates": [-33.89812838138429, 151.19796135240497]
   },
   {
     "id": 151,
-    "name": "Historical Site 151",
-    "type": "Ruins",
-    "coordinates": [-34.247947, 150.885283]
+    "name": "Cultural Center 151 (Sydney)",
+    "type": "Museum",
+    "coordinates": [-33.91186315919219, 151.2415747124721]
   },
   {
     "id": 152,
-    "name": "Historical Site 152",
-    "type": "Ruins",
-    "coordinates": [35.209019, 140.011531]
+    "name": "Bridge 152 (Sydney)",
+    "type": "Cultural Center",
+    "coordinates": [-33.842780501322764, 151.17508291233895]
   },
   {
     "id": 153,
-    "name": "Historical Site 153",
-    "type": "Monument",
-    "coordinates": [-22.519417, -42.787568]
+    "name": "Landmark 153 (Cairo)",
+    "type": "Bridge",
+    "coordinates": [30.047740594891888, 31.198721475342822]
   },
   {
     "id": 154,
-    "name": "Historical Site 154",
-    "type": "Ruins",
-    "coordinates": [-22.558727, -42.696767]
+    "name": "Historical Site 154 (Cairo)",
+    "type": "Park",
+    "coordinates": [30.008939732470825, 31.22079712141464]
   },
   {
     "id": 155,
-    "name": "Historical Site 155",
-    "type": "Palace",
-    "coordinates": [40.052026, 116.303202]
+    "name": "Landmark 155 (Cairo)",
+    "type": "Landmark",
+    "coordinates": [30.058377273587638, 31.219099658404474]
   },
   {
     "id": 156,
-    "name": "Historical Site 156",
-    "type": "Ruins",
-    "coordinates": [41.051531, 28.88944]
+    "name": "Bridge 156 (Cairo)",
+    "type": "Museum",
+    "coordinates": [30.090856683664654, 31.255793981367436]
   },
   {
     "id": 157,
-    "name": "Historical Site 157",
-    "type": "Monument",
-    "coordinates": [18.676242, 72.938373]
+    "name": "Park 157 (Cairo)",
+    "type": "Landmark",
+    "coordinates": [30.069830971760606, 31.203825313029864]
   },
   {
     "id": 158,
-    "name": "Historical Site 158",
-    "type": "Monument",
-    "coordinates": [41.059487, 28.881647]
+    "name": "Cultural Center 158 (Cairo)",
+    "type": "Bridge",
+    "coordinates": [30.062306757661027, 31.227758992783226]
   },
   {
     "id": 159,
-    "name": "Historical Site 159",
-    "type": "Castle",
-    "coordinates": [48.621814, 2.573558]
+    "name": "Park 159 (Cairo)",
+    "type": "Landmark",
+    "coordinates": [30.048004459967206, 31.22538475636858]
   },
   {
     "id": 160,
-    "name": "Historical Site 160",
-    "type": "Monument",
-    "coordinates": [29.578475, 30.782255]
+    "name": "Landmark 160 (Cairo)",
+    "type": "Museum",
+    "coordinates": [30.07274328342594, 31.249614023540094]
   },
   {
     "id": 161,
-    "name": "Historical Site 161",
-    "type": "Museum",
-    "coordinates": [19.225488, 72.440497]
+    "name": "Bridge 161 (Cairo)",
+    "type": "Bridge",
+    "coordinates": [30.05537993862774, 31.230478936171657]
   },
   {
     "id": 162,
-    "name": "Historical Site 162",
-    "type": "Castle",
-    "coordinates": [40.510187, -73.83752]
+    "name": "Park 162 (Cairo)",
+    "type": "Park",
+    "coordinates": [30.04536328581423, 31.23893857512882]
   },
   {
     "id": 163,
-    "name": "Historical Site 163",
-    "type": "Castle",
-    "coordinates": [35.414002, 139.275017]
+    "name": "Landmark 163 (Cairo)",
+    "type": "Landmark",
+    "coordinates": [30.08527405157852, 31.216015606702562]
   },
   {
     "id": 164,
-    "name": "Historical Site 164",
-    "type": "Palace",
-    "coordinates": [29.65431, 30.749293]
+    "name": "Bridge 164 (Cairo)",
+    "type": "Park",
+    "coordinates": [30.093668085762012, 31.251534284317458]
   },
   {
     "id": 165,
-    "name": "Historical Site 165",
-    "type": "Palace",
-    "coordinates": [14.17345, 100.335481]
+    "name": "Museum 165 (Cairo)",
+    "type": "Museum",
+    "coordinates": [30.046033059797065, 31.201342082971834]
   },
   {
     "id": 166,
-    "name": "Historical Site 166",
-    "type": "Monument",
-    "coordinates": [-23.17237, -43.014367]
+    "name": "Historical Site 166 (Cairo)",
+    "type": "Historical Site",
+    "coordinates": [30.03302434824911, 31.27199790704031]
   },
   {
     "id": 167,
-    "name": "Historical Site 167",
-    "type": "Monument",
-    "coordinates": [51.011461, -0.445278]
+    "name": "Cultural Center 167 (Cairo)",
+    "type": "Landmark",
+    "coordinates": [29.99903562993954, 31.268653347901775]
   },
   {
     "id": 168,
-    "name": "Historical Site 168",
-    "type": "Castle",
-    "coordinates": [51.198828, -0.36829]
+    "name": "Park 168 (Cairo)",
+    "type": "Historical Site",
+    "coordinates": [30.036003267988587, 31.20547788695107]
   },
   {
     "id": 169,
-    "name": "Historical Site 169",
-    "type": "Monument",
-    "coordinates": [-23.359096, -43.16711]
+    "name": "Bridge 169 (Cairo)",
+    "type": "Cultural Center",
+    "coordinates": [30.021382384624275, 31.231817689795765]
   },
   {
     "id": 170,
-    "name": "Historical Site 170",
-    "type": "Ruins",
-    "coordinates": [19.640361, -98.710117]
+    "name": "Park 170 (Cairo)",
+    "type": "Bridge",
+    "coordinates": [30.08809285929101, 31.258625425488837]
   },
   {
     "id": 171,
-    "name": "Historical Site 171",
-    "type": "Castle",
-    "coordinates": [40.342066, -74.125437]
+    "name": "Bridge 171 (Cairo)",
+    "type": "Cultural Center",
+    "coordinates": [30.03360860851997, 31.205623245780277]
   },
   {
     "id": 172,
-    "name": "Historical Site 172",
-    "type": "Monument",
-    "coordinates": [18.954897, 73.353026]
+    "name": "Park 172 (Cairo)",
+    "type": "Cultural Center",
+    "coordinates": [30.051031137182036, 31.24012568316834]
   },
   {
     "id": 173,
-    "name": "Historical Site 173",
-    "type": "Palace",
-    "coordinates": [29.649678, 31.20618]
+    "name": "Landmark 173 (Istanbul)",
+    "type": "Cultural Center",
+    "coordinates": [40.980645396553506, 28.966645984906318]
   },
   {
     "id": 174,
-    "name": "Historical Site 174",
-    "type": "Museum",
-    "coordinates": [35.76683, 139.906494]
+    "name": "Landmark 174 (Istanbul)",
+    "type": "Historical Site",
+    "coordinates": [41.0171038639069, 28.99891924763155]
   },
   {
     "id": 175,
-    "name": "Historical Site 175",
-    "type": "Museum",
-    "coordinates": [19.117919, -99.197258]
+    "name": "Museum 175 (Istanbul)",
+    "type": "Landmark",
+    "coordinates": [41.01354657374564, 28.994603827010383]
   },
   {
     "id": 176,
-    "name": "Historical Site 176",
-    "type": "Palace",
-    "coordinates": [19.151328, -99.593512]
+    "name": "Landmark 176 (Istanbul)",
+    "type": "Bridge",
+    "coordinates": [41.02656954447903, 29.016953194302253]
   },
   {
     "id": 177,
-    "name": "Historical Site 177",
-    "type": "Ruins",
-    "coordinates": [50.739154, 30.191511]
+    "name": "Park 177 (Istanbul)",
+    "type": "Historical Site",
+    "coordinates": [40.98369447557637, 28.93463570031912]
   },
   {
     "id": 178,
-    "name": "Historical Site 178",
-    "type": "Ruins",
-    "coordinates": [41.002928, 29.273754]
+    "name": "Historical Site 178 (Istanbul)",
+    "type": "Landmark",
+    "coordinates": [41.032008841527315, 28.99968733975016]
   },
   {
     "id": 179,
-    "name": "Historical Site 179",
-    "type": "Museum",
-    "coordinates": [34.036496, -118.194325]
+    "name": "Park 179 (Istanbul)",
+    "type": "Park",
+    "coordinates": [41.03351978444031, 28.95774222055657]
   },
   {
     "id": 180,
-    "name": "Historical Site 180",
-    "type": "Ruins",
-    "coordinates": [48.621772, 1.931361]
+    "name": "Bridge 180 (Istanbul)",
+    "type": "Bridge",
+    "coordinates": [40.97621389616992, 28.979016411405258]
   },
   {
     "id": 181,
-    "name": "Historical Site 181",
-    "type": "Castle",
-    "coordinates": [40.430759, -73.863964]
+    "name": "Landmark 181 (Istanbul)",
+    "type": "Bridge",
+    "coordinates": [41.04246144896137, 28.955964551413715]
   },
   {
     "id": 182,
-    "name": "Historical Site 182",
-    "type": "Ruins",
-    "coordinates": [13.729591, 100.592567]
+    "name": "Cultural Center 182 (Istanbul)",
+    "type": "Park",
+    "coordinates": [41.047368798382415, 28.941364684694992]
   },
   {
     "id": 183,
-    "name": "Historical Site 183",
-    "type": "Palace",
-    "coordinates": [-23.109051, -43.116388]
+    "name": "Historical Site 183 (Istanbul)",
+    "type": "Park",
+    "coordinates": [41.00000311486152, 29.023154578518614]
   },
   {
     "id": 184,
-    "name": "Historical Site 184",
-    "type": "Museum",
-    "coordinates": [41.373469, 29.309042]
+    "name": "Museum 184 (Istanbul)",
+    "type": "Park",
+    "coordinates": [40.96690244775944, 29.005147314499194]
   },
   {
     "id": 185,
-    "name": "Historical Site 185",
-    "type": "Castle",
-    "coordinates": [19.524593, -98.645385]
+    "name": "Bridge 185 (Istanbul)",
+    "type": "Cultural Center",
+    "coordinates": [41.020270881077266, 28.986216749843802]
   },
   {
     "id": 186,
-    "name": "Historical Site 186",
-    "type": "Castle",
-    "coordinates": [35.197447, 139.859044]
+    "name": "Museum 186 (Istanbul)",
+    "type": "Historical Site",
+    "coordinates": [40.98119939825435, 28.952513314878928]
   },
   {
     "id": 187,
-    "name": "Historical Site 187",
-    "type": "Museum",
-    "coordinates": [50.310515, 30.828132]
+    "name": "Historical Site 187 (Istanbul)",
+    "type": "Bridge",
+    "coordinates": [41.029562939306295, 28.973059283309013]
   },
   {
     "id": 188,
-    "name": "Historical Site 188",
-    "type": "Castle",
-    "coordinates": [33.710165, -118.270192]
+    "name": "Landmark 188 (Istanbul)",
+    "type": "Park",
+    "coordinates": [40.97656952405215, 28.979647905864994]
   },
   {
     "id": 189,
-    "name": "Historical Site 189",
-    "type": "Castle",
-    "coordinates": [40.709994, 28.862492]
+    "name": "Park 189 (Istanbul)",
+    "type": "Bridge",
+    "coordinates": [40.97663559388028, 28.954432176425367]
   },
   {
     "id": 190,
-    "name": "Historical Site 190",
-    "type": "Palace",
-    "coordinates": [51.981366, -0.477006]
+    "name": "Landmark 190 (Istanbul)",
+    "type": "Museum",
+    "coordinates": [40.98642365375844, 28.974108517164417]
   },
   {
     "id": 191,
-    "name": "Historical Site 191",
-    "type": "Ruins",
-    "coordinates": [-33.41113, 151.13557]
+    "name": "Cultural Center 191 (Istanbul)",
+    "type": "Cultural Center",
+    "coordinates": [41.01634382381924, 28.962468308153746]
   },
   {
     "id": 192,
-    "name": "Historical Site 192",
-    "type": "Palace",
-    "coordinates": [50.228056, 30.041969]
+    "name": "Museum 192 (Istanbul)",
+    "type": "Cultural Center",
+    "coordinates": [40.980585001327945, 28.974262901529936]
   },
   {
     "id": 193,
-    "name": "Historical Site 193",
-    "type": "Monument",
-    "coordinates": [39.506243, 116.391846]
+    "name": "Historical Site 193 (Istanbul)",
+    "type": "Bridge",
+    "coordinates": [41.03407028546112, 29.012758661234457]
   },
   {
     "id": 194,
-    "name": "Historical Site 194",
+    "name": "Landmark 194 (Rio de Janeiro)",
     "type": "Museum",
-    "coordinates": [30.08328, 31.655985]
+    "coordinates": [-22.95225939198786, -43.21479378815596]
   },
   {
     "id": 195,
-    "name": "Historical Site 195",
-    "type": "Museum",
-    "coordinates": [-34.339668, 151.03368]
+    "name": "Park 195 (Rio de Janeiro)",
+    "type": "Park",
+    "coordinates": [-22.881158253827355, -43.15990181592251]
   },
   {
     "id": 196,
-    "name": "Historical Site 196",
-    "type": "Monument",
-    "coordinates": [50.703717, 30.349213]
+    "name": "Landmark 196 (Rio de Janeiro)",
+    "type": "Cultural Center",
+    "coordinates": [-22.921318057635375, -43.19784718052911]
   },
   {
     "id": 197,
-    "name": "Historical Site 197",
-    "type": "Monument",
-    "coordinates": [-22.781069, -43.265254]
+    "name": "Cultural Center 197 (Rio de Janeiro)",
+    "type": "Bridge",
+    "coordinates": [-22.90282029163676, -43.170607892341366]
   },
   {
     "id": 198,
-    "name": "Historical Site 198",
-    "type": "Palace",
-    "coordinates": [40.321552, 116.069903]
+    "name": "Landmark 198 (Rio de Janeiro)",
+    "type": "Historical Site",
+    "coordinates": [-22.86713890943127, -43.167449021826656]
   },
   {
     "id": 199,
-    "name": "Historical Site 199",
-    "type": "Castle",
-    "coordinates": [18.74483, 73.315403]
+    "name": "Park 199 (Rio de Janeiro)",
+    "type": "Park",
+    "coordinates": [-22.940861556610784, -43.19024661381451]
   },
   {
     "id": 200,
-    "name": "Historical Site 200",
-    "type": "Castle",
-    "coordinates": [35.324819, 139.310747]
+    "name": "Cultural Center 200 (Rio de Janeiro)",
+    "type": "Museum",
+    "coordinates": [-22.88057602864118, -43.14691404578757]
   },
   {
     "id": 201,
-    "name": "Historical Site 201",
-    "type": "Ruins",
-    "coordinates": [41.133738, 28.686885]
+    "name": "Historical Site 201 (Rio de Janeiro)",
+    "type": "Historical Site",
+    "coordinates": [-22.946467104508425, -43.2010208897455]
   },
   {
     "id": 202,
-    "name": "Historical Site 202",
-    "type": "Ruins",
-    "coordinates": [51.379736, 0.351612]
+    "name": "Museum 202 (Rio de Janeiro)",
+    "type": "Historical Site",
+    "coordinates": [-22.88948234311682, -43.163679906632666]
   },
   {
     "id": 203,
-    "name": "Historical Site 203",
-    "type": "Palace",
-    "coordinates": [19.022018, 72.83798]
+    "name": "Bridge 203 (Rio de Janeiro)",
+    "type": "Cultural Center",
+    "coordinates": [-22.917802383881018, -43.191600603747915]
   },
   {
     "id": 204,
-    "name": "Historical Site 204",
-    "type": "Palace",
-    "coordinates": [33.80183, -117.762171]
+    "name": "Historical Site 204 (Rio de Janeiro)",
+    "type": "Park",
+    "coordinates": [-22.862905248974332, -43.1619760028623]
   },
   {
     "id": 205,
-    "name": "Historical Site 205",
-    "type": "Monument",
-    "coordinates": [50.298421, 30.226846]
+    "name": "Historical Site 205 (Rio de Janeiro)",
+    "type": "Museum",
+    "coordinates": [-22.928042581168615, -43.17019549271835]
   },
   {
     "id": 206,
-    "name": "Historical Site 206",
-    "type": "Monument",
-    "coordinates": [51.454226, -0.456926]
+    "name": "Cultural Center 206 (Rio de Janeiro)",
+    "type": "Cultural Center",
+    "coordinates": [-22.907046456685034, -43.17712961987337]
   },
   {
     "id": 207,
-    "name": "Historical Site 207",
-    "type": "Museum",
-    "coordinates": [18.774864, 72.382716]
+    "name": "Landmark 207 (Rio de Janeiro)",
+    "type": "Bridge",
+    "coordinates": [-22.878451855606745, -43.19459868081423]
   },
   {
     "id": 208,
-    "name": "Historical Site 208",
-    "type": "Ruins",
-    "coordinates": [34.370635, -118.457447]
+    "name": "Cultural Center 208 (Rio de Janeiro)",
+    "type": "Bridge",
+    "coordinates": [-22.938705765452507, -43.13667252945152]
   },
   {
     "id": 209,
-    "name": "Historical Site 209",
-    "type": "Monument",
-    "coordinates": [18.738127, 73.251082]
+    "name": "Cultural Center 209 (Rio de Janeiro)",
+    "type": "Historical Site",
+    "coordinates": [-22.885955742950564, -43.22063321098477]
   },
   {
     "id": 210,
-    "name": "Historical Site 210",
-    "type": "Palace",
-    "coordinates": [14.14993, 100.136532]
+    "name": "Museum 210 (Rio de Janeiro)",
+    "type": "Cultural Center",
+    "coordinates": [-22.943751427640017, -43.16606024731156]
   },
   {
     "id": 211,
-    "name": "Historical Site 211",
-    "type": "Palace",
-    "coordinates": [-23.355288, -43.121817]
+    "name": "Cultural Center 211 (Mumbai)",
+    "type": "Landmark",
+    "coordinates": [19.059390835738686, 72.88085722180719]
   },
   {
     "id": 212,
-    "name": "Historical Site 212",
+    "name": "Landmark 212 (Mumbai)",
     "type": "Museum",
-    "coordinates": [19.304814, 72.893012]
+    "coordinates": [19.050137641957285, 72.86806991703865]
   },
   {
     "id": 213,
-    "name": "Historical Site 213",
-    "type": "Palace",
-    "coordinates": [33.61159, -117.909789]
+    "name": "Cultural Center 213 (Mumbai)",
+    "type": "Museum",
+    "coordinates": [19.078299425016432, 72.8817886598178]
   },
   {
     "id": 214,
-    "name": "Historical Site 214",
-    "type": "Castle",
-    "coordinates": [-22.80707, -43.235977]
+    "name": "Cultural Center 214 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.119295550908927, 72.88698007548909]
   },
   {
     "id": 215,
-    "name": "Historical Site 215",
-    "type": "Monument",
-    "coordinates": [-33.641879, 150.838512]
+    "name": "Bridge 215 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.04840785276644, 72.9204401358611]
   },
   {
     "id": 216,
-    "name": "Historical Site 216",
-    "type": "Monument",
-    "coordinates": [39.989686, 116.867429]
+    "name": "Cultural Center 216 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.034592963256497, 72.91517681265388]
   },
   {
     "id": 217,
-    "name": "Historical Site 217",
-    "type": "Monument",
-    "coordinates": [-22.573541, -43.350113]
+    "name": "Historical Site 217 (Mumbai)",
+    "type": "Museum",
+    "coordinates": [19.033795343928816, 72.86212560657438]
   },
   {
     "id": 218,
-    "name": "Historical Site 218",
-    "type": "Castle",
-    "coordinates": [51.060002, -0.447929]
+    "name": "Museum 218 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.03008051232359, 72.84052891871505]
   },
   {
     "id": 219,
-    "name": "Historical Site 219",
-    "type": "Museum",
-    "coordinates": [18.872621, 72.984971]
+    "name": "Bridge 219 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.093131875245906, 72.86908377094741]
   },
   {
     "id": 220,
-    "name": "Historical Site 220",
-    "type": "Monument",
-    "coordinates": [19.391503, -99.391215]
+    "name": "Bridge 220 (Mumbai)",
+    "type": "Cultural Center",
+    "coordinates": [19.11658828715353, 72.86838430877691]
   },
   {
     "id": 221,
-    "name": "Historical Site 221",
-    "type": "Ruins",
-    "coordinates": [40.654387, 28.959519]
+    "name": "Park 221 (Mumbai)",
+    "type": "Museum",
+    "coordinates": [19.106112038532956, 72.84177081290012]
   },
   {
     "id": 222,
-    "name": "Historical Site 222",
-    "type": "Ruins",
-    "coordinates": [29.555313, 31.671741]
+    "name": "Bridge 222 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.070970960764022, 72.90192100564447]
   },
   {
     "id": 223,
-    "name": "Historical Site 223",
-    "type": "Castle",
-    "coordinates": [19.584633, -99.342789]
+    "name": "Landmark 223 (Mumbai)",
+    "type": "Historical Site",
+    "coordinates": [19.04591608697315, 72.89102934622318]
   },
   {
     "id": 224,
-    "name": "Historical Site 224",
-    "type": "Ruins",
-    "coordinates": [40.170218, 116.524016]
+    "name": "Bridge 224 (Mumbai)",
+    "type": "Landmark",
+    "coordinates": [19.055634341714338, 72.88203435204429]
   },
   {
     "id": 225,
-    "name": "Historical Site 225",
-    "type": "Castle",
-    "coordinates": [35.327967, 140.0041]
+    "name": "Bridge 225 (Mumbai)",
+    "type": "Historical Site",
+    "coordinates": [19.044360777863677, 72.83565955789386]
   },
   {
     "id": 226,
-    "name": "Historical Site 226",
-    "type": "Monument",
-    "coordinates": [36.061208, 139.464122]
+    "name": "Bridge 226 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.050753613963693, 72.8372926354472]
   },
   {
     "id": 227,
-    "name": "Historical Site 227",
-    "type": "Museum",
-    "coordinates": [40.537694, 28.955498]
+    "name": "Cultural Center 227 (Mumbai)",
+    "type": "Landmark",
+    "coordinates": [19.037613592011496, 72.84478139075006]
   },
   {
     "id": 228,
-    "name": "Historical Site 228",
-    "type": "Ruins",
-    "coordinates": [51.37381, -0.171312]
+    "name": "Landmark 228 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.085205935698205, 72.86666340479545]
   },
   {
     "id": 229,
-    "name": "Historical Site 229",
-    "type": "Monument",
-    "coordinates": [48.857161, 2.486907]
+    "name": "Historical Site 229 (Mumbai)",
+    "type": "Landmark",
+    "coordinates": [19.029771828843064, 72.84909782447605]
   },
   {
     "id": 230,
-    "name": "Historical Site 230",
-    "type": "Monument",
-    "coordinates": [39.545475, 116.672679]
+    "name": "Historical Site 230 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.08419171558151, 72.9017538084064]
   },
   {
     "id": 231,
-    "name": "Historical Site 231",
-    "type": "Palace",
-    "coordinates": [39.627007, 116.157095]
+    "name": "Bridge 231 (Mumbai)",
+    "type": "Historical Site",
+    "coordinates": [19.07434322975915, 72.83908987378936]
   },
   {
     "id": 232,
-    "name": "Historical Site 232",
-    "type": "Monument",
-    "coordinates": [51.018822, -0.031231]
+    "name": "Cultural Center 232 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.05020665393533, 72.90894821515771]
   },
   {
     "id": 233,
-    "name": "Historical Site 233",
-    "type": "Ruins",
-    "coordinates": [50.11767, 30.266696]
+    "name": "Bridge 233 (Mumbai)",
+    "type": "Landmark",
+    "coordinates": [19.088734973939076, 72.88430844082976]
   },
   {
     "id": 234,
-    "name": "Historical Site 234",
-    "type": "Palace",
-    "coordinates": [39.580203, 116.668133]
+    "name": "Bridge 234 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.07654465701455, 72.83340515707064]
   },
   {
     "id": 235,
-    "name": "Historical Site 235",
-    "type": "Museum",
-    "coordinates": [40.380699, 116.83707]
+    "name": "Landmark 235 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.070195110423832, 72.90346384530298]
   },
   {
     "id": 236,
-    "name": "Historical Site 236",
-    "type": "Palace",
-    "coordinates": [40.150337, 116.295475]
+    "name": "Cultural Center 236 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.046225759962372, 72.91297819911622]
   },
   {
     "id": 237,
-    "name": "Historical Site 237",
-    "type": "Museum",
-    "coordinates": [48.398483, 2.290118]
+    "name": "Historical Site 237 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.06257511478409, 72.85121547652832]
   },
   {
     "id": 238,
-    "name": "Historical Site 238",
-    "type": "Palace",
-    "coordinates": [39.99211, 116.025923]
+    "name": "Historical Site 238 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.103112341178146, 72.84411193516829]
   },
   {
     "id": 239,
-    "name": "Historical Site 239",
-    "type": "Castle",
-    "coordinates": [40.527238, -73.901008]
+    "name": "Landmark 239 (Mumbai)",
+    "type": "Cultural Center",
+    "coordinates": [19.08828097823098, 72.92120488794961]
   },
   {
     "id": 240,
-    "name": "Historical Site 240",
-    "type": "Castle",
-    "coordinates": [35.345761, 139.698332]
+    "name": "Museum 240 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.108702603235642, 72.90902433521437]
   },
   {
     "id": 241,
-    "name": "Historical Site 241",
-    "type": "Monument",
-    "coordinates": [50.459874, 30.43569]
+    "name": "Historical Site 241 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.07169892905984, 72.87097019028602]
   },
   {
     "id": 242,
-    "name": "Historical Site 242",
-    "type": "Palace",
-    "coordinates": [48.93413, 1.884004]
+    "name": "Historical Site 242 (Mumbai)",
+    "type": "Historical Site",
+    "coordinates": [19.07026133828523, 72.86271039556958]
   },
   {
     "id": 243,
-    "name": "Historical Site 243",
-    "type": "Castle",
-    "coordinates": [13.526734, 100.925562]
+    "name": "Landmark 243 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.040207683412238, 72.91540984968634]
   },
   {
     "id": 244,
-    "name": "Historical Site 244",
-    "type": "Palace",
-    "coordinates": [-22.825425, -42.766739]
+    "name": "Historical Site 244 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.026360731938926, 72.87510657069554]
   },
   {
     "id": 245,
-    "name": "Historical Site 245",
-    "type": "Monument",
-    "coordinates": [34.037626, -118.740653]
+    "name": "Museum 245 (Mumbai)",
+    "type": "Landmark",
+    "coordinates": [19.056206894433032, 72.90414966577495]
   },
   {
     "id": 246,
-    "name": "Historical Site 246",
-    "type": "Palace",
-    "coordinates": [51.688053, -0.044793]
+    "name": "Museum 246 (Mumbai)",
+    "type": "Cultural Center",
+    "coordinates": [19.116098796314116, 72.84981787545924]
   },
   {
     "id": 247,
-    "name": "Historical Site 247",
-    "type": "Palace",
-    "coordinates": [51.14792, 0.088615]
+    "name": "Park 247 (Mumbai)",
+    "type": "Bridge",
+    "coordinates": [19.08444713657158, 72.89621002037761]
   },
   {
     "id": 248,
-    "name": "Historical Site 248",
-    "type": "Castle",
-    "coordinates": [18.774133, 72.416601]
+    "name": "Museum 248 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.06512710498407, 72.92148828268431]
   },
   {
     "id": 249,
-    "name": "Historical Site 249",
-    "type": "Museum",
-    "coordinates": [19.13832, -98.665188]
+    "name": "Historical Site 249 (Mumbai)",
+    "type": "Historical Site",
+    "coordinates": [19.033412265691673, 72.90240080854761]
   },
   {
     "id": 250,
-    "name": "Historical Site 250",
-    "type": "Castle",
-    "coordinates": [-22.588823, -43.2739]
+    "name": "Cultural Center 250 (Mumbai)",
+    "type": "Museum",
+    "coordinates": [19.061330975505413, 72.90747185237292]
   },
   {
     "id": 251,
-    "name": "Historical Site 251",
-    "type": "Palace",
-    "coordinates": [34.21018, -117.907331]
+    "name": "Historical Site 251 (Mumbai)",
+    "type": "Cultural Center",
+    "coordinates": [19.054341992280037, 72.85537412681674]
   },
   {
     "id": 252,
-    "name": "Historical Site 252",
-    "type": "Palace",
-    "coordinates": [19.248253, 72.502486]
+    "name": "Landmark 252 (Mumbai)",
+    "type": "Park",
+    "coordinates": [19.064301382608498, 72.9207197303115]
   },
   {
     "id": 253,
-    "name": "Historical Site 253",
-    "type": "Monument",
-    "coordinates": [-34.343347, 151.173156]
+    "name": "Bridge 253 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.477694378593718, -99.0835688324519]
   },
   {
     "id": 254,
-    "name": "Historical Site 254",
-    "type": "Castle",
-    "coordinates": [39.703835, 116.840469]
+    "name": "Park 254 (Mexico City)",
+    "type": "Museum",
+    "coordinates": [19.393686966672043, -99.1138689314153]
   },
   {
     "id": 255,
-    "name": "Historical Site 255",
-    "type": "Monument",
-    "coordinates": [30.257381, 31.681497]
+    "name": "Historical Site 255 (Mexico City)",
+    "type": "Park",
+    "coordinates": [19.434660094197255, -99.14917970019972]
   },
   {
     "id": 256,
-    "name": "Historical Site 256",
-    "type": "Palace",
-    "coordinates": [29.884935, 31.098974]
+    "name": "Park 256 (Mexico City)",
+    "type": "Cultural Center",
+    "coordinates": [19.467570370325348, -99.0861012811827]
   },
   {
     "id": 257,
-    "name": "Historical Site 257",
-    "type": "Ruins",
-    "coordinates": [18.645286, 72.451287]
+    "name": "Historical Site 257 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.41202724070859, -99.10556648278938]
   },
   {
     "id": 258,
-    "name": "Historical Site 258",
-    "type": "Monument",
-    "coordinates": [50.382894, 30.32274]
+    "name": "Landmark 258 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.465138103958502, -99.15669200546937]
   },
   {
     "id": 259,
-    "name": "Historical Site 259",
-    "type": "Ruins",
-    "coordinates": [39.687239, 115.924261]
+    "name": "Landmark 259 (Mexico City)",
+    "type": "Historical Site",
+    "coordinates": [19.41540314042214, -99.14125807992116]
   },
   {
     "id": 260,
-    "name": "Historical Site 260",
-    "type": "Monument",
-    "coordinates": [41.025922, -73.907046]
+    "name": "Bridge 260 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.38385883080616, -99.11422428707961]
   },
   {
     "id": 261,
-    "name": "Historical Site 261",
-    "type": "Monument",
-    "coordinates": [50.554699, 30.863649]
+    "name": "Cultural Center 261 (Mexico City)",
+    "type": "Cultural Center",
+    "coordinates": [19.393760987651934, -99.0924369257632]
   },
   {
     "id": 262,
-    "name": "Historical Site 262",
-    "type": "Castle",
-    "coordinates": [-22.970729, -43.187739]
+    "name": "Historical Site 262 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.471855573829274, -99.10557895757965]
   },
   {
     "id": 263,
-    "name": "Historical Site 263",
-    "type": "Palace",
-    "coordinates": [39.545817, 115.919414]
+    "name": "Museum 263 (Mexico City)",
+    "type": "Park",
+    "coordinates": [19.451023876698425, -99.14985873171209]
   },
   {
     "id": 264,
-    "name": "Historical Site 264",
-    "type": "Monument",
-    "coordinates": [40.313443, 115.928671]
+    "name": "Museum 264 (Mexico City)",
+    "type": "Park",
+    "coordinates": [19.385446302776288, -99.16881845129004]
   },
   {
     "id": 265,
-    "name": "Historical Site 265",
-    "type": "Palace",
-    "coordinates": [40.373547, 116.391114]
+    "name": "Park 265 (Mexico City)",
+    "type": "Cultural Center",
+    "coordinates": [19.41646543972346, -99.16681806216182]
   },
   {
     "id": 266,
-    "name": "Historical Site 266",
-    "type": "Ruins",
-    "coordinates": [51.744913, -0.245745]
+    "name": "Museum 266 (Mexico City)",
+    "type": "Cultural Center",
+    "coordinates": [19.437660549676817, -99.16773806007188]
   },
   {
     "id": 267,
-    "name": "Historical Site 267",
-    "type": "Museum",
-    "coordinates": [50.548158, 30.077599]
+    "name": "Bridge 267 (Mexico City)",
+    "type": "Historical Site",
+    "coordinates": [19.40759593436141, -99.13373810049417]
   },
   {
     "id": 268,
-    "name": "Historical Site 268",
-    "type": "Castle",
-    "coordinates": [40.709603, 28.540186]
+    "name": "Bridge 268 (Mexico City)",
+    "type": "Landmark",
+    "coordinates": [19.424528271561744, -99.14999591848584]
   },
   {
     "id": 269,
-    "name": "Historical Site 269",
-    "type": "Ruins",
-    "coordinates": [48.838609, 2.212222]
+    "name": "Museum 269 (Mexico City)",
+    "type": "Landmark",
+    "coordinates": [19.421656392242284, -99.1607941101543]
   },
   {
     "id": 270,
-    "name": "Historical Site 270",
-    "type": "Museum",
-    "coordinates": [19.258217, 72.815323]
+    "name": "Cultural Center 270 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.390006071151248, -99.09592812184115]
   },
   {
     "id": 271,
-    "name": "Historical Site 271",
-    "type": "Palace",
-    "coordinates": [48.792816, 2.196689]
+    "name": "Bridge 271 (Mexico City)",
+    "type": "Historical Site",
+    "coordinates": [19.440943285224215, -99.08705214656902]
   },
   {
     "id": 272,
-    "name": "Historical Site 272",
-    "type": "Palace",
-    "coordinates": [-34.138064, 151.699635]
+    "name": "Bridge 272 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.39438812274052, -99.10498682318256]
   },
   {
     "id": 273,
-    "name": "Historical Site 273",
-    "type": "Museum",
-    "coordinates": [51.077939, 0.104343]
+    "name": "Park 273 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.383455431747198, -99.08673120322939]
   },
   {
     "id": 274,
-    "name": "Historical Site 274",
-    "type": "Castle",
-    "coordinates": [14.160046, 100.657853]
+    "name": "Cultural Center 274 (Mexico City)",
+    "type": "Landmark",
+    "coordinates": [19.423215573082395, -99.09028511536451]
   },
   {
     "id": 275,
-    "name": "Historical Site 275",
-    "type": "Ruins",
-    "coordinates": [40.263449, -73.547744]
+    "name": "Park 275 (Mexico City)",
+    "type": "Park",
+    "coordinates": [19.435053839317504, -99.10786502516186]
   },
   {
     "id": 276,
-    "name": "Historical Site 276",
+    "name": "Park 276 (Mexico City)",
     "type": "Museum",
-    "coordinates": [33.891019, -118.46004]
+    "coordinates": [19.46705825887137, -99.12041170895672]
   },
   {
     "id": 277,
-    "name": "Historical Site 277",
-    "type": "Museum",
-    "coordinates": [14.182783, 100.461818]
+    "name": "Park 277 (Mexico City)",
+    "type": "Park",
+    "coordinates": [19.44209572320876, -99.10148952181532]
   },
   {
     "id": 278,
-    "name": "Historical Site 278",
-    "type": "Palace",
-    "coordinates": [40.16216, 116.019605]
+    "name": "Park 278 (Mexico City)",
+    "type": "Park",
+    "coordinates": [19.44011741931713, -99.13058711017189]
   },
   {
     "id": 279,
-    "name": "Historical Site 279",
-    "type": "Monument",
-    "coordinates": [49.076921, 2.647909]
+    "name": "Cultural Center 279 (Mexico City)",
+    "type": "Historical Site",
+    "coordinates": [19.47924131721902, -99.09270823576223]
   },
   {
     "id": 280,
-    "name": "Historical Site 280",
-    "type": "Ruins",
-    "coordinates": [-34.115094, 151.141287]
+    "name": "Landmark 280 (Mexico City)",
+    "type": "Bridge",
+    "coordinates": [19.45152101033462, -99.12237951414555]
   },
   {
     "id": 281,
-    "name": "Historical Site 281",
-    "type": "Museum",
-    "coordinates": [40.885379, 29.289772]
+    "name": "Cultural Center 281 (Mexico City)",
+    "type": "Historical Site",
+    "coordinates": [19.458551140163834, -99.18316544342278]
   },
   {
     "id": 282,
-    "name": "Historical Site 282",
-    "type": "Castle",
-    "coordinates": [51.538119, 0.29545]
+    "name": "Museum 282 (United States)",
+    "type": "Landmark",
+    "coordinates": [37.0902, -95.7129]
   },
   {
     "id": 283,
-    "name": "Historical Site 283",
+    "name": "Cultural Center 283 (Canada)",
     "type": "Museum",
-    "coordinates": [51.269098, -0.298041]
+    "coordinates": [56.1304, -106.3468]
   },
   {
     "id": 284,
-    "name": "Historical Site 284",
-    "type": "Palace",
-    "coordinates": [35.836113, 139.841613]
+    "name": "Landmark 284 (Brazil)",
+    "type": "Historical Site",
+    "coordinates": [-14.235, -51.9253]
   },
   {
     "id": 285,
-    "name": "Historical Site 285",
-    "type": "Ruins",
-    "coordinates": [35.791453, 139.839001]
+    "name": "Historical Site 285 (Australia)",
+    "type": "Landmark",
+    "coordinates": [-25.2744, 133.7751]
   },
   {
     "id": 286,
-    "name": "Historical Site 286",
-    "type": "Palace",
-    "coordinates": [39.611759, 116.609187]
+    "name": "Landmark 286 (India)",
+    "type": "Cultural Center",
+    "coordinates": [20.5937, 78.9629]
   },
   {
     "id": 287,
-    "name": "Historical Site 287",
-    "type": "Castle",
-    "coordinates": [19.189669, -99.032934]
+    "name": "Historical Site 287 (China)",
+    "type": "Museum",
+    "coordinates": [35.8617, 104.1954]
   },
   {
     "id": 288,
-    "name": "Historical Site 288",
-    "type": "Palace",
-    "coordinates": [40.098166, 115.943876]
+    "name": "Cultural Center 288 (Japan)",
+    "type": "Bridge",
+    "coordinates": [36.2048, 138.2529]
   },
   {
     "id": 289,
-    "name": "Historical Site 289",
-    "type": "Ruins",
-    "coordinates": [50.448772, 30.216526]
+    "name": "Historical Site 289 (United Kingdom)",
+    "type": "Landmark",
+    "coordinates": [55.3781, -3.436]
   },
   {
     "id": 290,
-    "name": "Historical Site 290",
-    "type": "Museum",
-    "coordinates": [19.512469, -99.145404]
+    "name": "Historical Site 290 (France)",
+    "type": "Landmark",
+    "coordinates": [46.6034, 1.8883]
   },
   {
     "id": 291,
-    "name": "Historical Site 291",
-    "type": "Museum",
-    "coordinates": [18.952026, -99.591098]
+    "name": "Museum 291 (Germany)",
+    "type": "Park",
+    "coordinates": [51.1657, 10.4515]
   },
   {
     "id": 292,
-    "name": "Historical Site 292",
-    "type": "Palace",
-    "coordinates": [-33.738936, 151.686162]
+    "name": "Cultural Center 292 (Italy)",
+    "type": "Museum",
+    "coordinates": [41.8719, 12.5674]
   },
   {
     "id": 293,
-    "name": "Historical Site 293",
-    "type": "Monument",
-    "coordinates": [40.341501, 115.914832]
+    "name": "Historical Site 293 (Spain)",
+    "type": "Bridge",
+    "coordinates": [40.4637, -3.7492]
   },
   {
     "id": 294,
-    "name": "Historical Site 294",
-    "type": "Monument",
-    "coordinates": [-22.935408, -43.624956]
+    "name": "Cultural Center 294 (Argentina)",
+    "type": "Cultural Center",
+    "coordinates": [-38.4161, -63.6167]
   },
   {
     "id": 295,
-    "name": "Historical Site 295",
-    "type": "Ruins",
-    "coordinates": [40.914978, -74.476794]
+    "name": "Bridge 295 (South Africa)",
+    "type": "Landmark",
+    "coordinates": [-30.5595, 22.9375]
   },
   {
     "id": 296,
-    "name": "Historical Site 296",
-    "type": "Ruins",
-    "coordinates": [51.099784, 0.008171]
+    "name": "Museum 296 (Mexico)",
+    "type": "Landmark",
+    "coordinates": [23.6345, -102.5528]
   },
   {
     "id": 297,
-    "name": "Historical Site 297",
-    "type": "Castle",
-    "coordinates": [19.290543, -99.068778]
+    "name": "Museum 297 (Turkey)",
+    "type": "Cultural Center",
+    "coordinates": [38.9637, 35.2433]
   },
   {
     "id": 298,
-    "name": "Historical Site 298",
-    "type": "Ruins",
-    "coordinates": [41.318745, 29.318946]
+    "name": "Park 298 (Egypt)",
+    "type": "Museum",
+    "coordinates": [26.8206, 30.8025]
   },
   {
     "id": 299,
-    "name": "Historical Site 299",
-    "type": "Ruins",
-    "coordinates": [50.008402, 30.093304]
+    "name": "Historical Site 299 (Nigeria)",
+    "type": "Bridge",
+    "coordinates": [9.082, 8.6753]
   },
   {
     "id": 300,
-    "name": "Historical Site 300",
-    "type": "Palace",
-    "coordinates": [34.282832, -118.367427]
+    "name": "Landmark 300 (Sweden)",
+    "type": "Historical Site",
+    "coordinates": [60.1282, 18.6435]
   },
   {
     "id": 301,
-    "name": "Historical Site 301",
-    "type": "Ruins",
-    "coordinates": [29.68064, 31.252597]
+    "name": "Bridge 301 (Norway)",
+    "type": "Landmark",
+    "coordinates": [60.472, 8.4689]
   },
   {
     "id": 302,
-    "name": "Historical Site 302",
-    "type": "Castle",
-    "coordinates": [51.798283, 0.309868]
+    "name": "Landmark 302 (Finland)",
+    "type": "Landmark",
+    "coordinates": [61.9241, 25.7482]
   },
   {
     "id": 303,
-    "name": "Historical Site 303",
-    "type": "Castle",
-    "coordinates": [13.652112, 100.482336]
+    "name": "Museum 303 (Ukraine)",
+    "type": "Landmark",
+    "coordinates": [48.3794, 31.1656]
   },
   {
     "id": 304,
-    "name": "Historical Site 304",
-    "type": "Ruins",
-    "coordinates": [48.539849, 2.144863]
+    "name": "Historical Site 304 (Poland)",
+    "type": "Museum",
+    "coordinates": [51.9194, 19.1451]
   },
   {
     "id": 305,
-    "name": "Historical Site 305",
-    "type": "Ruins",
-    "coordinates": [40.346841, -73.653803]
+    "name": "Museum 305 (Kazakhstan)",
+    "type": "Bridge",
+    "coordinates": [48.0196, 66.9237]
   },
   {
     "id": 306,
-    "name": "Historical Site 306",
-    "type": "Ruins",
-    "coordinates": [40.521604, 28.90452]
+    "name": "Museum 306 (Chile)",
+    "type": "Cultural Center",
+    "coordinates": [-35.6751, -71.543]
   },
   {
     "id": 307,
-    "name": "Historical Site 307",
-    "type": "Ruins",
-    "coordinates": [39.82541, 116.090732]
+    "name": "Historical Site 307 (Nepal)",
+    "type": "Park",
+    "coordinates": [28.3949, 84.124]
   },
   {
     "id": 308,
-    "name": "Historical Site 308",
-    "type": "Palace",
-    "coordinates": [41.086505, 29.370056]
-  },
-  {
-    "id": 309,
-    "name": "Historical Site 309",
-    "type": "Castle",
-    "coordinates": [19.503237, 72.624048]
-  },
-  {
-    "id": 310,
-    "name": "Historical Site 310",
-    "type": "Monument",
-    "coordinates": [-22.707525, -43.236691]
-  },
-  {
-    "id": 311,
-    "name": "Historical Site 311",
-    "type": "Ruins",
-    "coordinates": [50.140599, 30.458062]
-  },
-  {
-    "id": 312,
-    "name": "Historical Site 312",
-    "type": "Palace",
-    "coordinates": [40.327167, -73.859467]
-  },
-  {
-    "id": 313,
-    "name": "Historical Site 313",
-    "type": "Museum",
-    "coordinates": [30.357075, 31.072686]
-  },
-  {
-    "id": 314,
-    "name": "Historical Site 314",
-    "type": "Ruins",
-    "coordinates": [40.954448, 28.771841]
-  },
-  {
-    "id": 315,
-    "name": "Historical Site 315",
-    "type": "Palace",
-    "coordinates": [51.718975, -0.151306]
-  },
-  {
-    "id": 316,
-    "name": "Historical Site 316",
-    "type": "Palace",
-    "coordinates": [-33.968159, 151.089635]
-  },
-  {
-    "id": 317,
-    "name": "Historical Site 317",
-    "type": "Palace",
-    "coordinates": [50.305949, 30.176439]
-  },
-  {
-    "id": 318,
-    "name": "Historical Site 318",
-    "type": "Castle",
-    "coordinates": [13.944841, 100.423191]
-  },
-  {
-    "id": 319,
-    "name": "Historical Site 319",
-    "type": "Ruins",
-    "coordinates": [-22.71391, -42.674299]
-  },
-  {
-    "id": 320,
-    "name": "Historical Site 320",
-    "type": "Monument",
-    "coordinates": [50.010751, 30.741925]
-  },
-  {
-    "id": 321,
-    "name": "Historical Site 321",
-    "type": "Ruins",
-    "coordinates": [13.882866, 100.966001]
-  },
-  {
-    "id": 322,
-    "name": "Historical Site 322",
-    "type": "Castle",
-    "coordinates": [41.025569, 28.563632]
-  },
-  {
-    "id": 323,
-    "name": "Historical Site 323",
-    "type": "Monument",
-    "coordinates": [49.314425, 2.324712]
-  },
-  {
-    "id": 324,
-    "name": "Historical Site 324",
-    "type": "Museum",
-    "coordinates": [40.681352, 28.953807]
-  },
-  {
-    "id": 325,
-    "name": "Historical Site 325",
-    "type": "Castle",
-    "coordinates": [19.342799, 72.689868]
-  },
-  {
-    "id": 326,
-    "name": "Historical Site 326",
-    "type": "Museum",
-    "coordinates": [-22.55335, -43.449623]
-  },
-  {
-    "id": 327,
-    "name": "Historical Site 327",
-    "type": "Monument",
-    "coordinates": [40.921539, -73.589738]
-  },
-  {
-    "id": 328,
-    "name": "Historical Site 328",
-    "type": "Monument",
-    "coordinates": [35.7777, 139.517464]
-  },
-  {
-    "id": 329,
-    "name": "Historical Site 329",
-    "type": "Palace",
-    "coordinates": [30.475436, 31.577032]
-  },
-  {
-    "id": 330,
-    "name": "Historical Site 330",
-    "type": "Monument",
-    "coordinates": [34.173955, -118.030913]
-  },
-  {
-    "id": 331,
-    "name": "Historical Site 331",
-    "type": "Ruins",
-    "coordinates": [39.738349, 116.714473]
-  },
-  {
-    "id": 332,
-    "name": "Historical Site 332",
-    "type": "Palace",
-    "coordinates": [49.104304, 2.260239]
-  },
-  {
-    "id": 333,
-    "name": "Historical Site 333",
-    "type": "Monument",
-    "coordinates": [50.079082, 30.57248]
-  },
-  {
-    "id": 334,
-    "name": "Historical Site 334",
-    "type": "Monument",
-    "coordinates": [50.19617, 30.653871]
-  },
-  {
-    "id": 335,
-    "name": "Historical Site 335",
-    "type": "Museum",
-    "coordinates": [40.795345, 28.675331]
-  },
-  {
-    "id": 336,
-    "name": "Historical Site 336",
-    "type": "Monument",
-    "coordinates": [19.589409, -99.058869]
-  },
-  {
-    "id": 337,
-    "name": "Historical Site 337",
-    "type": "Castle",
-    "coordinates": [18.820126, 73.190826]
-  },
-  {
-    "id": 338,
-    "name": "Historical Site 338",
-    "type": "Monument",
-    "coordinates": [34.358558, -118.304448]
-  },
-  {
-    "id": 339,
-    "name": "Historical Site 339",
-    "type": "Monument",
-    "coordinates": [19.333031, 72.395048]
-  },
-  {
-    "id": 340,
-    "name": "Historical Site 340",
-    "type": "Ruins",
-    "coordinates": [30.506166, 31.344099]
-  },
-  {
-    "id": 341,
-    "name": "Historical Site 341",
-    "type": "Castle",
-    "coordinates": [19.319439, 73.206588]
-  },
-  {
-    "id": 342,
-    "name": "Historical Site 342",
-    "type": "Ruins",
-    "coordinates": [18.848091, 73.207132]
-  },
-  {
-    "id": 343,
-    "name": "Historical Site 343",
-    "type": "Monument",
-    "coordinates": [50.284367, 30.274932]
-  },
-  {
-    "id": 344,
-    "name": "Historical Site 344",
-    "type": "Ruins",
-    "coordinates": [-22.876799, -43.128316]
-  },
-  {
-    "id": 345,
-    "name": "Historical Site 345",
-    "type": "Castle",
-    "coordinates": [-22.472128, -43.118655]
-  },
-  {
-    "id": 346,
-    "name": "Historical Site 346",
-    "type": "Palace",
-    "coordinates": [-22.961666, -43.306732]
-  },
-  {
-    "id": 347,
-    "name": "Historical Site 347",
-    "type": "Museum",
-    "coordinates": [-34.29934, 151.697734]
-  },
-  {
-    "id": 348,
-    "name": "Historical Site 348",
-    "type": "Ruins",
-    "coordinates": [19.432488, -99.562975]
-  },
-  {
-    "id": 349,
-    "name": "Historical Site 349",
-    "type": "Monument",
-    "coordinates": [-22.626809, -43.549741]
-  },
-  {
-    "id": 350,
-    "name": "Historical Site 350",
-    "type": "Castle",
-    "coordinates": [35.671893, 139.781924]
-  },
-  {
-    "id": 351,
-    "name": "Historical Site 351",
-    "type": "Ruins",
-    "coordinates": [-33.61681, 151.438938]
-  },
-  {
-    "id": 352,
-    "name": "Historical Site 352",
-    "type": "Palace",
-    "coordinates": [13.420709, 100.950558]
-  },
-  {
-    "id": 353,
-    "name": "Historical Site 353",
-    "type": "Museum",
-    "coordinates": [50.504232, 30.270778]
-  },
-  {
-    "id": 354,
-    "name": "Historical Site 354",
-    "type": "Museum",
-    "coordinates": [40.576332, -73.57572]
-  },
-  {
-    "id": 355,
-    "name": "Historical Site 355",
-    "type": "Ruins",
-    "coordinates": [40.843703, -73.99325]
-  },
-  {
-    "id": 356,
-    "name": "Historical Site 356",
-    "type": "Monument",
-    "coordinates": [29.850565, 31.019309]
-  },
-  {
-    "id": 357,
-    "name": "Historical Site 357",
-    "type": "Castle",
-    "coordinates": [30.537524, 31.12035]
-  },
-  {
-    "id": 358,
-    "name": "Historical Site 358",
-    "type": "Monument",
-    "coordinates": [35.704138, 139.301574]
-  },
-  {
-    "id": 359,
-    "name": "Historical Site 359",
-    "type": "Palace",
-    "coordinates": [29.567206, 31.494805]
-  },
-  {
-    "id": 360,
-    "name": "Historical Site 360",
-    "type": "Castle",
-    "coordinates": [41.076895, -74.280254]
-  },
-  {
-    "id": 361,
-    "name": "Historical Site 361",
-    "type": "Museum",
-    "coordinates": [51.766668, 0.205371]
-  },
-  {
-    "id": 362,
-    "name": "Historical Site 362",
-    "type": "Museum",
-    "coordinates": [-33.693419, 150.983388]
-  },
-  {
-    "id": 363,
-    "name": "Historical Site 363",
-    "type": "Ruins",
-    "coordinates": [-22.494657, -43.593567]
-  },
-  {
-    "id": 364,
-    "name": "Historical Site 364",
-    "type": "Castle",
-    "coordinates": [19.057716, 72.520835]
-  },
-  {
-    "id": 365,
-    "name": "Historical Site 365",
-    "type": "Ruins",
-    "coordinates": [13.633449, 100.161139]
-  },
-  {
-    "id": 366,
-    "name": "Historical Site 366",
-    "type": "Monument",
-    "coordinates": [40.285544, 116.458469]
-  },
-  {
-    "id": 367,
-    "name": "Historical Site 367",
-    "type": "Museum",
-    "coordinates": [13.916025, 100.294391]
-  },
-  {
-    "id": 368,
-    "name": "Historical Site 368",
-    "type": "Ruins",
-    "coordinates": [-33.662978, 151.265143]
-  },
-  {
-    "id": 369,
-    "name": "Historical Site 369",
-    "type": "Palace",
-    "coordinates": [30.262017, 30.756064]
-  },
-  {
-    "id": 370,
-    "name": "Historical Site 370",
-    "type": "Palace",
-    "coordinates": [39.787254, 116.847436]
-  },
-  {
-    "id": 371,
-    "name": "Historical Site 371",
-    "type": "Ruins",
-    "coordinates": [40.619957, 29.022568]
-  },
-  {
-    "id": 372,
-    "name": "Historical Site 372",
-    "type": "Ruins",
-    "coordinates": [-33.598924, 151.303458]
-  },
-  {
-    "id": 373,
-    "name": "Historical Site 373",
-    "type": "Palace",
-    "coordinates": [13.465027, 100.007018]
-  },
-  {
-    "id": 374,
-    "name": "Historical Site 374",
-    "type": "Museum",
-    "coordinates": [29.615531, 30.877616]
-  },
-  {
-    "id": 375,
-    "name": "Historical Site 375",
-    "type": "Museum",
-    "coordinates": [19.041403, 72.734392]
-  },
-  {
-    "id": 376,
-    "name": "Historical Site 376",
-    "type": "Ruins",
-    "coordinates": [50.372158, 30.046191]
-  },
-  {
-    "id": 377,
-    "name": "Historical Site 377",
-    "type": "Palace",
-    "coordinates": [41.037845, 28.947628]
-  },
-  {
-    "id": 378,
-    "name": "Historical Site 378",
-    "type": "Castle",
-    "coordinates": [51.516489, -0.48705]
-  },
-  {
-    "id": 379,
-    "name": "Historical Site 379",
-    "type": "Ruins",
-    "coordinates": [50.156289, 30.563806]
-  },
-  {
-    "id": 380,
-    "name": "Historical Site 380",
-    "type": "Palace",
-    "coordinates": [40.659516, 28.763394]
-  },
-  {
-    "id": 381,
-    "name": "Historical Site 381",
-    "type": "Monument",
-    "coordinates": [30.127896, 31.377956]
-  },
-  {
-    "id": 382,
-    "name": "Historical Site 382",
-    "type": "Castle",
-    "coordinates": [-34.04912, 151.065857]
-  },
-  {
-    "id": 383,
-    "name": "Historical Site 383",
-    "type": "Castle",
-    "coordinates": [35.685475, 139.17255]
-  },
-  {
-    "id": 384,
-    "name": "Historical Site 384",
-    "type": "Monument",
-    "coordinates": [40.834228, -73.685383]
-  },
-  {
-    "id": 385,
-    "name": "Historical Site 385",
-    "type": "Monument",
-    "coordinates": [30.088453, 31.109356]
-  },
-  {
-    "id": 386,
-    "name": "Historical Site 386",
-    "type": "Monument",
-    "coordinates": [-34.244683, 151.338871]
-  },
-  {
-    "id": 387,
-    "name": "Historical Site 387",
-    "type": "Monument",
-    "coordinates": [35.232011, 139.817152]
-  },
-  {
-    "id": 388,
-    "name": "Historical Site 388",
-    "type": "Palace",
-    "coordinates": [30.460552, 31.244765]
-  },
-  {
-    "id": 389,
-    "name": "Historical Site 389",
-    "type": "Monument",
-    "coordinates": [35.540838, 139.275353]
-  },
-  {
-    "id": 390,
-    "name": "Historical Site 390",
-    "type": "Ruins",
-    "coordinates": [30.237263, 30.776706]
-  },
-  {
-    "id": 391,
-    "name": "Historical Site 391",
-    "type": "Museum",
-    "coordinates": [-22.580817, -43.072677]
-  },
-  {
-    "id": 392,
-    "name": "Historical Site 392",
-    "type": "Ruins",
-    "coordinates": [18.953769, 72.81662]
-  },
-  {
-    "id": 393,
-    "name": "Historical Site 393",
-    "type": "Ruins",
-    "coordinates": [-22.605612, -42.838824]
-  },
-  {
-    "id": 394,
-    "name": "Historical Site 394",
-    "type": "Ruins",
-    "coordinates": [40.276609, 116.11985]
-  },
-  {
-    "id": 395,
-    "name": "Historical Site 395",
-    "type": "Palace",
-    "coordinates": [13.806648, 100.069531]
-  },
-  {
-    "id": 396,
-    "name": "Historical Site 396",
-    "type": "Palace",
-    "coordinates": [19.442969, 73.028157]
-  },
-  {
-    "id": 397,
-    "name": "Historical Site 397",
-    "type": "Castle",
-    "coordinates": [50.555224, 30.085279]
-  },
-  {
-    "id": 398,
-    "name": "Historical Site 398",
-    "type": "Museum",
-    "coordinates": [51.720514, -0.110292]
-  },
-  {
-    "id": 399,
-    "name": "Historical Site 399",
-    "type": "Castle",
-    "coordinates": [34.518461, -117.950066]
-  },
-  {
-    "id": 400,
-    "name": "Historical Site 400",
-    "type": "Palace",
-    "coordinates": [19.326286, 73.326691]
-  },
-  {
-    "id": 401,
-    "name": "Historical Site 401",
-    "type": "Ruins",
-    "coordinates": [50.708813, 30.954027]
-  },
-  {
-    "id": 402,
-    "name": "Historical Site 402",
-    "type": "Ruins",
-    "coordinates": [36.130112, 139.220962]
-  },
-  {
-    "id": 403,
-    "name": "Historical Site 403",
-    "type": "Castle",
-    "coordinates": [18.744773, 72.854807]
-  },
-  {
-    "id": 404,
-    "name": "Historical Site 404",
-    "type": "Palace",
-    "coordinates": [35.750306, 139.369834]
-  },
-  {
-    "id": 405,
-    "name": "Historical Site 405",
-    "type": "Monument",
-    "coordinates": [13.493337, 100.459312]
-  },
-  {
-    "id": 406,
-    "name": "Historical Site 406",
-    "type": "Ruins",
-    "coordinates": [29.700454, 31.055195]
-  },
-  {
-    "id": 407,
-    "name": "Historical Site 407",
-    "type": "Monument",
-    "coordinates": [34.107849, -118.292773]
-  },
-  {
-    "id": 408,
-    "name": "Historical Site 408",
-    "type": "Museum",
-    "coordinates": [50.067645, 30.984795]
-  },
-  {
-    "id": 409,
-    "name": "Historical Site 409",
-    "type": "Palace",
-    "coordinates": [33.765933, -118.117183]
-  },
-  {
-    "id": 410,
-    "name": "Historical Site 410",
-    "type": "Castle",
-    "coordinates": [30.338026, 30.913199]
-  },
-  {
-    "id": 411,
-    "name": "Historical Site 411",
-    "type": "Museum",
-    "coordinates": [-23.329707, -43.05853]
-  },
-  {
-    "id": 412,
-    "name": "Historical Site 412",
-    "type": "Monument",
-    "coordinates": [13.592212, 100.002877]
-  },
-  {
-    "id": 413,
-    "name": "Historical Site 413",
-    "type": "Palace",
-    "coordinates": [40.252707, 115.971072]
-  },
-  {
-    "id": 414,
-    "name": "Historical Site 414",
-    "type": "Castle",
-    "coordinates": [40.644066, 29.036279]
-  },
-  {
-    "id": 415,
-    "name": "Historical Site 415",
-    "type": "Museum",
-    "coordinates": [40.863809, 28.934065]
-  },
-  {
-    "id": 416,
-    "name": "Historical Site 416",
-    "type": "Monument",
-    "coordinates": [39.522735, 116.53418]
-  },
-  {
-    "id": 417,
-    "name": "Historical Site 417",
-    "type": "Monument",
-    "coordinates": [50.267272, 30.661232]
-  },
-  {
-    "id": 418,
-    "name": "Historical Site 418",
-    "type": "Palace",
-    "coordinates": [19.753326, -98.708565]
-  },
-  {
-    "id": 419,
-    "name": "Historical Site 419",
-    "type": "Monument",
-    "coordinates": [35.216155, 139.536621]
-  },
-  {
-    "id": 420,
-    "name": "Historical Site 420",
-    "type": "Castle",
-    "coordinates": [19.322793, 72.490511]
-  },
-  {
-    "id": 421,
-    "name": "Historical Site 421",
-    "type": "Castle",
-    "coordinates": [-22.600264, -43.217385]
-  },
-  {
-    "id": 422,
-    "name": "Historical Site 422",
-    "type": "Monument",
-    "coordinates": [48.730658, 2.154596]
-  },
-  {
-    "id": 423,
-    "name": "Historical Site 423",
-    "type": "Monument",
-    "coordinates": [48.776761, 2.186257]
-  },
-  {
-    "id": 424,
-    "name": "Historical Site 424",
-    "type": "Palace",
-    "coordinates": [19.096872, 72.541592]
-  },
-  {
-    "id": 425,
-    "name": "Historical Site 425",
-    "type": "Museum",
-    "coordinates": [19.18372, -98.691375]
-  },
-  {
-    "id": 426,
-    "name": "Historical Site 426",
-    "type": "Monument",
-    "coordinates": [30.417803, 30.947482]
-  },
-  {
-    "id": 427,
-    "name": "Historical Site 427",
-    "type": "Palace",
-    "coordinates": [29.728766, 30.830715]
-  },
-  {
-    "id": 428,
-    "name": "Historical Site 428",
-    "type": "Ruins",
-    "coordinates": [48.828002, 2.083187]
-  },
-  {
-    "id": 429,
-    "name": "Historical Site 429",
-    "type": "Palace",
-    "coordinates": [50.820458, 30.504411]
-  },
-  {
-    "id": 430,
-    "name": "Historical Site 430",
-    "type": "Ruins",
-    "coordinates": [19.833055, -99.31689]
-  },
-  {
-    "id": 431,
-    "name": "Historical Site 431",
-    "type": "Castle",
-    "coordinates": [41.134689, -74.303929]
-  },
-  {
-    "id": 432,
-    "name": "Historical Site 432",
-    "type": "Palace",
-    "coordinates": [51.761269, -0.25115]
-  },
-  {
-    "id": 433,
-    "name": "Historical Site 433",
-    "type": "Palace",
-    "coordinates": [40.065148, 115.949343]
-  },
-  {
-    "id": 434,
-    "name": "Historical Site 434",
-    "type": "Castle",
-    "coordinates": [-22.980035, -43.192506]
-  },
-  {
-    "id": 435,
-    "name": "Historical Site 435",
-    "type": "Castle",
-    "coordinates": [-34.360354, 151.438999]
-  },
-  {
-    "id": 436,
-    "name": "Historical Site 436",
-    "type": "Castle",
-    "coordinates": [41.504011, 28.674962]
-  },
-  {
-    "id": 437,
-    "name": "Historical Site 437",
-    "type": "Monument",
-    "coordinates": [34.238085, -118.441574]
-  },
-  {
-    "id": 438,
-    "name": "Historical Site 438",
-    "type": "Ruins",
-    "coordinates": [18.972898, -98.779515]
-  },
-  {
-    "id": 439,
-    "name": "Historical Site 439",
-    "type": "Monument",
-    "coordinates": [34.422351, -118.249879]
-  },
-  {
-    "id": 440,
-    "name": "Historical Site 440",
-    "type": "Castle",
-    "coordinates": [34.151154, -118.482975]
-  },
-  {
-    "id": 441,
-    "name": "Historical Site 441",
-    "type": "Monument",
-    "coordinates": [49.095928, 2.338222]
-  },
-  {
-    "id": 442,
-    "name": "Historical Site 442",
-    "type": "Monument",
-    "coordinates": [19.892478, -98.643134]
-  },
-  {
-    "id": 443,
-    "name": "Historical Site 443",
-    "type": "Castle",
-    "coordinates": [19.616991, -98.653708]
-  },
-  {
-    "id": 444,
-    "name": "Historical Site 444",
-    "type": "Palace",
-    "coordinates": [51.571414, -0.590201]
-  },
-  {
-    "id": 445,
-    "name": "Historical Site 445",
-    "type": "Museum",
-    "coordinates": [19.127594, -99.594008]
-  },
-  {
-    "id": 446,
-    "name": "Historical Site 446",
-    "type": "Palace",
-    "coordinates": [30.098349, 31.152514]
-  },
-  {
-    "id": 447,
-    "name": "Historical Site 447",
-    "type": "Museum",
-    "coordinates": [51.579373, -0.161724]
-  },
-  {
-    "id": 448,
-    "name": "Historical Site 448",
-    "type": "Castle",
-    "coordinates": [-33.596624, 151.187878]
-  },
-  {
-    "id": 449,
-    "name": "Historical Site 449",
-    "type": "Castle",
-    "coordinates": [-33.928326, 150.788748]
-  },
-  {
-    "id": 450,
-    "name": "Historical Site 450",
-    "type": "Ruins",
-    "coordinates": [19.865532, -98.636614]
-  },
-  {
-    "id": 451,
-    "name": "Historical Site 451",
-    "type": "Palace",
-    "coordinates": [13.336649, 100.786674]
-  },
-  {
-    "id": 452,
-    "name": "Historical Site 452",
-    "type": "Museum",
-    "coordinates": [51.617585, -0.51426]
-  },
-  {
-    "id": 453,
-    "name": "Historical Site 453",
-    "type": "Palace",
-    "coordinates": [-23.099114, -43.579457]
-  },
-  {
-    "id": 454,
-    "name": "Historical Site 454",
-    "type": "Museum",
-    "coordinates": [19.272012, 73.135703]
-  },
-  {
-    "id": 455,
-    "name": "Historical Site 455",
-    "type": "Castle",
-    "coordinates": [48.952427, 2.686445]
-  },
-  {
-    "id": 456,
-    "name": "Historical Site 456",
-    "type": "Palace",
-    "coordinates": [34.15343, -118.539771]
-  },
-  {
-    "id": 457,
-    "name": "Historical Site 457",
-    "type": "Ruins",
-    "coordinates": [41.284661, 29.193966]
-  },
-  {
-    "id": 458,
-    "name": "Historical Site 458",
-    "type": "Museum",
-    "coordinates": [50.786149, 31.006456]
-  },
-  {
-    "id": 459,
-    "name": "Historical Site 459",
-    "type": "Ruins",
-    "coordinates": [39.740031, 116.280905]
-  },
-  {
-    "id": 460,
-    "name": "Historical Site 460",
-    "type": "Castle",
-    "coordinates": [-34.276515, 151.64896]
-  },
-  {
-    "id": 461,
-    "name": "Historical Site 461",
-    "type": "Castle",
-    "coordinates": [-34.074138, 150.871761]
-  },
-  {
-    "id": 462,
-    "name": "Historical Site 462",
-    "type": "Ruins",
-    "coordinates": [35.627748, 139.578801]
-  },
-  {
-    "id": 463,
-    "name": "Historical Site 463",
-    "type": "Ruins",
-    "coordinates": [18.987927, 72.611254]
-  },
-  {
-    "id": 464,
-    "name": "Historical Site 464",
-    "type": "Museum",
-    "coordinates": [39.419108, 115.931957]
-  },
-  {
-    "id": 465,
-    "name": "Historical Site 465",
-    "type": "Castle",
-    "coordinates": [30.426338, 31.619455]
-  },
-  {
-    "id": 466,
-    "name": "Historical Site 466",
-    "type": "Museum",
-    "coordinates": [50.190957, 30.177744]
-  },
-  {
-    "id": 467,
-    "name": "Historical Site 467",
-    "type": "Ruins",
-    "coordinates": [19.592809, -98.734455]
-  },
-  {
-    "id": 468,
-    "name": "Historical Site 468",
-    "type": "Museum",
-    "coordinates": [35.427343, 139.278241]
-  },
-  {
-    "id": 469,
-    "name": "Historical Site 469",
-    "type": "Monument",
-    "coordinates": [-34.333281, 151.135155]
-  },
-  {
-    "id": 470,
-    "name": "Historical Site 470",
-    "type": "Monument",
-    "coordinates": [35.857468, 139.166876]
-  },
-  {
-    "id": 471,
-    "name": "Historical Site 471",
-    "type": "Monument",
-    "coordinates": [39.708594, 116.419397]
-  },
-  {
-    "id": 472,
-    "name": "Historical Site 472",
-    "type": "Palace",
-    "coordinates": [48.687506, 1.906362]
-  },
-  {
-    "id": 473,
-    "name": "Historical Site 473",
-    "type": "Castle",
-    "coordinates": [30.202412, 31.537813]
-  },
-  {
-    "id": 474,
-    "name": "Historical Site 474",
-    "type": "Ruins",
-    "coordinates": [33.915355, -117.79572]
-  },
-  {
-    "id": 475,
-    "name": "Historical Site 475",
-    "type": "Monument",
-    "coordinates": [13.376687, 100.606982]
-  },
-  {
-    "id": 476,
-    "name": "Historical Site 476",
-    "type": "Museum",
-    "coordinates": [40.27469, 115.982878]
-  },
-  {
-    "id": 477,
-    "name": "Historical Site 477",
-    "type": "Museum",
-    "coordinates": [29.570409, 31.552601]
-  },
-  {
-    "id": 478,
-    "name": "Historical Site 478",
-    "type": "Castle",
-    "coordinates": [19.395891, 72.510211]
-  },
-  {
-    "id": 479,
-    "name": "Historical Site 479",
-    "type": "Ruins",
-    "coordinates": [29.979656, 31.210866]
-  },
-  {
-    "id": 480,
-    "name": "Historical Site 480",
-    "type": "Castle",
-    "coordinates": [35.230455, 139.534001]
-  },
-  {
-    "id": 481,
-    "name": "Historical Site 481",
-    "type": "Ruins",
-    "coordinates": [39.522087, 116.734068]
-  },
-  {
-    "id": 482,
-    "name": "Historical Site 482",
-    "type": "Monument",
-    "coordinates": [41.146946, -74.37431]
-  },
-  {
-    "id": 483,
-    "name": "Historical Site 483",
-    "type": "Ruins",
-    "coordinates": [51.806048, -0.52748]
-  },
-  {
-    "id": 484,
-    "name": "Historical Site 484",
-    "type": "Monument",
-    "coordinates": [40.967485, 28.819255]
-  },
-  {
-    "id": 485,
-    "name": "Historical Site 485",
-    "type": "Palace",
-    "coordinates": [18.636383, 72.412198]
-  },
-  {
-    "id": 486,
-    "name": "Historical Site 486",
-    "type": "Monument",
-    "coordinates": [19.346853, 73.015514]
-  },
-  {
-    "id": 487,
-    "name": "Historical Site 487",
-    "type": "Monument",
-    "coordinates": [40.512669, -73.945401]
-  },
-  {
-    "id": 488,
-    "name": "Historical Site 488",
-    "type": "Ruins",
-    "coordinates": [35.828437, 139.721114]
-  },
-  {
-    "id": 489,
-    "name": "Historical Site 489",
-    "type": "Ruins",
-    "coordinates": [34.29803, -118.689539]
-  },
-  {
-    "id": 490,
-    "name": "Historical Site 490",
-    "type": "Castle",
-    "coordinates": [48.617557, 2.531306]
-  },
-  {
-    "id": 491,
-    "name": "Historical Site 491",
-    "type": "Museum",
-    "coordinates": [39.62429, 116.46567]
-  },
-  {
-    "id": 492,
-    "name": "Historical Site 492",
-    "type": "Castle",
-    "coordinates": [13.538412, 100.986404]
-  },
-  {
-    "id": 493,
-    "name": "Historical Site 493",
-    "type": "Castle",
-    "coordinates": [13.747061, 100.865127]
-  },
-  {
-    "id": 494,
-    "name": "Historical Site 494",
-    "type": "Ruins",
-    "coordinates": [51.547995, -0.374463]
-  },
-  {
-    "id": 495,
-    "name": "Historical Site 495",
-    "type": "Ruins",
-    "coordinates": [49.063061, 2.705301]
-  },
-  {
-    "id": 496,
-    "name": "Historical Site 496",
-    "type": "Museum",
-    "coordinates": [33.662055, -118.066242]
-  },
-  {
-    "id": 497,
-    "name": "Historical Site 497",
-    "type": "Ruins",
-    "coordinates": [19.227393, -99.586012]
-  },
-  {
-    "id": 498,
-    "name": "Historical Site 498",
-    "type": "Ruins",
-    "coordinates": [34.149142, -118.510931]
-  },
-  {
-    "id": 499,
-    "name": "Historical Site 499",
-    "type": "Ruins",
-    "coordinates": [41.463006, 29.205608]
-  },
-  {
-    "id": 500,
-    "name": "Historical Site 500",
-    "type": "Museum",
-    "coordinates": [48.968185, 2.451762]
+    "name": "Museum 308 (Greece)",
+    "type": "Bridge",
+    "coordinates": [39.0742, 21.8243]
   }
 ]

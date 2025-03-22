@@ -39,6 +39,7 @@ export const useMapStore = defineStore('map', {
     addNewPlace(newPlace: Place) {
       if (this.activeFilters.includes(newPlace.type) || this.activeFilters.length === 0) {
         this.addedPlaces.push(newPlace)
+        this.setSelectedPlace(newPlace)
       }
     },
   },

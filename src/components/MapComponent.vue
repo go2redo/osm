@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import 'vue3-openlayers/dist/vue3-openlayers.css'
 import { useMapStore } from '@/store'
 import { createClusterStyle, createUserFeatures, createClusteredPlaceFeatures } from '@/geo'
@@ -10,10 +10,14 @@ import { usePlaces } from '@/composables'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import { highlightNearestUsers } from '@/geo/geoUtils'
+import { fromLonLat } from 'ol/proj'
+import { Point } from 'ol/geom'
 
 const MAX_ZOOM = 16
 
 const store = useMapStore()
+
+const mapRef = ref<{ map: Map }>()
 
 const { filteredPlaces, filteredAddedPlaces } = usePlaces()
 
@@ -21,8 +25,16 @@ const userSource = computed(() =>
   highlightNearestUsers(createUserFeatures(store.users), store.nearestUsers),
 )
 
+const clusteredPlaceSource = computed(() =>
+  createClusteredPlaceFeatures(filteredPlaces.value, 50, store.zoomLevel),
+)
+
+const clusteredAddedPlaceSource = computed(() =>
+  createClusteredPlaceFeatures(filteredAddedPlaces.value),
+)
+
 function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
-  const map: Map = event.map
+  const map = event.map
   const featuresToHover: FeatureLike[] = []
 
   map.forEachFeatureAtPixel(event.pixel, (feature: FeatureLike) => {
@@ -49,13 +61,11 @@ function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
       }
     })
 
-  if (featuresToHover.length > 0) {
-    map.render()
-  }
+  if (featuresToHover.length > 0) map.render()
 }
 
 function handleClick(event: MapBrowserEvent<MouseEvent>): void {
-  const { map } = event
+  const map = event.map
   const view = map.getView()
   const feature = map.forEachFeatureAtPixel(event.pixel, (feat: FeatureLike) => feat)
 
@@ -78,15 +88,41 @@ function selectPlace(place: FeatureLike): void {
   const placeCoords = place.get('coordinates')
   if (!placeCoords) return
 
-  store.setSelectedPlace({
-    id: Number(place.getId()),
-    name: place.get('name'),
-    type: place.get('type'),
-    coordinates: placeCoords,
-  })
-
-  store.findNearestUsers(placeCoords)
+  mapRef.value?.map.get('view').animate(
+    {
+      center: fromLonLat(placeCoords),
+      duration: 800,
+    },
+    () => {
+      store.setSelectedPlace({
+        id: Number(place.getId()),
+        name: place.get('name'),
+        type: place.get('type'),
+        coordinates: placeCoords,
+      })
+      store.findNearestUsers(placeCoords)
+    },
+  )
 }
+
+watch(
+  () => store.addedPlaces,
+  (newAddedPlaces) => {
+    const newPlace = newAddedPlaces[newAddedPlaces.length - 1]
+    if (!newPlace || !mapRef.value) return
+
+    const placeFeature = new Feature({
+      geometry: new Point(fromLonLat(newPlace.coordinates)),
+      name: newPlace.name,
+      type: newPlace.type,
+      coordinates: newPlace.coordinates,
+    })
+    placeFeature.setId(newPlace.id)
+
+    selectPlace(placeFeature)
+  },
+  { deep: true },
+)
 
 onMounted(async () => {
   await store.fetchUsers()
@@ -96,21 +132,24 @@ onMounted(async () => {
 <template>
   <section>
     <ol-map
+      ref="mapRef"
       style="height: 100vh; width: 100vw"
       @click="handleClick"
       @pointermove="handlePointerMove"
     >
       <ol-view :center="store.currentCenter" :zoom="store.zoomLevel" />
       <ol-tile-layer>
-        <ol-source-xyz :url="'https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'" />
+        <ol-source-xyz url="https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" />
       </ol-tile-layer>
 
-      <ol-vector-layer :source="createClusteredPlaceFeatures(filteredPlaces, 50, store.zoomLevel)">
+      <ol-vector-layer :source="clusteredPlaceSource">
         <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
       </ol-vector-layer>
-      <ol-vector-layer :source="createClusteredPlaceFeatures(filteredAddedPlaces)">
+
+      <ol-vector-layer :source="clusteredAddedPlaceSource">
         <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
       </ol-vector-layer>
+
       <ol-vector-layer :source="userSource" />
     </ol-map>
   </section>
