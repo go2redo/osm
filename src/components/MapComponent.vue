@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { computed, onMounted } from 'vue'
 import 'vue3-openlayers/dist/vue3-openlayers.css'
 import { useMapStore } from '@/store'
 import { createClusterStyle, createUserFeatures, createClusteredPlaceFeatures } from '@/geo'
@@ -9,12 +9,17 @@ import { getCenter } from 'ol/extent'
 import { usePlaces } from '@/composables'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
+import { highlightNearestUsers } from '@/geo/geoUtils'
 
 const MAX_ZOOM = 16
 
 const store = useMapStore()
 
 const { filteredPlaces, filteredAddedPlaces } = usePlaces()
+
+const userSource = computed(() =>
+  highlightNearestUsers(createUserFeatures(store.users), store.nearestUsers),
+)
 
 function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
   const map: Map = event.map
@@ -106,7 +111,7 @@ onMounted(async () => {
       <ol-vector-layer :source="createClusteredPlaceFeatures(filteredAddedPlaces)">
         <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
       </ol-vector-layer>
-      <ol-vector-layer :source="createUserFeatures(store.users)" />
+      <ol-vector-layer :source="userSource" />
     </ol-map>
   </section>
 </template>

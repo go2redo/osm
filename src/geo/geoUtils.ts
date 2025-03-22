@@ -3,12 +3,10 @@ import Point from 'ol/geom/Point'
 import { fromLonLat } from 'ol/proj'
 import VectorSource from 'ol/source/Vector'
 import type { Place, User } from '@/types'
-import { createEmojiStyle } from './styles'
+import { animateFeature, createEmojiStyle } from './styles'
 import { Cluster } from 'ol/source'
 
 export function createUserFeatures(users: User[]): VectorSource {
-  const emojiStyle = createEmojiStyle()
-
   const features = users.map((user) => {
     const coords = [Number(user.address.geo.lng), Number(user.address.geo.lat)]
     const feature = new Feature({
@@ -16,13 +14,30 @@ export function createUserFeatures(users: User[]): VectorSource {
       name: user.name,
       coordinates: coords,
     })
-    feature.setStyle(emojiStyle)
+
+    feature.setId(user.id)
+    feature.set('isHighlighted', false)
+    feature.setStyle(createEmojiStyle(false))
     return feature
   })
 
-  const vectorSource = new VectorSource()
-  vectorSource.addFeatures(features)
-  return vectorSource
+  return new VectorSource({ features })
+}
+
+export function highlightNearestUsers(
+  userSource: VectorSource,
+  nearestUsers: { user: { id: number }; distance: number }[],
+): VectorSource {
+  const userFeatures = userSource
+    .getFeatures()
+    .filter((feature): feature is Feature => feature instanceof Feature)
+
+  userFeatures.forEach((feature) => {
+    const isNearest = nearestUsers.some((entry) => entry.user.id === feature.getId())
+    animateFeature(feature, isNearest)
+  })
+
+  return userSource
 }
 
 export function createClusteredPlaceFeatures(
