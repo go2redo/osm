@@ -2,7 +2,8 @@
 import { ref, computed, watch } from 'vue'
 import { FormKit } from '@formkit/vue'
 import { useMapStore } from '@/store'
-import type { FormData, Place } from '@/types'
+import { IconName, type FormData, type Place } from '@/types'
+import { Icon, Title } from '@/components/ui'
 
 const isOpen = ref(false)
 const store = useMapStore()
@@ -67,34 +68,9 @@ function handleSubmit(): void {
 <template>
   <section class="flex flex-col gap-2 md:gap-4">
     <div class="flex justify-between items-center">
-      <h2 class="font-bold text-sm md:text-base">Add place</h2>
+      <Title :level="2" class="font-bold text-sm md:text-base">Add place</Title>
       <button class="bg-slate-900 text-white cursor-pointer" @click="isOpen = !isOpen">
-        <svg
-          v-if="isOpen"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-4 md:size-6"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm3 10.5a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5h6Z"
-            clip-rule="evenodd"
-          />
-        </svg>
-        <svg
-          v-else
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-4 md:size-6"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z"
-            clip-rule="evenodd"
-          />
-        </svg>
+        <Icon :name="isOpen ? IconName.MINUS : IconName.ADD" class="size-4 md:size-6" />
       </button>
     </div>
 

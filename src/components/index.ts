@@ -1,0 +1,5 @@
+export { default as Filter } from './FilterComponent.vue'
+export { default as Form } from './FormComponent.vue'
+export { default as Info } from './InfoComponent.vue'
+export { default as Map } from './MapComponent.vue'
+export { default as Sidebar } from './SidebarComponent.vue'

@@ -1,4 +1,5 @@
 export { type FormData } from './FormData'
+export { IconName } from './IconName'
 export { type User } from './User'
 export { type IndexedUser } from './IndexedUser'
 export { type MapState } from './MapState'

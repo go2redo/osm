@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import type { Place, User } from '@/types'
+import { Title } from '@/components/ui'
 
 defineProps<
   Place & {
@@ -10,7 +11,7 @@ defineProps<
 
 <template>
   <section>
-    <h2 class="font-bold mb-2 md:mb-4 text-sm md:text-base">Detailed info</h2>
+    <Title :level="2" class="font-bold mb-2 md:mb-4 text-sm md:text-base">Detailed info</Title>
     <div class="mb-4">
       <ul class="text-xs md:text-sm">
         <li>Name: {{ name }}</li>
@@ -18,7 +19,7 @@ defineProps<
         <li>Coordinates: {{ coordinates }}</li>
       </ul>
     </div>
-    <h2 class="font-bold mb-2 md:mb-4 text-sm md:text-base">Nearest Users</h2>
+    <Title :level="2" class="font-bold mb-2 md:mb-4 text-sm md:text-base">Nearest Users</Title>
     <div>
       <ul class="text-xs md:text-sm">
         <li v-for="user in nearestUsers" :key="user.user.id">
