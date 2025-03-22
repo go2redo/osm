@@ -10,7 +10,7 @@ defineProps<
 
 <template>
   <section>
-    <h2 class="font-bold mb-2 md:mb-4 text-sm md:text-base">Info</h2>
+    <h2 class="font-bold mb-2 md:mb-4 text-sm md:text-base">Detailed info</h2>
     <div class="mb-4">
       <ul class="text-xs md:text-sm">
         <li>Name: {{ name }}</li>

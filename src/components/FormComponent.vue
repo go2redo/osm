@@ -21,19 +21,12 @@ function handleSubmit(): void {
     coordinates: [parseFloat(formData.value.longitude), parseFloat(formData.value.latitude)],
   })
 
-  formData.value = {
-    name: '',
-    type: '',
-    latitude: '',
-    longitude: '',
-  }
-
   isOpen.value = false
 }
 </script>
 
 <template>
-  <section class="flex flex-col gap-4">
+  <section class="flex flex-col gap-2 md:gap-4">
     <div class="flex justify-between items-center">
       <h2 class="font-bold text-sm md:text-base">Add place</h2>
       <button class="bg-slate-900 text-white cursor-pointer" @click="isOpen = !isOpen">
