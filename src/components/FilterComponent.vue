@@ -5,9 +5,9 @@ const store = useMapStore()
 </script>
 
 <template>
-  <section class="flex flex-col gap-4">
+  <section class="flex flex-col gap-2 md:gap-4">
     <div class="flex justify-between items-center">
-      <h2 class="font-bold">Filters</h2>
+      <h2 class="font-bold text-sm md:text-base">Filters</h2>
       <button
         v-if="!!store.filters.find((item) => item.isActive)"
         class="text-sm cursor-pointer"
@@ -17,7 +17,7 @@ const store = useMapStore()
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="size-6"
+          class="size-4 md:size-6"
         >
           <path
             fill-rule="evenodd"
@@ -28,12 +28,12 @@ const store = useMapStore()
       </button>
     </div>
     <nav>
-      <ul class="flex flex-row flex-wrap gap-4">
+      <ul class="flex flex-row flex-wrap gap-1 md:gap-2">
         <li v-for="filter in store.filters" :key="filter.type">
           <button
             @click="store.toggleFilter(filter.type)"
             :class="[
-              'border rounded-sm py-1 px-2 text-sm cursor-pointer transition-all',
+              'border rounded-sm py-0.5 md:py-1 px-2 text-xs md:text-sm cursor-pointer transition-all',
               filter.isActive ? 'bg-white text-slate-900' : 'bg-slate-900 text-white',
             ]"
           >

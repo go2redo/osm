@@ -20,20 +20,29 @@ function handleSubmit(): void {
     type: formData.value.type,
     coordinates: [parseFloat(formData.value.longitude), parseFloat(formData.value.latitude)],
   })
+
+  formData.value = {
+    name: '',
+    type: '',
+    latitude: '',
+    longitude: '',
+  }
+
+  isOpen.value = false
 }
 </script>
 
 <template>
   <section class="flex flex-col gap-4">
     <div class="flex justify-between items-center">
-      <h2 class="font-bold">Add place</h2>
+      <h2 class="font-bold text-sm md:text-base">Add place</h2>
       <button class="bg-slate-900 text-white cursor-pointer" @click="isOpen = !isOpen">
         <svg
           v-if="isOpen"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="size-6"
+          class="size-4 md:size-6"
         >
           <path
             fill-rule="evenodd"
@@ -46,7 +55,7 @@ function handleSubmit(): void {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="size-6"
+          class="size-4 md:size-6"
         >
           <path
             fill-rule="evenodd"
@@ -59,7 +68,7 @@ function handleSubmit(): void {
 
     <div v-if="isOpen">
       <form @submit.prevent="handleSubmit">
-        <div class="mb-4 flex flex-col gap-1">
+        <div class="mb-2 md:mb-4 flex flex-col gap-1">
           <FormKit
             type="text"
             name="name"
@@ -68,12 +77,12 @@ function handleSubmit(): void {
             validation="required"
             :classes="{
               outer: 'flex flex-col gap-1',
-              input: 'w-full border rounded-sm py-1 px-2 text-sm focus:outline-none',
+              input: 'w-full border rounded-sm py-1 px-2 text-xs md:text-sm focus:outline-none',
               message: 'text-red-500 text-xs px-2',
             }"
           />
         </div>
-        <div class="mb-4 flex flex-col gap-1">
+        <div class="mb-2 md:mb-4 flex flex-col gap-1">
           <FormKit
             type="select"
             name="type"
@@ -83,12 +92,12 @@ function handleSubmit(): void {
             :classes="{
               outer: 'flex flex-col gap-1',
               input:
-                'w-full border rounded-sm py-1 px-2 text-sm focus:outline-none appearance-none',
+                'w-full border rounded-sm py-1 px-2 text-xs md:text-sm focus:outline-none appearance-none',
               message: 'text-red-500 text-xs px-2',
             }"
           />
         </div>
-        <div class="flex justify-between items-start mb-4 gap-4">
+        <div class="flex justify-between items-start mb-2 md:mb-4 gap-2 md:gap-4">
           <div class="w-1/2 flex flex-col gap-1">
             <FormKit
               type="text"
@@ -99,7 +108,7 @@ function handleSubmit(): void {
               :classes="{
                 outer: 'flex flex-col gap-1',
                 input:
-                  'w-full border rounded-sm py-1 px-2 text-sm focus:outline-none appearance-none',
+                  'w-full border rounded-sm py-1 px-2 text-xs md:text-sm  focus:outline-none appearance-none',
                 message: 'text-red-500 text-xs px-2',
               }"
             />
@@ -114,7 +123,7 @@ function handleSubmit(): void {
               :classes="{
                 outer: 'flex flex-col gap-1',
                 input:
-                  'w-full border rounded-sm py-1 px-2 text-sm focus:outline-none appearance-none',
+                  'w-full border rounded-sm py-1 px-2 text-xs md:text-sm  focus:outline-none appearance-none',
                 message: 'text-red-500 text-xs px-2',
               }"
             />
@@ -123,7 +132,7 @@ function handleSubmit(): void {
         <div class="flex justify-center">
           <button
             type="submit"
-            class="text-slate-900 bg-white py-1 px-2 rounded-sm cursor-pointer border text-sm w-full font-bold"
+            class="text-slate-900 bg-white py-1 px-2 rounded-sm cursor-pointer border text-xs md:text-sm w-full font-bold"
           >
             Submit
           </button>

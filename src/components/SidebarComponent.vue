@@ -9,12 +9,12 @@ const store = useMapStore()
 </script>
 
 <template>
-  <aside class="h-full p-8 shadow-2xl">
-    <div class="flex flex-col gap-8">
+  <aside class="h-full p-4 md:p-6 lg:p-8 shadow-2xl">
+    <div class="flex flex-col gap-4 md:gap-6 lg:gap-8">
       <div>
         <h1 class="font-black">OSM VUE 3</h1>
       </div>
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-4 md:gap-6 lg:gap-8">
         <Filter />
         <hr />
         <Form />

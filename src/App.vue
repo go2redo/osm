@@ -5,7 +5,7 @@ import Map from './components/MapComponent.vue'
 
 <template>
   <main class="h-full flex flex-nowrap bg-slate-900 text-gray-200">
-    <div class="h-full min-w-sm">
+    <div class="md:h-full min-w-full md:min-w-sm z-10 fixed bottom-0 md:static bg-slate-900">
       <Sidebar />
     </div>
     <div class="h-full">
