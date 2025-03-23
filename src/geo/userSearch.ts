@@ -5,6 +5,7 @@ import type { IndexedUser, User } from '@/types'
 
 const userIndex = new RBush<IndexedUser>()
 
+// Index users by their coordinates for fast nearest-neighbor search (RBush)
 export function indexUsers(users: User[]): void {
   userIndex.clear()
   userIndex.load(
@@ -26,21 +27,26 @@ export function indexUsers(users: User[]): void {
   )
 }
 
+// RBush + Turf.js to find the nearest users to a given place
 export function findNearestUsers(
   placeCoords: [number, number],
   count = 3,
 ): { user: IndexedUser; distance: number }[] {
-  return userIndex
-    .search({
-      minX: -180,
-      minY: -90,
-      maxX: 180,
-      maxY: 90,
-    })
-    .map((user) => ({
-      user,
-      distance: distance(point(placeCoords), point(user.coordinates), { units: 'kilometers' }),
-    }))
-    .sort((a, b) => a.distance - b.distance)
-    .slice(0, count)
+  return (
+    userIndex
+      // Search the index for users within a bounding box that covers the entire world
+      .search({
+        minX: -180,
+        minY: -90,
+        maxX: 180,
+        maxY: 90,
+      })
+      .map((user) => ({
+        user,
+        // Calculate the distance between the place and the user (Haversine formula)
+        distance: distance(point(placeCoords), point(user.coordinates), { units: 'kilometers' }),
+      }))
+      .sort((a, b) => a.distance - b.distance)
+      .slice(0, count)
+  )
 }

@@ -60,6 +60,7 @@ export function createClusteredPlaceFeatures(
     return feature
   })
 
+  // Adjust the cluster distance based on the zoom level
   const adjustedDistance = Math.max(clusterDistance / zoomLevel, 10)
 
   const vectorSource = new VectorSource({

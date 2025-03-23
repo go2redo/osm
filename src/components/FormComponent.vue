@@ -11,13 +11,16 @@ const { filters, addNewPlace } = defineProps<{
 
 const isOpen = ref(false)
 
+// Basic formkit form
+// no dynamic schema
 const formData = ref<FormData>({
-  name: 'Test',
+  name: '',
   type: filters.length ? filters[0].type : '',
-  latitude: '1',
-  longitude: '1',
+  latitude: '',
+  longitude: '',
 })
 
+// simple validation
 function isValidLatitude(value: string): boolean {
   const num = parseFloat(value)
   return !isNaN(num) && num >= -90 && num <= 90

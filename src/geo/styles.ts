@@ -86,6 +86,7 @@ export function createClusterStyle(feature: Feature, placeId: number | null): St
   const size = features ? features.length : 1
   const isCluster = size > 1
 
+  // Styles/animation for emoji
   if (!isCluster) {
     const selectedFeature = features?.find((f) => f.getId() === placeId)
     if (!!selectedFeature) {
@@ -94,6 +95,7 @@ export function createClusterStyle(feature: Feature, placeId: number | null): St
     return createEmojiStyle('📍', false, isHovered)
   }
 
+  // & cluster features
   const baseColor = COLORS.cluster
   const color = isHovered ? COLORS.hover : baseColor
   const radius = Math.min(10 + Math.log(size + 1) * 3, 30)

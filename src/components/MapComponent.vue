@@ -1,69 +1,67 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
 import 'vue3-openlayers/dist/vue3-openlayers.css'
-import { useMapStore } from '@/store'
-import { createClusterStyle, createUserFeatures, createClusteredPlaceFeatures } from '@/geo'
 import type { FeatureLike } from 'ol/Feature'
-import { Feature, Map, type MapBrowserEvent, type View } from 'ol'
 import { boundingExtent, getCenter } from 'ol/extent'
-import { usePlaces } from '@/composables'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import { highlightNearestUsers } from '@/geo/geoUtils'
 import { fromLonLat } from 'ol/proj'
 import { Point } from 'ol/geom'
 import { findNearestUsers } from '@/geo/userSearch'
+import { fetchPlaces } from '@/services'
+import { initFilters } from '@/geo'
+import { Feature, Map, type MapBrowserEvent, type View } from 'ol'
+import { useMapStore } from '@/store'
+import {
+  createClusterStyle,
+  createUserFeatures,
+  createClusteredPlaceFeatures,
+  filterPlaces,
+} from '@/geo'
 
 const MAX_ZOOM = 16
 
 const store = useMapStore()
-
 const mapRef = ref<{ map: Map }>()
-
-const { filteredPlaces, filteredAddedPlaces } = usePlaces()
-
+const places = fetchPlaces()
+const filteredPlaces = computed(() => filterPlaces(places, store.activeFilters))
+const filteredAddedPlaces = computed(() => filterPlaces(store.addedPlaces, store.activeFilters))
 const userSource = computed(() =>
   highlightNearestUsers(createUserFeatures(store.users), store.nearestUsers),
 )
-
 const clusteredPlaceSource = computed(() =>
   createClusteredPlaceFeatures(filteredPlaces.value, 50, store.zoomLevel),
 )
-
 const clusteredAddedPlaceSource = computed(() =>
   createClusteredPlaceFeatures(filteredAddedPlaces.value, 50, store.zoomLevel),
 )
 
-function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
-  const map = event.map
-  const featuresToHover: FeatureLike[] = []
+// watch for changes in the added places
+watch(
+  () => store.addedPlaces,
+  (newAddedPlaces) => {
+    const newPlace = newAddedPlaces[newAddedPlaces.length - 1]
+    if (!newPlace || !mapRef.value) return
 
-  map.forEachFeatureAtPixel(event.pixel, (feature: FeatureLike) => {
-    if (feature instanceof Feature) {
-      featuresToHover.push(feature)
-      feature.set('isHovered', true)
-    }
-    return false
-  })
-
-  map
-    .getLayers()
-    .getArray()
-    .forEach((layer) => {
-      if (layer instanceof VectorLayer) {
-        const source = layer.getSource()
-        if (source instanceof VectorSource) {
-          source.getFeatures().forEach((feature: Feature) => {
-            if (!featuresToHover.includes(feature) && feature.get('isHovered')) {
-              feature.set('isHovered', false)
-            }
-          })
-        }
-      }
+    const newFeature = new Feature({
+      geometry: new Point(fromLonLat(newPlace.coordinates)),
+      name: newPlace.name,
+      type: newPlace.type,
+      coordinates: newPlace.coordinates,
     })
 
-  if (featuresToHover.length > 0) map.render()
-}
+    newFeature.setId(newPlace.id)
+    selectPlace(newFeature)
+  },
+  { deep: true },
+)
+
+// fetch users and set filters on mount
+onMounted(async () => {
+  await store.fetchUsers()
+  store.setFilters(initFilters())
+})
 
 function handleClick(event: MapBrowserEvent<MouseEvent>): void {
   const map = event.map
@@ -76,11 +74,13 @@ function handleClick(event: MapBrowserEvent<MouseEvent>): void {
 
   const placeFeatures = feature.get('features') ?? [feature]
 
+  // users have no type, so we can't select them
   if (!placeFeatures.some((place: FeatureLike) => place.get('type'))) return
 
   return placeFeatures.length > 1 ? zoomToCluster(view, feature) : selectPlace(placeFeatures[0])
 }
 
+// zoom to the cluster of places
 function zoomToCluster(view: View, feature: FeatureLike): void {
   view.animate({
     center: getCenter(feature.getGeometry()!.getExtent()),
@@ -89,6 +89,7 @@ function zoomToCluster(view: View, feature: FeatureLike): void {
   })
 }
 
+// select a place and fit the view to contain the place and its nearest users
 function selectPlace(place: Feature): void {
   const view = mapRef.value?.map.getView()
 
@@ -119,28 +120,46 @@ function selectPlace(place: Feature): void {
   })
 }
 
-watch(
-  () => store.addedPlaces,
-  (newAddedPlaces) => {
-    const newPlace = newAddedPlaces[newAddedPlaces.length - 1]
-    if (!newPlace || !mapRef.value) return
+function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
+  const map = event.map
 
-    const newFeature = new Feature({
-      geometry: new Point(fromLonLat(newPlace.coordinates)),
-      name: newPlace.name,
-      type: newPlace.type,
-      coordinates: newPlace.coordinates,
-    })
+  // get the features at the pointer position
+  const featuresToHover = collectHoveredFeatures(map, event.pixel)
 
-    newFeature.setId(newPlace.id)
-    selectPlace(newFeature)
-  },
-  { deep: true },
-)
+  // reset the non-hovered features
+  resetNonHoveredFeatures(map, featuresToHover)
 
-onMounted(async () => {
-  await store.fetchUsers()
-})
+  if (featuresToHover.size > 0) map.render()
+}
+
+function collectHoveredFeatures(map: Map, pixel: number[]): Set<FeatureLike> {
+  const hoveredFeatures = new Set<FeatureLike>()
+
+  map.forEachFeatureAtPixel(pixel, (feature: FeatureLike) => {
+    if (feature instanceof Feature) {
+      hoveredFeatures.add(feature)
+      feature.set('isHovered', true)
+    }
+    return false
+  })
+
+  return hoveredFeatures
+}
+
+function resetNonHoveredFeatures(map: Map, hoveredFeatures: Set<FeatureLike>): void {
+  map.getLayers().forEach((layer) => {
+    if (layer instanceof VectorLayer) {
+      const source = layer.getSource()
+      if (source instanceof VectorSource) {
+        source.getFeatures().forEach((feature) => {
+          if (!hoveredFeatures.has(feature) && feature.get('isHovered')) {
+            feature.set('isHovered', false)
+          }
+        })
+      }
+    }
+  })
+}
 </script>
 
 <template>

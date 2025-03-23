@@ -7,7 +7,7 @@ const store = useMapStore()
 </script>
 
 <template>
-  <aside class="h-full p-4 md:p-6 lg:p-8 shadow-2xl">
+  <aside class="h-full p-4 md:p-6 lg:p-8 shadow-2xl overflow-y-auto">
     <div class="flex flex-col gap-4 md:gap-6">
       <div class="hidden md:block">
         <Title :level="1" class="font-black">OSM VUE 3</Title>

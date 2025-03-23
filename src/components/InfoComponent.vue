@@ -14,7 +14,6 @@ defineProps<
     <Title :level="2" class="font-bold mb-2 md:mb-4 text-sm md:text-base">Detailed info</Title>
     <div class="mb-4">
       <ul class="text-xs md:text-sm">
-        <li>ID: {{ id }}</li>
         <li>Name: {{ name }}</li>
         <li>Type: {{ type }}</li>
         <li>Coordinates: {{ coordinates }}</li>
