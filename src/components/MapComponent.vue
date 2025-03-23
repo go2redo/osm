@@ -71,7 +71,9 @@ function handleClick(event: MapBrowserEvent<MouseEvent>): void {
 
   if (!feature) return store.setSelectedPlace(null)
 
-  const placeFeatures = (feature.get('features') ?? [feature]) as FeatureLike[]
+  const placeFeatures = feature.get('features') ?? [feature]
+
+  if (!placeFeatures.some((place: FeatureLike) => place.get('type'))) return
 
   return placeFeatures.length > 1 ? zoomToCluster(view, feature) : selectPlace(placeFeatures[0])
 }
