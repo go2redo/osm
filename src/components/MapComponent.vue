@@ -69,7 +69,11 @@ function handleClick(event: MapBrowserEvent<MouseEvent>): void {
   const view = map.getView()
   const feature = map.forEachFeatureAtPixel(event.pixel, (feat: FeatureLike) => feat)
 
-  if (!feature) return store.setSelectedPlace(null)
+  if (!feature) {
+    store.setSelectedPlace(null)
+    store.resetNearestUsers()
+    return
+  }
 
   const placeFeatures = feature.get('features') ?? [feature]
 
