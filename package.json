@@ -17,6 +17,7 @@
   "dependencies": {
     "@formkit/vue": "^1.6.9",
     "@tailwindcss/vite": "^4.0.14",
+    "@turf/turf": "^7.2.0",
     "@tweenjs/tween.js": "^25.0.0",
     "ol": "^10.4.0",
     "ol-contextmenu": "^5.5.0",
