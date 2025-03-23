@@ -5,19 +5,19 @@ import type { FeatureLike } from 'ol/Feature'
 import { boundingExtent, getCenter } from 'ol/extent'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
-import { highlightNearestUsers } from '@/geo/geoUtils'
 import { fromLonLat } from 'ol/proj'
 import { Point } from 'ol/geom'
-import { findNearestUsers } from '@/geo/userSearch'
 import { fetchPlaces } from '@/services'
-import { initFilters } from '@/geo'
 import { Feature, Map, type MapBrowserEvent, type View } from 'ol'
 import { useMapStore } from '@/store'
 import {
+  initFilters,
+  filterPlaces,
+  findNearestUsers,
   createClusterStyle,
   createUserFeatures,
   createClusteredPlaceFeatures,
-  filterPlaces,
+  highlightNearestUsers,
 } from '@/geo'
 
 const MAX_ZOOM = 16
