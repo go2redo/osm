@@ -136,10 +136,10 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section>
+  <section class="h-full">
     <ol-map
       ref="mapRef"
-      style="height: 100vh; width: 100vw"
+      style="height: 100%; width: 100%"
       @click="handleClick"
       @pointermove="handlePointerMove"
     >

@@ -4,11 +4,11 @@ import Map from './components/MapComponent.vue'
 </script>
 
 <template>
-  <main class="h-full flex flex-nowrap bg-slate-900 text-gray-200">
-    <div class="md:h-full min-w-full md:min-w-sm z-10 fixed bottom-0 md:static bg-slate-900">
+  <main class="h-full flex flex-row flex-nowrap bg-slate-900 text-gray-200">
+    <div class="w-full md:w-sm z-10 bg-slate-900 fixed bottom-0 left-0 md:static">
       <Sidebar />
     </div>
-    <div class="h-full">
+    <div class="w-full h-full md:flex-1">
       <Map />
     </div>
   </main>
