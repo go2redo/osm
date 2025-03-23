@@ -71,8 +71,6 @@ function handleClick(event: MapBrowserEvent<MouseEvent>): void {
   const feature = map.forEachFeatureAtPixel(event.pixel, (feat: FeatureLike) => feat)
 
   if (!feature) {
-    store.setSelectedPlace(null)
-    store.resetNearestUsers()
     return
   }
 
@@ -161,7 +159,7 @@ onMounted(async () => {
       <ol-vector-layer :source="clusteredPlaceSource">
         <ol-style
           :overrideStyleFunction="
-            (feature: FeatureLike) => createClusterStyle(feature, store.selectedPlace?.id || null)
+            (feature: Feature) => createClusterStyle(feature, store.selectedPlace?.id || null)
           "
         />
       </ol-vector-layer>
@@ -169,7 +167,7 @@ onMounted(async () => {
       <ol-vector-layer :source="clusteredAddedPlaceSource">
         <ol-style
           :overrideStyleFunction="
-            (feature: FeatureLike) => createClusterStyle(feature, store.selectedPlace?.id || null)
+            (feature: Feature) => createClusterStyle(feature, store.selectedPlace?.id || null)
           "
         />
       </ol-vector-layer>

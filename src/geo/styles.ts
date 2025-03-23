@@ -80,18 +80,18 @@ export function createEmojiStyle(
   })
 }
 
-export function createClusterStyle(feature: FeatureLike, placeId: number | null): Style {
+export function createClusterStyle(feature: Feature, placeId: number | null): Style {
   const isHovered = feature.get('isHovered') === true
   const features = feature.get('features') as FeatureLike[] | undefined
   const size = features ? features.length : 1
   const isCluster = size > 1
 
   if (!isCluster) {
-    const foundFeature = features?.find((f) => f.getId() === placeId)
-    if (foundFeature) {
-      return createEmojiStyle('📍', true, isHovered, 10)
+    const selectedFeature = features?.find((f) => f.getId() === placeId)
+    if (!!selectedFeature) {
+      animateFeature('📍', feature, true)
     }
-    return createEmojiStyle('📍', false, isHovered, 10)
+    return createEmojiStyle('📍', false, isHovered)
   }
 
   const baseColor = COLORS.cluster

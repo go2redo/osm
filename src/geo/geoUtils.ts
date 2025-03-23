@@ -5,7 +5,6 @@ import VectorSource from 'ol/source/Vector'
 import type { Place, User } from '@/types'
 import { animateFeature, createEmojiStyle } from './styles'
 import { Cluster } from 'ol/source'
-import type { Geometry } from 'ol/geom'
 
 export function createUserFeatures(users: User[]): VectorSource {
   const features = users.map((user) => {
