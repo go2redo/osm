@@ -5,14 +5,14 @@ import { useMapStore } from '@/store'
 import { createClusterStyle, createUserFeatures, createClusteredPlaceFeatures } from '@/geo'
 import type { FeatureLike } from 'ol/Feature'
 import { Feature, Map, type MapBrowserEvent, type View } from 'ol'
-import { getCenter } from 'ol/extent'
+import { boundingExtent, getCenter } from 'ol/extent'
 import { usePlaces } from '@/composables'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import { highlightNearestUsers } from '@/geo/geoUtils'
 import { fromLonLat } from 'ol/proj'
 import { Point } from 'ol/geom'
-import { boundingExtent } from 'ol/extent'
+import { findNearestUsers } from '@/geo/userSearch'
 
 const MAX_ZOOM = 16
 
@@ -91,34 +91,33 @@ function zoomToCluster(view: View, feature: FeatureLike): void {
   })
 }
 
-function selectPlace(place: FeatureLike): void {
+function selectPlace(place: Feature): void {
+  const view = mapRef.value?.map.getView()
+
+  if (!view) return
+
   const placeCoords = place.get('coordinates')
+
   if (!placeCoords) return
 
-  store.findNearestUsers(placeCoords)
-
-  const allUserFeatures = userSource.value?.getFeatures()
-  const nearestUserFeatures = store.nearestUsers
-    .slice(0, 3)
-    .map(({ user }) => allUserFeatures.find((f) => f.getId() === user.id))
-    .filter(Boolean) as FeatureLike[]
-
-  const allCoords = [placeCoords, ...nearestUserFeatures.map((user) => user.get('coordinates'))]
-
+  const nearestUsers = findNearestUsers(placeCoords)
+  const allCoords = [placeCoords, ...nearestUsers.map(({ user }) => user.coordinates)]
   const transformedCoords = allCoords.map((coord) => fromLonLat(coord))
-
   const extent = boundingExtent(transformedCoords)
 
-  const view = mapRef.value?.map.get('view')
-  if (view) {
-    view.fit(extent, { padding: [100, 100, 100, 100], duration: 1000, maxZoom: MAX_ZOOM })
-  }
-
-  store.setSelectedPlace({
-    id: Number(place.getId()),
-    name: place.get('name'),
-    type: place.get('type'),
-    coordinates: placeCoords,
+  view.fit(extent, {
+    padding: [100, 100, 100, 100],
+    duration: 1000,
+    maxZoom: MAX_ZOOM,
+    callback: () => {
+      store.setSelectedPlace({
+        id: Number(place.getId()),
+        name: place.get('name'),
+        type: place.get('type'),
+        coordinates: placeCoords,
+      })
+      store.setNearestUsers(nearestUsers)
+    },
   })
 }
 

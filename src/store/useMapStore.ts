@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { fromLonLat } from 'ol/proj'
 import { fetchUsers } from '@/services'
-import type { MapState, Place } from '@/types'
+import type { MapState, Place, User } from '@/types'
 import { findNearestUsers, indexUsers } from '@/geo/userSearch'
 
 export const useMapStore = defineStore('map', {
@@ -34,6 +34,9 @@ export const useMapStore = defineStore('map', {
     },
     findNearestUsers(placeCoords: [number, number]) {
       this.nearestUsers = findNearestUsers(placeCoords)
+    },
+    setNearestUsers(users: { user: User; distance: number }[]): void {
+      this.nearestUsers = users
     },
     resetNearestUsers(): void {
       this.nearestUsers = []
