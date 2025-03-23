@@ -1,12 +1,15 @@
 <script setup lang="ts">
-import { useMapStore } from '@/store'
 import { ref } from 'vue'
 import { IconName } from '@/types'
 import { Badge, Icon, Title } from '@/components/ui'
 
-const isOpen = ref(true)
+defineProps<{
+  filters: { type: string; isActive: boolean }[]
+  toggleFilter: (type: string) => void
+  resetFilters: () => void
+}>()
 
-const store = useMapStore()
+const isOpen = ref(true)
 </script>
 
 <template>
@@ -15,9 +18,9 @@ const store = useMapStore()
       <Title :level="2" class="font-bold text-sm md:text-base">Filters</Title>
       <div class="flex gap-1">
         <button
-          v-if="!!store.filters.find((item) => item.isActive)"
+          v-if="!!filters.find((item) => item.isActive)"
           class="flex items-center gap-1 text-sm cursor-pointer"
-          @click="store.resetFilters()"
+          @click="resetFilters()"
         >
           Clear all
           <Icon :name="IconName.CLOSE" class="size-4 md:size-6" />
@@ -29,11 +32,11 @@ const store = useMapStore()
     </div>
     <nav v-show="isOpen">
       <ul class="flex flex-row flex-wrap gap-1 md:gap-2">
-        <li v-for="filter in store.filters" :key="filter.type">
+        <li v-for="filter in filters" :key="filter.type">
           <Badge
             :label="filter.type"
             :isActive="filter.isActive"
-            @click="store.toggleFilter(filter.type)"
+            @click="toggleFilter(filter.type)"
           />
         </li>
       </ul>

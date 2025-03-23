@@ -13,9 +13,13 @@ const store = useMapStore()
         <Title :level="1" class="font-black">OSM VUE 3</Title>
       </div>
       <div class="flex flex-col gap-4 md:gap-6">
-        <Filter />
+        <Filter
+          :filters="store.filters"
+          :toggleFilter="store.toggleFilter"
+          :resetFilters="store.resetFilters"
+        />
         <hr />
-        <Form />
+        <Form :filters="store.filters" :addNewPlace="store.addNewPlace" />
         <template v-if="store.selectedPlace">
           <hr />
           <Info

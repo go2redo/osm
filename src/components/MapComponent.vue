@@ -31,7 +31,7 @@ const clusteredPlaceSource = computed(() =>
 )
 
 const clusteredAddedPlaceSource = computed(() =>
-  createClusteredPlaceFeatures(filteredAddedPlaces.value),
+  createClusteredPlaceFeatures(filteredAddedPlaces.value, 50, store.zoomLevel),
 )
 
 function handlePointerMove(event: MapBrowserEvent<MouseEvent>): void {
@@ -127,15 +127,15 @@ watch(
     const newPlace = newAddedPlaces[newAddedPlaces.length - 1]
     if (!newPlace || !mapRef.value) return
 
-    const placeFeature = new Feature({
+    const newFeature = new Feature({
       geometry: new Point(fromLonLat(newPlace.coordinates)),
       name: newPlace.name,
       type: newPlace.type,
       coordinates: newPlace.coordinates,
     })
-    placeFeature.setId(newPlace.id)
 
-    selectPlace(placeFeature)
+    newFeature.setId(newPlace.id)
+    selectPlace(newFeature)
   },
   { deep: true },
 )
@@ -159,11 +159,19 @@ onMounted(async () => {
       </ol-tile-layer>
 
       <ol-vector-layer :source="clusteredPlaceSource">
-        <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
+        <ol-style
+          :overrideStyleFunction="
+            (feature: FeatureLike) => createClusterStyle(feature, store.selectedPlace?.id || null)
+          "
+        />
       </ol-vector-layer>
 
       <ol-vector-layer :source="clusteredAddedPlaceSource">
-        <ol-style :overrideStyleFunction="(feature: FeatureLike) => createClusterStyle(feature)" />
+        <ol-style
+          :overrideStyleFunction="
+            (feature: FeatureLike) => createClusterStyle(feature, store.selectedPlace?.id || null)
+          "
+        />
       </ol-vector-layer>
 
       <ol-vector-layer :source="userSource" />

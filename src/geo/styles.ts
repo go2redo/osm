@@ -17,11 +17,9 @@ const COLORS = {
   stroke: '#ffffff',
 }
 
-const styleCache = new Map<string, Style>()
-
 const animationGroup = new TweenGroup()
 
-export function animateFeature(feature: FeatureLike, isHighlighted: boolean): void {
+export function animateFeature(text: string, feature: FeatureLike, isHighlighted: boolean): void {
   if (!(feature instanceof Feature)) return
 
   const from = { step: isHighlighted ? 0 : 10 }
@@ -32,7 +30,7 @@ export function animateFeature(feature: FeatureLike, isHighlighted: boolean): vo
     .to(to, duration)
     .easing(Easing.Quadratic.InOut)
     .onUpdate(() => {
-      feature.setStyle(createEmojiStyle(isHighlighted, from.step))
+      feature.setStyle(createEmojiStyle(text, isHighlighted, false, from.step))
     })
     .start()
 
@@ -45,59 +43,60 @@ export function animateFeature(feature: FeatureLike, isHighlighted: boolean): vo
 }
 
 export function createEmojiStyle(
+  text: string,
   isHighlighted: boolean = false,
+  isHovered: boolean = false,
   step: number = ANIMATION_STEPS,
 ): Style {
-  if (!isHighlighted) {
+  const currentFontSize =
+    BASE_FONT_SIZE + (MAX_FONT_SIZE - BASE_FONT_SIZE) * (step / ANIMATION_STEPS)
+
+  if (isHighlighted) {
     return new Style({
       text: new Text({
-        text: '👽',
-        font: `${BASE_FONT_SIZE}px sans-serif`,
-        fill: new Fill({ color: 'rgba(0, 0, 0, 0.5)' }),
+        text,
+        font: `${currentFontSize}px sans-serif`,
+        fill: new Fill({ color: 'rgba(0, 0, 0, 1)' }),
       }),
     })
   }
 
-  const currentFontSize =
-    BASE_FONT_SIZE + (MAX_FONT_SIZE - BASE_FONT_SIZE) * (step / ANIMATION_STEPS)
+  if (isHovered) {
+    return new Style({
+      text: new Text({
+        text,
+        font: `${BASE_FONT_SIZE}px sans-serif`,
+        fill: new Fill({ color: 'rgba(0, 0, 0, 1)' }),
+      }),
+    })
+  }
 
   return new Style({
     text: new Text({
-      text: '👽',
-      font: `${currentFontSize}px sans-serif`,
-      fill: new Fill({ color: 'rgba(0, 0, 0, 1)' }),
+      text,
+      font: `${BASE_FONT_SIZE}px sans-serif`,
+      fill: new Fill({ color: 'rgba(0, 0, 0, 0.5)' }),
     }),
   })
 }
 
-export function createClusterStyle(feature: FeatureLike): Style {
+export function createClusterStyle(feature: FeatureLike, placeId: number | null): Style {
   const isHovered = feature.get('isHovered') === true
   const features = feature.get('features') as FeatureLike[] | undefined
   const size = features ? features.length : 1
   const isCluster = size > 1
 
   if (!isCluster) {
-    const styleKey = `emoji-${isHovered}`
-    if (styleCache.has(styleKey)) return styleCache.get(styleKey)!
-
-    const style = new Style({
-      text: new Text({
-        text: '📍',
-        font: '20px sans-serif',
-        fill: new Fill({ color: isHovered ? COLORS.hover : COLORS.text }),
-      }),
-    })
-
-    styleCache.set(styleKey, style)
-    return style
+    const foundFeature = features?.find((f) => f.getId() === placeId)
+    if (foundFeature) {
+      return createEmojiStyle('📍', true, isHovered, 10)
+    }
+    return createEmojiStyle('📍', false, isHovered, 10)
   }
 
   const baseColor = COLORS.cluster
   const color = isHovered ? COLORS.hover : baseColor
   const radius = Math.min(10 + Math.log(size + 1) * 3, 30)
-
-  const styleKey = `${color}-${radius}-${size}`
-  if (styleCache.has(styleKey)) return styleCache.get(styleKey)!
 
   const style = new Style({
     image: new CircleStyle({
@@ -112,6 +111,5 @@ export function createClusterStyle(feature: FeatureLike): Style {
     }),
   })
 
-  styleCache.set(styleKey, style)
   return style
 }

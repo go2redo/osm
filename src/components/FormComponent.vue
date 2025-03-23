@@ -1,18 +1,21 @@
 <script lang="ts" setup>
 import { ref, computed, watch } from 'vue'
 import { FormKit } from '@formkit/vue'
-import { useMapStore } from '@/store'
 import { IconName, type FormData, type Place } from '@/types'
 import { Icon, Title } from '@/components/ui'
 
+const { filters, addNewPlace } = defineProps<{
+  filters: { type: string }[]
+  addNewPlace: (place: Place) => void
+}>()
+
 const isOpen = ref(false)
-const store = useMapStore()
 
 const formData = ref<FormData>({
-  name: '',
-  type: store.filters.length ? store.filters[0].type : '',
-  latitude: '',
-  longitude: '',
+  name: 'Test',
+  type: filters.length ? filters[0].type : '',
+  latitude: '1',
+  longitude: '1',
 })
 
 function isValidLatitude(value: string): boolean {
@@ -35,7 +38,7 @@ const isFormValid = computed(() => {
 })
 
 watch(
-  () => store.filters,
+  () => filters,
   (filters) => {
     if (filters.length && !formData.value.type) {
       formData.value.type = filters[0].type
@@ -53,12 +56,12 @@ function handleSubmit(): void {
     coordinates: [parseFloat(formData.value.longitude), parseFloat(formData.value.latitude)],
   }
 
-  store.addNewPlace(newPlace)
+  addNewPlace(newPlace)
   isOpen.value = false
 
   formData.value = {
     name: '',
-    type: store.filters.length ? store.filters[0].type : '',
+    type: filters.length ? filters[0].type : '',
     latitude: '',
     longitude: '',
   }
@@ -96,7 +99,7 @@ function handleSubmit(): void {
             type="select"
             name="type"
             v-model="formData.type"
-            :options="store.filters.map((filter) => filter.type)"
+            :options="filters.map((filter) => filter.type)"
             validation="required"
             :classes="{
               outer: 'flex flex-col gap-1',
